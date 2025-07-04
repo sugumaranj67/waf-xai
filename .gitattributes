@@ -1,0 +1,5 @@
+# Normalize all text files
+* text=auto
+
+# Force JSONL to use LF in the repo
+*.jsonl text eol=lf
