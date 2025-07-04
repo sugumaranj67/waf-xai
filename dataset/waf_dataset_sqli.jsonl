@@ -1,0 +1,68 @@
+{"input": "'", "label": "SQLi"}
+{"input": "''", "label": "SQLi"}
+{"input": "`", "label": "SQLi"}
+{"input": "``", "label": "SQLi"}
+{"input": ",", "label": "SQLi"}
+{"input": "\"", "label": "SQLi"}
+{"input": "\"\"", "label": "SQLi"}
+{"input": "/", "label": "SQLi"}
+{"input": "//", "label": "SQLi"}
+{"input": "\\", "label": "SQLi"}
+{"input": "\\\\", "label": "SQLi"}
+{"input": ";", "label": "SQLi"}
+{"input": "' or \"", "label": "SQLi"}
+{"input": "-- or #", "label": "SQLi"}
+{"input": "' OR '1", "label": "SQLi"}
+{"input": "' OR 1 -- -", "label": "SQLi"}
+{"input": "\" OR \"\" = \"", "label": "SQLi"}
+{"input": "\" OR 1 = 1 -- -", "label": "SQLi"}
+{"input": "' OR '' = '", "label": "SQLi"}
+{"input": "'='", "label": "SQLi"}
+{"input": "'LIKE'", "label": "SQLi"}
+{"input": "'=0--+", "label": "SQLi"}
+{"input": "OR 1=1", "label": "SQLi"}
+{"input": "' OR 'x'='x", "label": "SQLi"}
+{"input": "' AND id IS NULL; --", "label": "SQLi"}
+{"input": "'''''''''''''UNION SELECT '2", "label": "SQLi"}
+{"input": "%00", "label": "SQLi"}
+{"input": "/*\u2026*/", "label": "SQLi"}
+{"input": "+        addition, concatenate (or space in url)", "label": "SQLi"}
+{"input": "||        (double pipe) concatenate", "label": "SQLi"}
+{"input": "%        wildcard attribute indicator", "label": "SQLi"}
+{"input": "@variable    local variable", "label": "SQLi"}
+{"input": "@@variable    global variable", "label": "SQLi"}
+{"input": "# Numeric", "label": "SQLi"}
+{"input": "AND 1", "label": "SQLi"}
+{"input": "AND 0", "label": "SQLi"}
+{"input": "AND true", "label": "SQLi"}
+{"input": "AND false", "label": "SQLi"}
+{"input": "1-false", "label": "SQLi"}
+{"input": "1-true", "label": "SQLi"}
+{"input": "1*56", "label": "SQLi"}
+{"input": "-2", "label": "SQLi"}
+{"input": "1' ORDER BY 1--+", "label": "SQLi"}
+{"input": "1' ORDER BY 2--+", "label": "SQLi"}
+{"input": "1' ORDER BY 3--+", "label": "SQLi"}
+{"input": "1' ORDER BY 1,2--+", "label": "SQLi"}
+{"input": "1' ORDER BY 1,2,3--+", "label": "SQLi"}
+{"input": "1' GROUP BY 1,2,--+", "label": "SQLi"}
+{"input": "1' GROUP BY 1,2,3--+", "label": "SQLi"}
+{"input": "' GROUP BY columnnames having 1=1 --", "label": "SQLi"}
+{"input": "-1' UNION SELECT 1,2,3--+", "label": "SQLi"}
+{"input": "' UNION SELECT sum(columnname ) from tablename --", "label": "SQLi"}
+{"input": "-1 UNION SELECT 1 INTO @,@", "label": "SQLi"}
+{"input": "-1 UNION SELECT 1 INTO @,@,@", "label": "SQLi"}
+{"input": "1 AND (SELECT * FROM Users) = 1", "label": "SQLi"}
+{"input": "' AND MID(VERSION(),1,1) = '5';", "label": "SQLi"}
+{"input": "' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --", "label": "SQLi"}
+{"input": "Finding the table name", "label": "SQLi"}
+{"input": "Time-Based:", "label": "SQLi"}
+{"input": ",(select * from (select(sleep(10)))a)", "label": "SQLi"}
+{"input": "%2c(select%20*%20from%20(select(sleep(10)))a)", "label": "SQLi"}
+{"input": "';WAITFOR DELAY '0:0:30'--", "label": "SQLi"}
+{"input": "Comments:", "label": "SQLi"}
+{"input": "#        Hash comment", "label": "SQLi"}
+{"input": "/*      C-style comment", "label": "SQLi"}
+{"input": "-- -    SQL comment", "label": "SQLi"}
+{"input": ";%00    Nullbyte", "label": "SQLi"}
+{"input": "`        Backtick", "label": "SQLi"}

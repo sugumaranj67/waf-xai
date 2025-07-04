@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and coverage
+logs/
+coverage.xml
+htmlcov/
+
+# OS files
+.DS_Store

