@@ -20,6 +20,7 @@ plotly==6.2.0
 # Reporting & utilities
 fpdf==1.7.2
 requests==2.32.4
+httpx>=0.23.0
 
 # Testing
 pytest==7.4.4
