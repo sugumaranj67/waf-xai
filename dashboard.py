@@ -30,13 +30,21 @@ records = [json.loads(line) for line in lines]
 df = pd.DataFrame(records)
 
 # Ensure required columns exist
-for col in ("timestamp", "attack_type", "source", "severity", "confidence", "client_ip", "explanation"):
+for col in (
+    "timestamp",
+    "attack_type",
+    "source",
+    "severity",
+    "confidence",
+    "client_ip",
+    "explanation",
+):
     if col not in df.columns:
         df[col] = None
 
 # Convert timestamp & derive date
 df["timestamp"] = pd.to_datetime(df["timestamp"])
-df["date"]      = df["timestamp"].dt.date
+df["date"] = df["timestamp"].dt.date
 
 # ─── Sidebar filters ──────────────────────────────────────────────────────────
 st.sidebar.header("🔍 Filters")
@@ -44,35 +52,31 @@ st.sidebar.header("🔍 Filters")
 attack_types = st.sidebar.multiselect(
     "Attack Type",
     options=sorted(df["attack_type"].fillna("benign").unique()),
-    default=sorted(df["attack_type"].fillna("benign").unique())
+    default=sorted(df["attack_type"].fillna("benign").unique()),
 )
 
 sources = st.sidebar.multiselect(
     "Detection Source",
     options=sorted(df["source"].fillna("unknown").unique()),
-    default=sorted(df["source"].fillna("unknown").unique())
+    default=sorted(df["source"].fillna("unknown").unique()),
 )
 
 severities = st.sidebar.multiselect(
     "Severity",
     options=sorted(df["severity"].fillna("unknown").unique()),
-    default=sorted(df["severity"].fillna("unknown").unique())
+    default=sorted(df["severity"].fillna("unknown").unique()),
 )
 
 conf_min, conf_max = st.sidebar.slider(
-    "Confidence Range",
-    min_value=0.0,
-    max_value=1.0,
-    value=(0.0, 1.0),
-    step=0.01
+    "Confidence Range", min_value=0.0, max_value=1.0, value=(0.0, 1.0), step=0.01
 )
 
 # Apply filters
 filtered = df[
-    df["attack_type"].fillna("benign").isin(attack_types) &
-    df["source"].fillna("unknown").isin(sources) &
-    df["severity"].fillna("unknown").isin(severities) &
-    df["confidence"].between(conf_min, conf_max)
+    df["attack_type"].fillna("benign").isin(attack_types)
+    & df["source"].fillna("unknown").isin(sources)
+    & df["severity"].fillna("unknown").isin(severities)
+    & df["confidence"].between(conf_min, conf_max)
 ]
 
 # ─── Top‐line metrics ─────────────────────────────────────────────────────────
@@ -89,20 +93,12 @@ c1, c2, c3 = st.columns(3)
 
 with c1:
     fig = px.pie(
-        filtered,
-        names="attack_type",
-        title="Attack Type Distribution",
-        hole=0.3
+        filtered, names="attack_type", title="Attack Type Distribution", hole=0.3
     )
     st.plotly_chart(fig, use_container_width=True)
 
 with c2:
-    fig = px.pie(
-        filtered,
-        names="source",
-        title="Detection Source",
-        hole=0.3
-    )
+    fig = px.pie(filtered, names="source", title="Detection Source", hole=0.3)
     st.plotly_chart(fig, use_container_width=True)
 
 with c3:
@@ -111,7 +107,7 @@ with c3:
         x="confidence",
         nbins=20,
         title="Confidence Scores",
-        labels={"confidence": "ML Confidence"}
+        labels={"confidence": "ML Confidence"},
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -122,23 +118,15 @@ fig_sev = px.histogram(
     x="severity",
     color="attack_type",
     barmode="group",
-    title="Severity × Attack Type"
+    title="Severity × Attack Type",
 )
 st.plotly_chart(fig_sev, use_container_width=True)
 
 # ─── Timeline ─────────────────────────────────────────────────────────────────
 st.markdown("### 📈 Alerts Over Time")
-time_series = (
-    filtered.groupby("date")
-    .size()
-    .reset_index(name="count")
-)
+time_series = filtered.groupby("date").size().reset_index(name="count")
 fig_time = px.line(
-    time_series,
-    x="date",
-    y="count",
-    markers=True,
-    title="Number of Alerts per Day"
+    time_series, x="date", y="count", markers=True, title="Number of Alerts per Day"
 )
 st.plotly_chart(fig_time, use_container_width=True)
 
@@ -148,15 +136,20 @@ st.download_button(
     label="📥 Download Filtered Data as CSV",
     data=filtered.to_csv(index=False).encode("utf-8"),
     file_name="waf_xai_alerts.csv",
-    mime="text/csv"
+    mime="text/csv",
 )
 
 st.dataframe(
-    filtered[[
-        "timestamp", "client_ip", "attack_type",
-        "source", "severity", "confidence",
-        "explanation"
-    ]]
-    .sort_values("timestamp", ascending=False),
-    use_container_width=True
+    filtered[
+        [
+            "timestamp",
+            "client_ip",
+            "attack_type",
+            "source",
+            "severity",
+            "confidence",
+            "explanation",
+        ]
+    ].sort_values("timestamp", ascending=False),
+    use_container_width=True,
 )

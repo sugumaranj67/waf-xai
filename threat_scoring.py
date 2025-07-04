@@ -6,10 +6,7 @@ from typing import Dict, Any
 _SEVERITY_LEVELS = {"Low": 0, "Medium": 1, "High": 2}
 
 # Patterns that elevate SQLi severity
-_CRITICAL_SQLI = [
-    "drop table",
-    "union select"
-]
+_CRITICAL_SQLI = ["drop table", "union select"]
 
 
 def _clamp_level(level: int) -> int:
@@ -23,8 +20,7 @@ def _level_to_name(level: int) -> str:
     return "Low"
 
 
-def score_threat(detection_result: Dict[str, Any],
-                 payload: str = "") -> str:
+def score_threat(detection_result: Dict[str, Any], payload: str = "") -> str:
     """
     Compute Low/Medium/High severity based on:
       1. attack_type (label): XSS default High, SQLi default Medium
@@ -32,9 +28,9 @@ def score_threat(detection_result: Dict[str, Any],
       3. regex pattern criticality (for SQLi)
       4. payload length: very long payloads bump severity
     """
-    label      = detection_result.get("label", "benign")
+    label = detection_result.get("label", "benign")
     confidence = detection_result.get("confidence", 0.0)
-    pattern    = (detection_result.get("pattern") or "").lower()
+    pattern = (detection_result.get("pattern") or "").lower()
 
     # 1) Base severity by attack type
     if label == "XSS":

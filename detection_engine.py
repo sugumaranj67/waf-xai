@@ -10,16 +10,17 @@ XSS_PATTERNS = [
     r"<script.*?>.*?</script>",
     r"<img.*?src=.*?onerror=.*?>",
     r"<.*?on\w+\s*=.*?>",
-    r"javascript:"
+    r"javascript:",
 ]
 
 SQLI_PATTERNS = [
     r"(\%27)|(\')|(\-\-)|(\%23)|(#)",  # quotes/comments
-    r"(?i)\b(or)\b.*=.*",              # tautology
-    r"(?i)union select",               # UNION SELECT
-    r"(?i)insert\s+into\b",            # INSERT INTO
-    r"(?i)drop table"                  # DROP TABLE
+    r"(?i)\b(or)\b.*=.*",  # tautology
+    r"(?i)union select",  # UNION SELECT
+    r"(?i)insert\s+into\b",  # INSERT INTO
+    r"(?i)drop table",  # DROP TABLE
 ]
+
 
 def detect_attack(user_input: Dict[str, Any]) -> Dict[str, Any]:
     """

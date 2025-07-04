@@ -28,6 +28,4 @@ async def submit(request: Request):
         received = raw.decode("utf-8", "ignore")
 
     # 2) Return only application data—no WAF internals
-    return {
-        "received": received
-    }
+    return {"received": received}

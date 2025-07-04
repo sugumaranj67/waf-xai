@@ -8,12 +8,19 @@ from fpdf import FPDF
 LOG_FILE = "logs/alerts.json"
 REPORT_FILE = "reports/waf_xai_report.pdf"
 
+
 class PDFReport(FPDF):
     def header(self):
         self.set_font("Arial", "B", 14)
         self.cell(0, 10, "WAF-XAI Threat Report", ln=True, align="C")
         self.set_font("Arial", "", 10)
-        self.cell(0, 10, f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True, align="C")
+        self.cell(
+            0,
+            10,
+            f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            ln=True,
+            align="C",
+        )
         self.ln(10)
 
     def footer(self):
@@ -50,9 +57,14 @@ class PDFReport(FPDF):
             self.cell(30, 10, alert["client_ip"], border=1)
             self.cell(25, 10, alert["attack_type"], border=1)
             self.cell(25, 10, alert["severity"], border=1)
-            explanation = alert["explanation"][:60] + "..." if len(alert["explanation"]) > 60 else alert["explanation"]
+            explanation = (
+                alert["explanation"][:60] + "..."
+                if len(alert["explanation"]) > 60
+                else alert["explanation"]
+            )
             self.cell(70, 10, explanation, border=1)
             self.ln()
+
 
 def generate_report():
     if not os.path.exists(LOG_FILE):
@@ -73,6 +85,7 @@ def generate_report():
     pdf.add_table(alerts)
     pdf.output(REPORT_FILE)
     print(f"✅ Report generated: {REPORT_FILE}")
+
 
 if __name__ == "__main__":
     generate_report()

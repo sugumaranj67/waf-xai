@@ -13,6 +13,7 @@ import numpy as np
 from collections import Counter
 from sklearn.base import BaseEstimator, TransformerMixin
 
+
 class SideChannelFeatures(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
         return self
@@ -25,7 +26,7 @@ class SideChannelFeatures(BaseEstimator, TransformerMixin):
             ratio = special / length if length else 0.0
 
             counts = np.array(list(Counter(text).values()), dtype=float)
-            probs  = counts / counts.sum() if counts.sum() else np.array([0.])
+            probs = counts / counts.sum() if counts.sum() else np.array([0.0])
             entropy = -np.sum(probs * np.log2(probs + 1e-9))
 
             feats.append([length, special, ratio, entropy])
