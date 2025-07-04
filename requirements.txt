@@ -1,0 +1,30 @@
+# Web framework & middleware
+fastapi==0.115.14
+uvicorn[standard]==0.35.0
+slowapi==0.1.9
+limits==5.4.0
+
+# Data processing & ML
+numpy==2.2.6
+pandas==2.3.0
+scikit-learn==1.7.0
+joblib==1.5.1
+shap==0.48.0
+pyarrow==20.0.0
+
+# Explainability & dashboards
+streamlit==1.46.1
+altair==5.5.0
+plotly==6.2.0
+
+# Reporting & utilities
+fpdf==1.7.2
+requests==2.32.4
+
+# Testing
+pytest==7.5.2
+pytest-cov==4.1.0
+
+# Linting & formatting
+flake8==6.1.0
+black==23.9.1
